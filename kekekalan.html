@@ -1,487 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title> TofaStudy </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
-  <link rel="stylesheet" class="js-glass-style" href="css/glass.css" disabled>
-</head>
-<body>
+  <head>
+    <title>Hukum Kekekalan Energi Mekanik</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+    <link rel="stylesheet" class="js-glass-style" href="css/glass.css" disabled>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
 
-  <!-- page loader start -->
+      <!-- page loader start -->
 <div class="page-loader js-page-loader">
-    <div></div>
+  <div></div>
 </div>
-  <!-- page loader end -->
+<!-- page loader end -->
 
-<!---main wrapper start---->
-<div class="main-wrapper">
-  <!----header start---->
-  <header class="header">
-    <div class="container">
-      <div class="header-main d-flex justify-content-between align-items-center">
-        <div class="header-logo">
-          <a href="index.html"><span>tofa</span> study</a>
-        </div>
-        <button type="button" class="header-hamburger-btn js-header-menu-toggler">
-          <span></span>
-        </button>
-        <div class="header-backdrop js-header-backdrop"></div>
-        <nav class="header-menu js-header-menu">
-          <button type="button" class="header-close-btn js-header-menu-toggler">
-            <i class="fas fa-times"></i>
-          </button>
-          <ul class="menu">
-            <li class="menu-item"><a href="index.html">Home</a></li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" class="js-toggle-sub-menu">Courses<i class="fas fa-chevron-down"></i></a>
-              <ul class="sub-menu js-sub-menu">
-                <li class="sub-menu-item"><a href="courses.html">Materi</a></li>
-                <li class="sub-menu-item"><a href="regangan.html">Tegangan, Regangan, dan Modulus Elastisitas</a></li>
-                <li class="sub-menu-item"><a href="hooke.html">Hukum Hooke</a></li>
-                <li class="sub-menu-item"><a href="potensial.html">Energi Potensial Pegas</a></li>
-                <li class="sub-menu-item"><a href="kekekalan.html">Hukum Kekekalan Energi Mekanik pada Sistem Pegas</a></li>
-                <li class="sub-menu-item"><a href="course-detail.html">Susunan Pegas</a></li>
-                <li class="sub-menu-item"><a href="course-detail.html">Gerak Harmonik pada Pegas dan Bandul</a></li>
-                <li class="sub-menu-item"><a href="course-detail.html">Aplikasi Gerak Harmonik Sederhana dalam Kehidupan Sehari-hari</a></li>
-                <!-- <li class="sub-menu-item"><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html">Simulasi (Phet)</a></li> -->
+    <!--main wrapper start-->
+    <div class="main-wrapper">
+<!-- header start -->
+      <header class="header">
+        <div class="container">
+          <div class="header-main d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+              <a href="index.html"><span>tofa</span> study</a>
+            </div>
+            <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu">
+              <button type="button" class="header-close-btn js-header-menu-toggler">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu">Materi<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="regangan.html">Tegangan, Regangan, dan Modulus Elastisitas</a></li>
+                    <li class="sub-menu-item"><a href="hooke.html">Hukum Hooke</a></li>
+                    <li class="sub-menu-item"><a href="potensial.html">Energi Potensial Pegas</a></li>
+                    <li class="sub-menu-item"><a href="kekekalan.html">Hukum Kekekalan Energi Mekanik pada Sistem Pegas</a></li>
+                    <li class="sub-menu-item"><a href="#">Susunan Pegas</a></li>
+                    <li class="sub-menu-item"><a href="#">Gerak Harmonik pada Pegas dan Bandul</a></li>
+                    <li class="sub-menu-item"><a href="aplikasi.html">Aplikasi Gerak Harmonik Sederhana dalam Kehidupan Sehari-hari</a></li>
+                    <!-- <li class="sub-menu-item"><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html">Simulasi (Phet)</a></li> -->
+                  </ul>
+                </li>
+                <!-- <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu">Pages<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
+                    <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
+                  </ul>
+                </li> -->
+                <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
+                <li class="menu-item"><a href="#">Tentang</a></li>
               </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" class="js-toggle-sub-menu">Pages<i class="fas fa-chevron-down"></i></a>
-              <ul class="sub-menu js-sub-menu">
-                <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
-                <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
-              </ul>
-            </li>
-            <li class="menu-item"><a href="quiz.html">Quiz</a></li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <!-------------  header end  ------------>
-
-
-
-  <!--------- banner section start -------->
-  <section class="banner-section d-flex align-items-center position-relative">
-    <!-- bubble animation start -->
-
-    <div class="bubble-animation">
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-      <div class="bubble-animation-item"></div>
-    </div>
-    <!-- bubble animation end -->
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <div class="banner-text">
-            <h2 class="mb-3">Selamat datang di website pembelajaran fisika</h2>
-            <h1 class="mb-3 text-capitalize">Gerak Harmonik Sederhana</h1>
-            <p class="mb-4">Website ini berisikan materi Gerak Harmonik Sederhana yang relevan dengan kurikulum 2013</p>
-            <a href="#" class="btn btn-theme">Mulai Pembelajaran</a>
+            </nav>
           </div>
         </div>
-        <div class="col-md-6 order-first order-md-last mb-5 mb-md-0">
-          <div class="banner-img">
-            <div class="circular-img">
-              <div class="circular-img-inner">
-                <div class="circular-img-circle"></div>
-                <img src="img/banner-img.png" alt="bannerimg">
-              </div>
-            </div>
-          </div>
+      </header>
+    <!--header end-->
+    <!--breadcrumb start-->
+    <div class="breadcrumb-nav">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-8">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">materi</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Hukum Kekekalan Energi Mekanik pada Sistem Pegas</li>
+            </ol>
+          </nav>
         </div>
       </div>
-    </div>
-  </section>
+    <!--breadcrumb end-->
 
-  <!--------- banner section end ---------->
-
-  <!--------- fun fact section start ---------->
-
-  <section class="fun-facts-section"></section>
-    <div class="container">
-      <div class="box py-2">
-        <div class="row text-center">
-          <div class="col-md-6 col-lg-3">
-            <div class="fun-facts-item">
-              <h2 class="style-1">800k</h2>
-              <p>student we've</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="fun-facts-item">
-              <h2 class="style-2">500+</h2>
-              <p>courses</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="fun-facts-item">
-              <h2 class="style-3">50+</h2>
-              <p>countries</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="fun-facts-item">
-              <h2 class="style-4">100+</h2>
-              <p>skilled</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!--------- fun fact section end ---------->
-
-
-
-
-
-  <!--------- courses section start ---------->
-  <section class="courses-section section-padding">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <div class="section-title text-center">
-            <h2 class="title">Sub Bab</h2>
-            <p class="sub-title">Pilih Sub-bab yang ingin dipelajari</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-
-
-  <!-------------------COURSES ITEM START----------------------------->
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/1.jpg">
-                </div>
-                <h3 class="title">Tegangan, Regangan, dan Modulus Young</h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$ 49</div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/2.jpg">
-                </div>
-                <h3 class="title">Hukum Hooke</h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$49</div>
-              </div>
-            </a>
-          </div>
-        </div>      
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/3.jpg">
-                </div>
-                <h3 class="title">Energi Potensial Pegas</h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$ 49</div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/4.jpg">
-                </div>
-                <h3 class="title">Hukum Kekekalan Energi Mekanik pada Sistem Pegas</h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$ 49</div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/4.jpg">
-                </div>
-                <h3 class="title">Susunan Pegas</h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$ 49</div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/4.jpg">
-                </div>
-                <h3 class="title">Gerak Harmonik pada Pegas dan Bandul</h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$ 49</div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="courses-item">
-            <a href="course-detail.html" class="link">
-              <div class="course-item-inner">
-                <div class="img-box">
-                  <img src="img/courses/web-development/4.jpg">
-                </div>
-                <h3 class="title">Penerapan Elastisitas dalam Kehidupan Sehari-hari </h3>
-                <div class="instructor">
-                  <img src="img/instructor/1.png" alt="instructor img">
-                  <span class="instructor-name">amin tofa</span>
-                </div>
-                <div class="rating">
-                  <span class="average-rating">(4.5)</span>
-                  <span class="average-star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </span>
-                  <span class="reviews">(230)</span>
-                </div>
-                <div class="price">$ 49</div>
-              </div>
-            </a>
-          </div>
-        </div>
-  <!-------------------------COURSES ITEM END---------------------------->
-      </div>
-      <div class="row">
-        <div class="col-12 text-center mt-3">
-          <a href="courses.html" class="btn btn-theme">view all courses</a>
-        </div>
-      </div>  
-    </div>
-  </section>
-
-  <!---------------------------- courses section end ------------------------------->
-
-
-  <!---------------------------- become a instructor start ----------------------------------->
-  <section class="bai-section section-padding">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-10">
-          <div class="box">
-            <div class="row align-items-center">
-              <div class="col-md-6 mb-4 m-md-0">
-                <div class="circular-img">
-                  <div class="circular-img-inner">
-                    <div class="circular-img-circle"></div>
-                      <img src="img/bai-img.png" alt="bai img">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="section-title m-0">
-                  <h2 class="title">become a instructor</h2>
-                  <p class="sub-title">Become a Instructor</p>
-                </div>
-                <a href="#" class="btn btn-theme">Apply Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------------------------- become a instructor end ----------------------------------->
-    <!---------------------------- testimonials start ------------------------------->
-
-    <section class="testimonials-section section-padding position-relative">
-      <div class="decoration-circles d-none d-lg-block">
-        <div class="decoration-circles-item"></div>
-        <div class="decoration-circles-item"></div>
-        <div class="decoration-circles-item"></div>
-        <div class="decoration-circles-item"></div>
-      </div>
-      <div class="decoration-imgs d-none d-lg-block">
-        <img src="img/testimonial/1.png" alt="decoration img" class="decoration-imgs-item">
-        <img src="img/testimonial/2.png" alt="decoration img" class="decoration-imgs-item">
-        <img src="img/testimonial/3.png" alt="decoration img" class="decoration-imgs-item">
-      </div>
+    <!-- log in section start -->
+    <section class="login-section section-padding">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="section-title text-center">
-              <h2 class="title">Profil Pengembang</h2>
-              <p class="sub-title">Haloo... Perkenalkan</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="img-box rounded-circle position-relative">
-              <img src="img/testimonial/1.png" class="w-100 js-testimonial-img rounded-circle" alt="testimonials img">
-            </div>
-  
-            <!--------bootstrap code slide start------>
-            <div id="carouselOne" class="carousel slide text-center" data-bs-ride="carousel">
-              <div class="carousel-inner mb-4">
-                <div class="carousel-item active" data-js-testimonial-img="img/testimonial/1.png">
-                  <div class="testimonials-item">
-                    <p class="text-1"> Belajar fisika itu mudah dan menyenangkaaan sekaliii tapii boong deng aslinya mah susah</p>
-                    <h3>Amin Tofa</h3>
-                    <p class="text-2">Physics Learner</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-js-testimonial-img="img/testimonial/2.png">
-                  <div class="testimonials-item">
-                    <p class="text-1"> Belajar fisika itu mudah dan menyenangkaaan sekaliii tapii boong deng aslinya mah susah</p>
-                    <h3>Amin Tofa</h3>
-                    <p class="text-2">Physics Learner</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-js-testimonial-img="img/testimonial/3.png">
-                  <div class="testimonials-item">
-                    <p class="text-1"> Belajar fisika itu mudah dan menyenangkaaan sekaliii tapii boong deng aslinya mah susah</p>
-                    <h3>Amin Tofa</h3>
-                    <p class="text-2">Physics Learner</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselOne" data-bs-slide="prev">
-                <i class="fas fa-arrow-left"></i>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselOne" data-bs-slide="next">
-                <i class="fas fa-arrow-right"></i>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <!--------bootstrap code slide end------>
-          </div>
+        <div">
+        <h2>Hukum Kekekalan Energi Mekanik pada Sistem Pegas</h2>
+         <div style="text-align: justify; text-indent: 30px;">Hukum kekekalan energi mekanik menyatakan bahwa energi mekanik total dalam sistem tertutup teteap konstan, kecuali jika ada gaya eksternal yang bekerja pada sistem tersebut. Hal tersebut menjadikan bahwa jika ada beban yang diterapkan pada pegas, maka energi potensial akan bertambah, dan jika beban dilepaskan, maka energi potensial akan berubah menjadi energi kinetik. Apabila beban tidak ditarik atau ditekan dan tidak diberikan beban, besar energi potensial elastisitasnya adalah nol Ep=0. Hal ini dikarenakan pegas tidak mengalami perubahan panjang (∆x=0). Besar energi potensial berbanding lurus dengan perubahan panjang pegas. Semakin besar perubahan panjang pegas maka energi potensial pegas juga semakin besar (Ishaq, 2006).</div><br>
+
+        <img src="img/courses/kekekalan.PNG" style="display:block; margin: auto;"><br>
+        Berdasarkan gambar diatas, balok dengan massa \( m \) dan bergerak dengan kecepatan \( v \) menumbuk sebuah pegas yang terikat pada dinding. Menurut hukum kekekalan energi, besar energi mekanik sebelum tumbukan sama dengan besar energi mekanik setelah tumbukan. Secara matematis dapat dituliskan sebagai berikut: <br>
+        <div style="padding-top: 3px;">\( E_{M(awal)} \) = \( E_{M(akhir)} \)</div><br>
+        <div>\( E_{M(balok)} \) + \( E_{M(pegas)} \) = \( E'_{M(balok)} \) + \( E'_{M(pegas)} \)</div>
+        Apabila sistem dipengaruhi oleh gaya gesek, maka basar usaha yang dilakukan oleh gaya gesekan dapat dihitung dengan persamaan berikut:<br>
+        \( W_{gesekan} \) = (\( E'_{(kb)} \) + \( E'_{(pb)} \) + \( E'_{(pp)} \)) - (\( E_{(kb)} \)+\( E_{(pb)} \)+ \( E_{(pp)} \))<br>
+        keterangan: <br>
+        \( E_{(kb)} \) = Energi kinetik benda sebelum tumbukan<br> 
+        \( E_{(pb)} \) = kEnergi potensial benda sebelum tumbukan<br>
+        \( E_{(pp)} \) = Energi potensial pegas sebelum tumbukan<br>
+        \( E'_{(kb)} \) = Energi kinetik benda setelah tumbukan <br>
+        \( E'_{(pb)} \) = kEnergi potensial benda setelahtumbukan<br>
+        \( E'_{(pp)} \) = Energi potensial pegas setelah tumbukan<br>
         </div>
       </div>
     </section>
-    <!---------------------------- testimonials end ------------------------------------------------------------------------------------------------------------->
-  <!---------------------------- footer start ----------------------------------->
-  <footer class="footer">
+    <!-- log in section end -->
+
+
+<!---------------------------- footer start ----------------------------------->
+  <!-- <footer class="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -536,7 +164,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="footer-bottom">
         <div class="container">
           <p class="m-8 py-4 text-center">copyright &copy; 2023 TofaStudy</p>
@@ -545,12 +173,9 @@
     </div>
   </footer>
   <!---------------------------- footer end ----------------------------------->
-  <br><br>
 
-</div>
-<!---main wrapper end---->
-
-
+    </div>
+    <!--main wrapper end-->
 <!-- style switcher start -->
 <div class="style-switcher js-style-switcher">
   <div class="style-switcher-toggler js-style-switcher-toggler">
@@ -583,8 +208,7 @@
 </div>
 <!-- style switcher end -->
 
-
-<script src="js/bootstrap.bundle.min.js"></script>  
-<script src="js/main.js"></script>
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
