@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Getaran Selaras</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+    <link rel="stylesheet" class="js-glass-style" href="css/glass.css" disabled>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+
+      <!-- page loader start -->
+<div class="page-loader js-page-loader">
+  <div></div>
+</div>
+<!-- page loader end -->
+
+    <!--main wrapper start-->
+    <div class="main-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-main d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+              <a href="index.html"><span>tofa</span> study</a>
+            </div>
+            <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu">
+              <button type="button" class="header-close-btn js-header-menu-toggler">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu">Materi<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="hooke.html">Hukum Hooke</a></li>
+                    <li class="sub-menu-item"><a href="getaran.html">Getaran Selaras</a></li>
+                    <li class="sub-menu-item"><a href="penerapan.html">Penerapan dan Contoh Getaran Harmonik</a></li>
+                    <!-- <li class="sub-menu-item"><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html">Simulasi (Phet)</a></li> -->
+                  </ul>
+                </li>
+                <!-- <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu">Pages<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
+                    <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
+                  </ul>
+                </li> -->
+                <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
+                <li class="menu-item"><a href="info.html">Tentang</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    <!--breadcrumb start-->
+    <div class="breadcrumb-nav">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-8">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item">Materi</li>
+              <li class="breadcrumb-item active" aria-current="page">Getaran Selaras</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    <!--breadcrumb end-->
+
+    <!--course details section start-->
+    <section class="course-details section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!--course header start-->
+                    <div class="course-header box">
+                        <h2 class="text-capitalize">Getaran Selaras</h2>
+                        <!-- <div class="rating">
+                            <span class="average-rating">(4.5)</span>
+                            <span class="average-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="reviews">(230 Reviews)</span>
+                        </div> -->
+                        <!-- <ul>
+                            <li>encrolled students - <span> 2200</span></li>
+                            <li>created by - <span><a href="#">Amin Tofa</a></span></li>
+                            <li>last update - <span>23/02/2023</span></li>
+                            <li>language - <span>english</span></li>
+                        </ul> -->
+                    </div>
+                    <!--course header end-->
+
+                    <!--course tab start-->
+                    <nav class="course-tabs">
+                        <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                          <button class="nav-link active" id="course-curriculum-tab" data-bs-toggle="tab" data-bs-target="#course-curriculum" type="button" role="tab" aria-controls="course-curriculum" aria-selected="true">Pengertian Getaran Selaras</button>
+                          <button class="nav-link" id="course-description-tab" data-bs-toggle="tab" data-bs-target="#course-description" type="button" role="tab" aria-controls="course-description" aria-selected="false">Besaran Utama pada Getaran Selaras</button>
+                          <button class="nav-link" id="course-instructor-tab" data-bs-toggle="tab" data-bs-target="#course-instructor" type="button" role="tab" aria-controls="course-instructor" aria-selected="false">Persamaan Getaran Selaras</button>
+                          <!-- <button class="nav-link" id="course-reviews-tab" data-bs-toggle="tab" data-bs-target="#course-reviews" type="button" role="tab" aria-controls="course-reviews" aria-selected="false">reviews</button> -->
+                        </div>
+                      </nav>
+                    <!--course tab END-->
+
+                    <!-- tab panes start-->
+                    <div class="tab-content" id="nav-tabContent">
+
+                        <!--course curriculum start-->
+                        <div class="tab-pane fade show active" id="course-curriculum" role="tabpanel" aria-labelledby="course-curriculum--tab"> 
+                            <div class="course-curriculum box">
+                                <h2 class="text-capitalize mb-4">PENGERTIAN</h2>
+                                <div style="text-align: justify; text-indent: 30px;"> Getaran Harmonik (Selaras) dapat didefinisikan sebagai <strong>gerak benda secara bolak balik yang melewati titik setimbangnya.</strong> Salah satu contoh gerak harmonik dapat dilihat pada animasi berikut: </div><br>
+                               <img class="gambar" src="img/animasi/animasi.gif" style="width: 80px;">
+                                <div style="text-align: justify; text-indent: 30px;"> Animasi diatas menunjukkan bahwa pegas bergerak secara bolak-balik (harmonik) yang melewati titik setimbangnya.
+                                </div>   
+                             </div>
+                        </div>
+                        <!--course curriculum start-->
+
+                        <!--course description start-->
+                        <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab">
+                          <div class="course-description box">
+                            <h2 class="text-capitalize mb-4">Besaran Utama pada Getaran Selaras</h2>
+                            <div style="text-align: justify; text-indent: 30px;">Beberapa besaran yang terdapat dalam getaran selaras meliputi frekuensi, perioda, amplitudo getaran, simpangan getaran, kecepatan sudut, fase getaran, dan sudut fase getaran. <br><br>
+                            </div>
+                            <!-- frekuensi -->
+                            <h3>a. Frekuensi (f)</h3>
+                            <div class="kalimat"> Frekuensi dapat didefinisikan sebagai jumlah getaran yang terjadi dalam satu detik atau satu perioda. Rumus dari frekuensi yaitu:<br>
+                              <div class="login-form box"><div class="persamaan">\( f = \frac{n}{t} \)</div></div><br>
+                            <div class="kalimat">Keterangan:<br>
+                              \( f\) = frekuensi (Hz)<br>
+                              n = banyaknya getaran<br> t = waktu (s)<br><br>
+                            </div>
+                            </div>
+                            <!-- periode -->
+                            <h3>b. Perioda (T)</h3>
+                            <div class="kalimat"> Perioda dapat didefinisikan sebagai banyaknya waktu yang dibutuhkan untuk melakukan satu kali getaran. Rumus dari perioda yaitu:<br>
+                              <div class="login-form box"><div class="persamaan">\( T = \frac{t}{n} \)</div></div><br>
+                            </div>
+                            <div>Keterangan:<br>
+                              \( T\) = perioda (s)<br>
+                              t = waktu (s)<br> n = banyaknya getaran<br><br>
+                            </div>
+                            <!-- Gif 2 -->
+                            <div class="login-form box">
+                              
+                              <p>Perhatikan animasi perbandingan 2 pegas berikut!!<br>
+                                <img src="img/animasi/pegaas.gif" alt="">
+                                <p>Berdasarkan animasi diatas diketahui: <br> a. Pegas 1 memiliki frekuensi lebih besar<br> b. Pegas 2 memiliki periode lebih lama</p>
+                            </div><br>
+                            <!-- Gif 2 end -->
+                            <div class="login-form box">
+                              <div class="right-box">
+                              <p>Contoh Soal:<br>
+                                Ketika melewati jalan berlubang, shockbreaker sepeda motor bergetar 8 kali dalam 10 detik. Tentukan<br>
+                                a. Periode getaran pegas shockbreaker<br>
+                                b. Frekuensi getaran pegas shockbreaker<br>
+                              </p>
+                              <p>
+                                jawab:<br>
+                                    diketahui :<br>
+                                    n = 8<br> t = 10 detik<br><br> a. Periode getaran pegas shockbreaker <br>jawab:
+                                    <div style="font-size: 18px;"> \( T = \frac {t}{n} \)<br><br>\( T = \frac {10}{8} \)<br><br>\( T = 1,25  \ s \)
+                                    </div> <br>
+                                    b. Frekuensi getaran pegas shockbreaker <br>jawab:
+                              <div style="font-size: 18px;"> \( f = \frac {n}{t} \)<br><br>\( T = \frac {8}{10} \)<br><br>\( f = 0,8  \ Hz \)
+                              </p>
+                              </div>
+                          </div>
+                            </div>
+                            <br>
+                            <!-- amplitudo -->
+                            <h3>c. Amplitudo Getaran (A)</h3>
+                            <p>Amplitudo merupakan simpangan terjauh getaran</p><br>
+                            <!-- simpangan -->
+                            <h3>d. Simpangan Getaran (Y)</h3>
+                            <div class="kalimat"> Simpangan adalah jarak yang ditempuh benda dari titik setimbangnya selama getaran<br>
+                            </div>
+                            <!-- kecepatan sudut -->
+                            <h3>e. Kecepatan Sudut ( \( \omega \) = omega )</h3>
+                            <div class="kalimat">Kecepatan sudut adalah kecepatan yang diperlukan benda untuk melakukan satu putaran penuh. Rumus dari kecepatan sudut yaitu:<br>
+                              <div class="login-form box"><div class="persamaan">\( \omega = \frac{2 \pi}{T} \)</div> <br> <div style="display: inline-block; align-items: center;">atau</div><div class="persamaan"> \( \omega = {2 \pi}{f} \)</div></div><br>
+                            </div>
+                            <div>Keterangan:<br>
+                              \( \omega \) = kecepatan sudut (rad/s)<br>
+                              T = perioda (s)<br> f = frekuensi (Hz)<br><br>
+                            </div>
+                            <!-- Sudut fase getaran -->
+                            <h3>f. Sudut Fase Getaran ( \( \theta \) = teta )</h3>
+                            <div class="kalimat"> Sudut fase getaran adalah besarnya sudut yang ditempuh benda dalam melakukan getaran. Rumus dari sudut fase getaran yaitu:<br>
+                            <div class="login-form box"><div class="persamaan">\( \theta = \omega {t +} {\theta_0} \) <br> \( \theta = \frac{2 \pi }{T} {t} + \theta_0 \) <br> \( \theta = {2 \pi} (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> \( \theta = {2 \pi}{\psi}\)</div></div><br>
+                            </div>
+                            <div>Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( \omega \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
+                              <br>
+                              T = waktu dalam satu getaran penuh (s)<br> \( \psi \) = Fase getaran<br><br>
+                            </div>
+                            <!-- fase getaran -->
+                            <h3>g. Fase Getaram ( \( \psi \) = psi )</h3>
+                            <div class="kalimat"> Fase getaran yaitu perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:<br>
+                              <div class="login-form box"><div class="persamaan">\( \psi = \frac{\theta}{2 \pi} = (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> </div></div><br>
+                            
+                            </div>
+                            <div>Keterangan:<br>
+                              \( \psi \) = Fase getaran<br>
+                              t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> T = waktu dalam satu getaran penuh (s) <br> \( \theta \) = sudut fase getaran<br><br>
+                            </div>
+                          </div>
+                        </div>
+                        <!--course description end-->
+
+                        <!--persamaan getaran selaras start-->
+                        <div class="tab-pane fade" id="course-instructor" role="tabpanel" aria-labelledby="course-instructor-tab"> 
+                          <div class="course-instructor box">
+                            
+                              <h2 class="mb3 text-capitalize">Persamaan Getaran Selaras</h2>
+                              <h3>a. Simpangan Getaran (Y)</h3>
+                              <div class="kalimat"> Persamaan simpangan getaran memenuhi:<br>
+                                <div class="login-form box"><div class="persamaan">\( Y = A \ sin\ ({\omega t} + { \theta_0} ) \)<br> </div></div><br>
+                              
+                              </div>
+                              <div>Keterangan:<br>
+                              Y = simpangan getaran<br>A = Amplitudo<br>
+                                t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran<br><br>
+                              </div>  
+                            <!-- kecepatan getaran saat simpangan -->
+                            <h3>b. Kecepatan Getaran Saat Simpangannya Sebesar Y (vy)</h3>
+                              <div class="kalimat"> Persamaan kecepatan getaran dapat diperoleh dari turunan pertama simpangan getaran, yaitu<br>
+                                <div class="login-form box"><div class="persamaan">\( v_y = \frac{d_y}{d_t} \)<br> \( v_y = \frac{d}{d_t}  (A \ sin ({\omega t} \ + \ { \theta_0}) ) \)<br> \( v_y = {\omega}\ A\ cos ({\omega t} + { \theta_0}) \) </div></div><br>
+                              
+                              </div>
+                              <div>Keterangan:<br> \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
+                              Y = simpangan getaran<br>
+                                t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran<br><br>
+                              </div> 
+                              <!-- percepatan getaran -->
+                              <h3>c. Percepatan Getaran Saat Simpangannya Sebesar Y (vY)</h3>
+                              <div class="kalimat"> Percepatan getaran dapat diperoleh dari turunan pertama kecepatan atau turunan kedua simpangan, yaitu:<br>
+                                <div class="login-form box"><div class="persamaan">\( a_y = \frac{d_v}{d_t} \)<br> \( a_y = \frac{d}{d_t}  ({\omega} A cos ({\omega t}\ +\ { \theta_0}) ) \)<br> \( a_y = - {\omega ^2}\ A\ sin ({\omega t} + { \theta_0}) \) </div></div><br>
+                              
+                              </div>
+                              <div>Keterangan:<br> \( a_y\) = percepatan getaran saat simpangan Y( \( \frac {m}{s^2}\))<br>
+                              Y = simpangan getaran<br>
+                                t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran<br><br>
+                              </div> 
+                              <!-- Energi Getaran -->
+                              <h3>d. Energi Getaran</h3>
+                              <!-- energi potensial -->
+                              <h6>1. Energi Potensial (Ep)</h6>
+                              <div class="kalimat"> Besar gaya yang bekerja pada getaran harmonik selalu berubah yaitu berbanding lurus dengan simpangannya (F = ky). Secara matematis energi potensial yang dimiliki gerak harmonik dirumuskan sebagai berikut<br>
+                                <div class="login-form box"><div class="persamaan">\( E_p = \frac{1}{2} {k}{y^2}\)<br>\( E_p = \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\) </div></div><br>
+                              
+                              </div>
+                              <div>Keterangan:<br>
+                              Y = simpangan getaran<br>
+                                t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)<br><br>
+                              </div> 
+                              <!-- energi kinetik -->
+                              <h6>2. Energi kinetik (Ek)</h6>
+                              <div> Energi kinetik pada getaran harmonik memenuhi persamaan sebagai berikut:<br>
+                                <div class="login-form box"><div class="persamaan">\( E_k = \frac{1}{2} {m} (v_y)^2 \)<br><br>\( E_k = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) </div></div><br>
+                              
+                              </div>
+                              <div>Keterangan:<br>
+                              Y = simpangan getaran<br>
+                                t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)<br><br>
+                              </div>
+                              <!-- energi mekanik -->
+                              <h6>3. Energi Mekanik (Em)</h6>
+                              <div class="kalimat"> Energi mekanik pada getaran pegas merupakan penjumlahan antara energi potensial dan energi kinetik. Besar energi mekanik memenuhi persamaan sebagai berikut:<br>
+                                <div class="login-form box">
+                                  <div style="text-align: center;">\( E_m = E_k+E_p \)<br><br>\( E_m = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) + \( \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\)<br><br> \( E_m = \frac {1}{2} m {\omega}^2 {A^2} \)
+                                  </div>
+                                </div><br>
+                              
+                              </div>
+                              <div>Keterangan:<br>
+                              Y = simpangan getaran<br>
+                                t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)<br><br>
+                              </div>
+                          </div>
+                        </div>
+                        <!--course description start-->
+
+                        <!--course reviews start-->
+                        <div class="tab-pane fade" id="course-reviews" role="tabpanel" aria-labelledby="course-reviews-tab">
+                          <div class="course-review box">
+                            <!-- rating summary start -->
+                            <div class="rating-summary">
+                              <h3 class="mb-4 text text-capitalize"> Student feedback</h3>
+                              <div class="row">
+                                <div class="col-md-4 d-flex align-items-center justify-content-center text-center">
+                                  <div class="rating-box">
+                                    <div class="average-rating">4.5</div>
+                                    <div class="average-stars">
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="reviews">230 Reviews</div>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="rating-bars">
+                                    <!-- rating bars item start -->
+                                    <div class="rating-bars-item">
+                                      <div class="star-text">5 star</div>
+                                      <div class="progress">
+                                        <div class="progress-bar" style="width: 50%;"></div>
+                                      </div>
+                                      <div class="percent">50%</div>
+                                    </div>
+                                    <!-- rating bars item end -->
+                                     <!-- rating bars item start -->
+                                     <div class="rating-bars-item">
+                                      <div class="star-text">4 star</div>
+                                      <div class="progress">
+                                        <div class="progress-bar" style="width: 30%;"></div>
+                                      </div>
+                                      <div class="percent">30%</div>
+                                    </div>
+                                    <!-- rating bars item end -->
+                                    <!-- rating bars item start -->
+                                    <div class="rating-bars-item">
+                                      <div class="star-text">3 star</div>
+                                      <div class="progress">
+                                        <div class="progress-bar" style="width: 10%;"></div>
+                                      </div>
+                                      <div class="percent">10%</div>
+                                    </div>
+                                    <!-- rating bars item end -->
+                                    <!-- rating bars item start -->
+                                    <div class="rating-bars-item">
+                                      <div class="star-text">2 star</div>
+                                      <div class="progress">
+                                        <div class="progress-bar" style="width: 7%;"></div>
+                                      </div>
+                                      <div class="percent">7%</div>
+                                    </div>
+                                    <!-- rating bars item end -->
+                                    <!-- rating bars item start -->
+                                    <div class="rating-bars-item">
+                                      <div class="star-text">1 star</div>
+                                      <div class="progress">
+                                        <div class="progress-bar" style="width: 3%;"></div>
+                                      </div>
+                                      <div class="percent">3%</div>
+                                    </div>
+                                    <!-- rating bars item end -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- rating summary end -->
+
+                            <!-- revies filter start -->
+                            <div class="reviews-filter">
+                              <h3 class="mb-4 text-capitalize">Reviews</h3>
+                              <form action="">
+                                <div class="form-group">
+                                  <i class="fas fa-chevron-down select-icon"></i>
+                                  <select class="form-control">
+                                    <option value="">All Views</option>
+                                    <option value="1">1 Star</option>
+                                    <option value="1">2 Star</option>
+                                    <option value="1">3 Star</option>
+                                    <option value="1">4 Star</option>
+                                    <option value="1">5 Star</option>
+                                  </select>
+                                </div>
+                              </form>
+                            </div>
+                            
+                            <!-- revies filter end -->
+
+                            <!-- revies list start -->
+                            <div class="reviews-list">
+                              <!-- reviews item start -->
+                              <div class="reviews-item">
+                                <div class="img-box">
+                                  <img src="img/review/1.png" alt="review img">
+                                </div>
+                                <h4>Amin Tofa</h4>
+                                <div class="stars-rating">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <span class="date">1 week ago</span>
+                                </div>
+                                <p>kerja bagus. sayas belajar banhyak dari website ini dan sangat membantu saya untuk belajar fisika</p>
+                              </div>
+                              <!-- reviews item end -->
+                               <!-- reviews item start -->
+                               <div class="reviews-item">
+                                <div class="img-box">
+                                  <img src="img/review/1.png" alt="review img">
+                                </div>
+                                <h4>Amin Tofa</h4>
+                                <div class="stars-rating">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <span class="date">1 week ago</span>
+                                </div>
+                                <p>kerja bagus. sayas belajar banhyak dari website ini dan sangat membantu saya untuk belajar fisika</p>
+                              </div>
+                              <!-- reviews item end -->
+                               <!-- reviews item start -->
+                               <div class="reviews-item">
+                                <div class="img-box">
+                                  <img src="img/review/1.png" alt="review img">
+                                </div>
+                                <h4>Amin Tofa</h4>
+                                <div class="stars-rating">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <span class="date">1 week ago</span>
+                                </div>
+                                <p>kerja bagus. sayas belajar banhyak dari website ini dan sangat membantu saya untuk belajar fisika</p>
+                              </div>
+                              <!-- reviews item end -->
+                            </div>
+                            <!-- revies list end -->
+                            <button type="button" class="btn btn-theme">more reviews</button>
+                          </div>
+                        </div>
+                        <!--course reviews end-->
+
+                    </div>
+                    <!-- tab panes end-->
+                </div>
+                <div class="col-lg-4">
+                    <!--course sidebar start-->
+                    <!-- <div class="course-sidebar box">
+                        <div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
+                          <img src="img/courses/web-development/3.jpg" alt="course img" class="w-100">
+                          <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                          
+                          </div>
+                          <p class="text-center">Course Preview</p>
+                        </div> -->
+                        <!-- <div class="price d-flex align-items-center mb-3">
+                          <span class="price-old text-decoration-line-through">$100</span>
+                          <span class="price-new">$49</span>
+                          <span class="price-discount">51% off</span>
+                        </div>
+                        <h3 class="mb-3">Course Features</h3>
+                        <ul class="features-list">
+                          <li>Total 15 lesson</li>
+                          <li>Other Feature</li>
+                          <li>Other Feature</li>
+                          <li>Other Feature</li>
+                        </ul>
+                        <div class="btn-wrap">
+                          <button type="button" class="btn btn-theme btn-block">enroll now</button>
+                        </div> -->
+                    </div>
+                    <!--course sidebar end-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--course details section end-->
+
+    <!---------------------------- footer start ----------------------------------->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3 class="footer-logo">tofa<span>study</span></h3>
+                <ul>
+                  <li><a href="info.html">Informasi Website</a></li>
+                  <li><a href="contact.html">Profil Pengembang</a></li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3>Sosial Media</h3>
+                <ul>
+                  <li><a href="contact.html"><i class="fab fa-facebook social-icon"></i>facebook</a></li>
+                  <li><a href="contact.html"><i class="fab fa-instagram social-icon"></i>instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="m-8 py-4 text-center">copyright &copy; 2023 TofaStudy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!---------------------------- footer end ----------------------------------->
+
+    </div>
+    <!--main wrapper start-->
+
+    <!-- course preview modal start -->
+    <div class="modal fade video-modal js-course-preview-modal" id="video-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          
+          <di class="modal-body p-0">
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <i class="fas fa-times"></i>
+             </button>
+             <div class="ratio ratio-16x9">
+              <video controls class="js-course-preview-video">
+                <source src="video/course-preview.mp4" type="video/mp4">
+              </video>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- course preview modal end -->
+
+    <!-- style switcher start -->
+<div class="style-switcher js-style-switcher">
+  <div class="style-switcher-toggler js-style-switcher-toggler">
+    <i class="fas fa-cog"></i>
+  </div>
+  <h3>Style switcher</h3>
+  <div class="style-switcher-item">
+    <p class="mb-2">Theme Colors</p>
+    <!-- theme colours -->
+    <div class="theme-colors js-theme-colors">
+      <button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+      <button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+      <button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+      <button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+      <button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+    </div>
+  </div>
+  <div class="style-switcher-item">
+    <div class="form-check form-switch">
+      <input class="form-check-input js-dark-mode" type="checkbox" role="switch" id="dark-mode">
+      <label class="form-check-label" for="dark-mode">Dark Mode</label>
+    </div>
+  </div>
+  <div class="style-switcher-item">
+    <div class="form-check form-switch">
+      <input class="form-check-input js-glass-effect" type="checkbox" role="switch" id="glass-effect">
+      <label class="form-check-label" for="glass-effect">Glass Effect</label>
+    </div>
+  </div>
+</div>
+<!-- style switcher end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
