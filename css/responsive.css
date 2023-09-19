@@ -296,6 +296,9 @@
         display: inline-block;
         margin: auto;
     }
+    .definisi {
+        font-size: 12px;
+      }
 }
 
 /* @media (max-width:476px) {
