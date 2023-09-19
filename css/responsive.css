@@ -296,13 +296,12 @@
     display: inline-block;
     margin: auto;
   }
-  .definisi {
+  .definisi,
+  .keterangan {
     font-size: 13px;
-    background-color: brown;
   }
-}
 
-/* @media (max-width:476px) {
+  /* @media (max-width:476px) {
     .fun-facts-item img {
         width: 150px;
         height: 75px;
@@ -317,41 +316,34 @@
       }
 } */
 
-/* dibawah 500px */
-@media (max-width: 500px) {
-  .sub-materi {
-    display: inline-block;
-    margin: auto;
-  }
-  .course-item {
-    display: inline-block;
-  }
-  .courses-item .img-box {
-    margin: auto;
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-  .courses-item .title {
-    font-size: 12px;
-  }
+  /* dibawah 500px */
+  /* samsung a20 pakai yang ini */
+  @media (max-width: 500px) {
+    .sub-materi {
+      display: inline-block;
+      margin: auto;
+    }
+    .course-item {
+      display: inline-block;
+    }
+    .courses-item .img-box {
+      margin: auto;
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+    .courses-item .title {
+      font-size: 12px;
+    }
 
-  .fun-facts-item img {
-    width: 150px;
-    height: 150px;
-  }
+    .fun-facts-item img {
+      width: 150px;
+      height: 150px;
+    }
 
-  .definisi {
-    font-size: 13px;
-    background-color: aqua;
-  }
-}
-
-/* diatas 500px */
-@media (max-width: 476px) {
-  .definisi {
-    font-size: 13px;
-    background-color: blueviolet;
-    
+    .definisi,
+    .keterangan {
+      font-size: 13px;
+    }
   }
 }
