@@ -266,6 +266,7 @@
   }
 }
 
+/* dibawah 575 */
 @media (max-width: 575px) {
   .circular-img {
     max-width: 230px;
@@ -297,6 +298,7 @@
   }
   .definisi {
     font-size: 13px;
+    background-color: brown;
   }
 }
 
@@ -346,7 +348,7 @@
 }
 
 /* diatas 500px */
-@media (min-width: 500px) {
+@media (max-width: 476px) {
   .definisi {
     font-size: 13px;
     background-color: blueviolet;
