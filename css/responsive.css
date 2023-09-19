@@ -340,12 +340,12 @@
       }
 
     .definisi {
-        font-size: 12px;
+        font-size: 14px;
       }
 }
 
 @media (min-width:500px) {
     .definisi {
-        font-size: 12px;
+        font-size: 14px;
       }
 }
