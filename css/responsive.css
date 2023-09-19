@@ -5,9 +5,19 @@
         max-width: 100%;
         --bs-gutter-x: 30px;
     }
+    .tambahan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media(max-width: 991px) {
+    .tambahan {
+        justify-content: center;
+        align-items: center;
+    }
+
     header {
         padding: 12px 0;
     }
@@ -174,6 +184,19 @@
     .course-instructor .details-wrap {
         margin-bottom: 15px;
     }
+
+    /* .item {
+        display: block;
+        padding: 30px;
+    }
+    .carousel-ku {
+        padding: 30px;
+        display: block;
+    }
+    .slider {
+        padding: 30px;
+        display: block;
+    } */
 }
 
 @media(max-width: 767px) {
@@ -238,6 +261,10 @@
     .rating-summary {
         margin-bottom: 15px;
     }
+    .sub-materi {
+        display: inline-block;
+        margin: auto;
+    }
 }
 
 @media(max-width: 575px) {
@@ -265,4 +292,56 @@
     .modal-dialog {
         margin: 8px 15px;
     }
+    .sub-materi {
+        display: inline-block;
+        margin: auto;
+    }
+}
+
+/* @media (max-width:476px) {
+    .fun-facts-item img {
+        width: 150px;
+        height: 75px;
+      }
+    .btn-theme {
+        width: 50px;
+        height: 50px;
+    }
+    .sub-materi {
+        display: flex;
+        justify-content: space-evenly;
+      }
+} */
+@media (max-width:500px){
+    .sub-materi {
+        display: inline-block;
+        margin: auto;
+    }
+    .course-item{
+        display: inline-block;
+    }
+    .courses-item .img-box {
+        
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .courses-item .title {
+        font-size: 12px;
+    }
+
+    .fun-facts-item img {
+        width: 150px;
+        height: 150px;
+      }
+
+      .fun-facts-item a {
+        
+        
+      }
+}
+
+@media (min-width:500px) {
+
 }

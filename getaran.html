@@ -117,37 +117,124 @@
 
                     <!-- tab panes start-->
                     <div class="tab-content" id="nav-tabContent">
-
+                      <!------------------- PENGERTIAN GETARAN SELARAS START ------------------------->
                         <!--course curriculum start-->
                         <div class="tab-pane fade show active" id="course-curriculum" role="tabpanel" aria-labelledby="course-curriculum--tab"> 
                             <div class="course-curriculum box">
-                                <h2 class="text-capitalize mb-4">PENGERTIAN</h2>
-                                <div style="text-align: justify; text-indent: 30px;"> Getaran Harmonik (Selaras) dapat didefinisikan sebagai <strong>gerak benda secara bolak balik yang melewati titik setimbangnya.</strong> Salah satu contoh gerak harmonik dapat dilihat pada animasi berikut: </div><br>
-                               <img class="gambar" src="img/animasi/animasi.gif" style="width: 80px;">
-                                <div style="text-align: justify; text-indent: 30px;"> Animasi diatas menunjukkan bahwa pegas bergerak secara bolak-balik (harmonik) yang melewati titik setimbangnya.
-                                </div>   
+                                <h2 class="text-capitalize mb-4 text-center">PENGERTIAN</h2>
+                                <div style="text-align: justify; text-indent: 30px; font-weight: 400;"> Getaran Harmonik (Selaras) dapat didefinisikan sebagai <strong>gerak benda secara bolak balik yang melewati titik setimbangnya.</strong> Untuk membuat benda mampu bergerak secara harmonik maka diperlukan gaya yang menarik benda tersebut ke arah posisi setimbang. Perhatikan gambar berikut:  Salah satu contoh gerak harmonik dapat dilihat pada animasi berikut( impor pengertian.png): Secara matematis persamaan dari gambar diatas dapat dituliskan sebagai 
+                                <div class="login-form box"><div class="persamaan"> \( \vec{F} = \ - k \ . \ x \)</div>
+                                  <ul class="keterangan">
+                                    <li>Dengan</li>
+                                    <li>\( \vec{F} \) adalah gaya yang menarik benda</li>
+                                    <li>\( k \) adalah sebuah konstanta</li>
+                                    <li>\(x\) adalah simpangan benda dari posisi setimbang </li>
+                                  </ul>
+                                </div>
+                                Pada gerak harmonik, arah gaya selalu berlawanan dengan arah simpangannya ditunjukkan dengan tanda negatif pada persamaan diatas. Sebuah benda dapat bergerak secara harmonik jika  gaya pembaliknys memiliki besar yang sama dengan gaya simpangannya.
+                                
+                                <div class="animasi_hooke"><img class="gambar" src="img/animasi/222_anim.gif (501×281).gif" style="width: 300px;">
+                                <p> Animasi diatas merupakan gambaran pegas yang bergerak secara bolak-balik (harmonik) yang melewati titik setimbangnya.
+                                </p></div>
+                                <!-- ACCORDION CONTOH SOAL START -->
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                      Contoh soal
+                                    </button>
+                                  </h2><div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                      <ul class="pt-sm-2"><p class ="mb-0 ml-0 mx-0" style="font-weight: 500; text-decoration: underline;">Contoh 1</p>
+                                          <p class="mt-1 px-3 mb-0">Seorang peneliti ingin mengukur elastisitas suatu bahan. Dia memiliki seutas tali elastis dengan panjang awal 1 meter. Ketika dia menggantung beban 10 kg pada ujung tali, tali itu meregang hingga panjangnya 1,1 meter. Lalu, jika dia menggantung beban tambahan 5 kg pada tali yang sudah diberi beban sebelumnya, berapa panjang tali itu sekarang?<br>(g= 10 \( m/ s^2 \))</p>
+                                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header border-3">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                  Pembahasan #1
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                <p style="text-indent: 0;">Diketahui<br> \( m_1 \) = 10 Kg <br>\( m_2 \) = 5 Kg <br> \( L_0 \) = 1 m <br> \( L_1 \) = 1,1 m <br><p style="text-indent: 0;"> Ditanya: Panjang tali setelah diberi beban tambahan (\( L_2 \))</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;"> Kita memiliki informasi bahwa ketika beban 10 kg diterapkan pada tali, tali meregang hingga 1,1 meter dari panjang awal 1 meter. Ini adalah perubahan panjangnya:</p> \( \Delta L_1 \) = 1,1 - 1 = 0.1 m<br>Selanjutnya, kita ingin mengetahui perubahan panjang tambahan ketika beban tambahan 5 kg diterapkan.<br> \( \vec{F_2} = k . \Delta L_2 \) <br> dengan \( \vec{F_2} = m_2 . g \) <br> kita tahu bahwa \( \vec{F_2}\) = 5 kg . 10 \( m/ s^2 \) , sehingga <br>5 kg . 10 \( m/ s^2 \) = \(k . \Delta L_2 \) <br> 
+                                                Sekarang kita memiliki dua persamaan yaitu <br><br>(1) \(k \) . 0,1 = 10 kg . 10 \( m/ s^2 \) <br>(2) \(k . \Delta L_2 \) = 5 kg x 10 \( m/ s^2 \)<br>
+                                                Dari persamaan pertama, kita dapat menghitung nilai \(k \)<br> \(k = \frac{10 kg . 10 m/ s^2}{0,1}\) = 1000 \(N/m \)<br> Sekarang, kita dapat menggunakan nilai \(k \) untuk menghitung \( \Delta L_2 \) pada persamaan ke-2 <br> \( \Delta L_2 \) = \( \frac {5 kg . 10 m/ s^2 }{1000 N/m }\) = 0,05 \(m \) <br><br> Jadi, ketika beban tambahan 5 kg diterapkan pada tali yang sudah diberi beban sebelumnya, panjang tali itu akan meregang sekitar 5 cm. Panjang tali setelah beban tambahan adalah: <br> 1,1 + 0,5 = 1,15 \(m \) <p style="text-indent: 0; margin-top: 5px;">Jadi, panjang tali setelah beban tambahan adalah 1,15 \(m \)</p>
+                                                </p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </ul>
+                                      <ul class="mt-3 pt-sm-2"><p class ="mb-0 ml-0" style="font-weight: 500; text-decoration: underline;">Contoh 2</p>
+                                          <p class="mb-sm-2 px-3">Andi adalah seorang ilmuwan yang sedang melakukan eksperimen dengan pegas. Dia memiliki dua pegas identik yang terbuat dari bahan yang sama. Dia ingin menentukan konstanta elastisitas (k) kedua pegas tersebut. Andi memiliki sebuah beban yang dia tahu memiliki massa 2 kg.
+                                          <p class="mb-sm-2 px-3">Dia menggantung beban tersebut pada pegas pertama dan mengamati perubahan panjangnya. Kemudian, dia menggantung beban yang sama pada pegas kedua dan juga mengamati perubahan panjangnya. Setelah melakukan pengukuran, Andi menemukan bahwa pegas pertama meregang 0,5 meter dan pegas kedua meregang 0,8 meter ketika beban yang sama digantung padanya.</p>
+                                          <p class="mb-0 px-3">Pertanyaannya adalah: Berapakah konstanta dari masing-masing pegas tersebut?</p></p>
+                                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header border-3">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                  Pembahasan #2
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body" style="text-indent: 0px;">
+                                                      <p>Untuk menentukan konstanta elastisitas (<i>k</i>) dari masing-masing pegas, kita menggunakan hukum Hooke:</p>
+                                                      <p><i>F = -kx</i></p>
+                                                      <p>Ada dua kasus:</p>
+                                                      <p style="text-decoration: underline;">Kasus 1:</p>
+                                                      <p>Pegas pertama meregang 0,5 meter saat beban 2 kg digantung padanya.</p>
+                                                      <p>Mari hitung <i>k<sub>1</sub></i> untuk pegas pertama:</p>
+                                                      <p><i>k<sub>1</sub> = F / x<sub>1</sub></i></p>
+                                                      <p>Kita perlu menghitung gaya yang bekerja pada pegas pertama. Gaya ini adalah berat beban (<i>W</i>) yang dapat dihitung sebagai massa (<i>m</i>) dikalikan dengan percepatan gravitasi (<i>g</i>):</p>
+                                                      <p><i>W = mg</i></p> 
+                                                      <p><i>W = (2 kg)(10 m/s²) = 20 N</i></p>
+                                                      <p>Sekarang, kita dapat menghitung <i>k<sub>1</sub></i>:</p>
+                                                      <p><i>k<sub>1</sub> = 20 N / 0,5 m = 40 N/m</i></p>
+                                                      <p style="text-decoration: underline;">Kasus 2:</p>
+                                                      <p>Pegas kedua meregang 0,8 meter saat beban yang sama (2 kg) digantung padanya.</p>
+                                                      <p>Mari hitung <i>k<sub>2</sub></i> untuk pegas kedua:</p>
+                                                      <p><i>k<sub>2</sub> = F / x<sub>2</sub></i></p>
+                                                      <p>Sekarang, kita dapat menghitung <i>k<sub>2</sub></i>:</p>
+                                                      <p><i>k<sub>2</sub> = 20 N / 0,8 m = 25 N/m</i></p>
+                                                      <p>Jadi, konstanta elastisitas <i>k<sub>1</sub></i> dari pegas pertama adalah 40 N/m dan konstanta elastisitas <i>k<sub>2</sub></i> dari pegas kedua adalah 25 N/m.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </ul>
+                                      
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- ACCORDION CONTOH SOAL START -->
+
+                                <!-- ACCORDION CONTOH SOAL END -->
+                                
                              </div>
+                          </div>
                         </div>
+                      <!------------------- PENGERTIAN GETARAN SELARAS END ------------------------->
+
                         <!--course curriculum start-->
 
                         <!--course description start-->
                         <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab">
                           <div class="course-description box">
+                            <!------------------- BESARAN UTAMA PADA GETARAN SELARAS START ------------------------->
                             <h2 class="text-capitalize mb-4">Besaran Utama pada Getaran Selaras</h2>
                             <div style="text-align: justify; text-indent: 30px;">Beberapa besaran yang terdapat dalam getaran selaras meliputi frekuensi, perioda, amplitudo getaran, simpangan getaran, kecepatan sudut, fase getaran, dan sudut fase getaran. <br><br>
                             </div>
                             <!-- frekuensi -->
                             <h3>a. Frekuensi (f)</h3>
-                            <div class="kalimat"> Frekuensi dapat didefinisikan sebagai jumlah getaran yang terjadi dalam satu detik atau satu perioda. Rumus dari frekuensi yaitu:<br>
+                            <div class="kalimat"> Frekuensi pada gerak harmonik sederhana diukur dalam hertz (Hz) dan mengacu pada jumlah lengkap siklus gerakan (siklus penuh dari satu arah ke arah yang berlawanan dan kembali) yang terjadi dalam satu detik. Frekuensi ini berkaitan dengan dua parameter penting lainnya dalam gerak harmonik sederhana, yaitu jumlah getaran dan periode pegas. Rumus dari frekuensi yaitu:<br>
                               <div class="login-form box"><div class="persamaan">\( f = \frac{n}{t} \)</div></div><br>
                             <div class="kalimat">Keterangan:<br>
                               \( f\) = frekuensi (Hz)<br>
                               n = banyaknya getaran<br> t = waktu (s)<br><br>
+                              <p>Frekuensi tidak tergantung pada amplitudo gerak (jarak maksimum dari posisi keseimbangan) asalkan gerakan tetap berada dalam kisaran gerak harmonik sederhana.</p>
                             </div>
                             </div>
                             <!-- periode -->
                             <h3>b. Perioda (T)</h3>
-                            <div class="kalimat"> Perioda dapat didefinisikan sebagai banyaknya waktu yang dibutuhkan untuk melakukan satu kali getaran. Rumus dari perioda yaitu:<br>
+                            <div class="kalimat font-500"> Periode dalam gerak harmonik sederhana adalah parameter penting yang menggambarkan karakteristik dasar dari gerakan ini. Gerak harmonik sederhana adalah jenis gerakan osilasi atau getaran yang terjadi pada sistem yang kembali ke posisi keseimbangan setelah diberikan gangguan. Periode mengukur waktu yang diperlukan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, yaitu perjalanan dari satu arah gerakan ke arah gerakan yang berlawanan dan kembali lagi ke posisi awal.. Rumus dari perioda yaitu:<br>
                               <div class="login-form box"><div class="persamaan">\( T = \frac{t}{n} \)</div></div><br>
                             </div>
                             <div>Keterangan:<br>
@@ -159,7 +246,7 @@
                               
                               <p>Perhatikan animasi perbandingan 2 pegas berikut!!<br>
                                 <img src="img/animasi/pegaas.gif" alt="">
-                                <p>Berdasarkan animasi diatas diketahui: <br> a. Pegas 1 memiliki frekuensi lebih besar<br> b. Pegas 2 memiliki periode lebih lama</p>
+                                <p>Berdasarkan animasi diatas diketahui: <br> a. Pegas 1 memiliki frekuensi lebih besar karena mampu melewati titik setimbang dengan waktu lebih singkat.<br> b. Pegas 2 memiliki periode lebih besar karena memiliki waktu yang lebih lama untuk melakukan satu getaran.</p>
                             </div><br>
                             <!-- Gif 2 end -->
                             <div class="login-form box">
@@ -184,14 +271,14 @@
                             <br>
                             <!-- amplitudo -->
                             <h3>c. Amplitudo Getaran (A)</h3>
-                            <p>Amplitudo merupakan simpangan terjauh getaran</p><br>
+                            <p>Amplitudo dalam gerak harmonik sederhana adalah salah satu parameter penting yang menggambarkan karakteristik gerakan osilasi atau getaran tersebut. Amplitudo adalah besaran yang mengukur jarak maksimum benda dari posisi keseimbangannya
+                            <div class="d-flex justify-content-center mb-2">
+                            <img src="img/materi/amplitudo.gif" style="width: 300px; height: 250px;" class="d-flex justify-content-center align-items-center"></div> Berdasarkan gambar diatas, amplitudo benda dituliskan pada -A dan +A. Pegas yang digantungkan dan benda yang digantung pada pegas tersebut bergerak naik turun, amplitudo mengukur sejauh mana benda bergerak dari posisi keseimbangannya. Ketika benda bergerak ke atas dari posisi keseimbangan, amplitudo memiliki nilai positif. Ketika benda bergerak ke bawah dari posisi keseimbangan, amplitudo memiliki nilai negatif. Dengan demikian, amplitudo adalah besaran yang mengukur besarnya simpangan maksimum benda dalam gerak harmonik sederhana dan dapat memiliki nilai positif atau negatif tergantung pada arah gerakan benda tersebut. Besaran ini selalu diukur dari posisi keseimbangan.</p><br>
                             <!-- simpangan -->
-                            <h3>d. Simpangan Getaran (Y)</h3>
-                            <div class="kalimat"> Simpangan adalah jarak yang ditempuh benda dari titik setimbangnya selama getaran<br>
-                            </div>
+                            
                             <!-- kecepatan sudut -->
-                            <h3>e. Kecepatan Sudut ( \( \omega \) = omega )</h3>
-                            <div class="kalimat">Kecepatan sudut adalah kecepatan yang diperlukan benda untuk melakukan satu putaran penuh. Rumus dari kecepatan sudut yaitu:<br>
+                            <h3>d. Kecepatan Sudut ( \( \omega \) = omega )</h3>
+                            <div class="kalimat">Kecepatan sudut dalam gerak harmonik sederhana mengacu pada kecepatan dengan mana benda bergerak mengelilingi posisi keseimbangan dalam gerakan osilasi atau getaran tersebut. Kecepatan sudut (ω) memiliki hubungan terbalik dengan periode (T) gerak harmonik sederhana. Periode adalah waktu yang dibutuhkan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, sedangkan kecepatan sudut adalah berapa banyak sudut yang ditempuh oleh benda dalam satu waktu. Hubungannya dapat dijelaskan oleh rumus berikut:<br>
                               <div class="login-form box"><div class="persamaan">\( \omega = \frac{2 \pi}{T} \)</div> <br> <div style="display: inline-block; align-items: center;">atau</div><div class="persamaan"> \( \omega = {2 \pi}{f} \)</div></div><br>
                             </div>
                             <div>Keterangan:<br>
@@ -199,8 +286,8 @@
                               T = perioda (s)<br> f = frekuensi (Hz)<br><br>
                             </div>
                             <!-- Sudut fase getaran -->
-                            <h3>f. Sudut Fase Getaran ( \( \theta \) = teta )</h3>
-                            <div class="kalimat"> Sudut fase getaran adalah besarnya sudut yang ditempuh benda dalam melakukan getaran. Rumus dari sudut fase getaran yaitu:<br>
+                            <h3>e. Sudut Fase Getaran ( \( \theta \) = teta )</h3>
+                            <div class="kalimat">Sudut fase getaran dalam gerak harmonik sederhana adalah parameter yang menggambarkan posisi relatif dari suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran. Sudut fase digunakan untuk mengidentifikasi di mana benda berada dalam gerakannya terhadap posisi keseimbangan atau pusat gerakan.. Rumus dari sudut fase getaran yaitu:<br>
                             <div class="login-form box"><div class="persamaan">\( \theta = \omega {t +} {\theta_0} \) <br> \( \theta = \frac{2 \pi }{T} {t} + \theta_0 \) <br> \( \theta = {2 \pi} (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> \( \theta = {2 \pi}{\psi}\)</div></div><br>
                             </div>
                             <div>Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( \omega \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
@@ -208,8 +295,8 @@
                               T = waktu dalam satu getaran penuh (s)<br> \( \psi \) = Fase getaran<br><br>
                             </div>
                             <!-- fase getaran -->
-                            <h3>g. Fase Getaram ( \( \psi \) = psi )</h3>
-                            <div class="kalimat"> Fase getaran yaitu perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:<br>
+                            <h3>f. Fase Getaran ( \( \psi \) = psi )</h3>
+                            <div class="kalimat">Konsep fase getaran dalam gerak harmonik sederhana adalah cara untuk menggambarkan posisi relatif suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran dalam konteks gerak harmonik sederhana. Fase getaran membantu kita memahami sejauh mana benda berada dalam gerakannya terkait dengan posisi keseimbangan atau titik awal gerakan tersebut. Fase getaran didapatkan melalui perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:<br>
                               <div class="login-form box"><div class="persamaan">\( \psi = \frac{\theta}{2 \pi} = (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> </div></div><br>
                             
                             </div>
@@ -220,7 +307,8 @@
                           </div>
                         </div>
                         <!--course description end-->
-
+                        <!------------------- BESARAN UTAMA PADA GETARAN SELARAS END ------------------------->
+                        <!------------------- PERSAMAAN GETARAN SELARAS START ------------------------->
                         <!--persamaan getaran selaras start-->
                         <div class="tab-pane fade" id="course-instructor" role="tabpanel" aria-labelledby="course-instructor-tab"> 
                           <div class="course-instructor box">
@@ -270,7 +358,7 @@
                               <!-- energi kinetik -->
                               <h6>2. Energi kinetik (Ek)</h6>
                               <div> Energi kinetik pada getaran harmonik memenuhi persamaan sebagai berikut:<br>
-                                <div class="login-form box"><div class="persamaan">\( E_k = \frac{1}{2} {m} (v_y)^2 \)<br><br>\( E_k = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) </div></div><br>
+                                <div class="login-form box"><div class="persamaan text-center">\( E_k = \frac{1}{2} {m} (v_y)^2 \)<br><br>\( E_k = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) </div></div><br>
                               
                               </div>
                               <div>Keterangan:<br>
@@ -293,166 +381,14 @@
                           </div>
                         </div>
                         <!--course description start-->
-
-                        <!--course reviews start-->
-                        <div class="tab-pane fade" id="course-reviews" role="tabpanel" aria-labelledby="course-reviews-tab">
-                          <div class="course-review box">
-                            <!-- rating summary start -->
-                            <div class="rating-summary">
-                              <h3 class="mb-4 text text-capitalize"> Student feedback</h3>
-                              <div class="row">
-                                <div class="col-md-4 d-flex align-items-center justify-content-center text-center">
-                                  <div class="rating-box">
-                                    <div class="average-rating">4.5</div>
-                                    <div class="average-stars">
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                    <div class="reviews">230 Reviews</div>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                  <div class="rating-bars">
-                                    <!-- rating bars item start -->
-                                    <div class="rating-bars-item">
-                                      <div class="star-text">5 star</div>
-                                      <div class="progress">
-                                        <div class="progress-bar" style="width: 50%;"></div>
-                                      </div>
-                                      <div class="percent">50%</div>
-                                    </div>
-                                    <!-- rating bars item end -->
-                                     <!-- rating bars item start -->
-                                     <div class="rating-bars-item">
-                                      <div class="star-text">4 star</div>
-                                      <div class="progress">
-                                        <div class="progress-bar" style="width: 30%;"></div>
-                                      </div>
-                                      <div class="percent">30%</div>
-                                    </div>
-                                    <!-- rating bars item end -->
-                                    <!-- rating bars item start -->
-                                    <div class="rating-bars-item">
-                                      <div class="star-text">3 star</div>
-                                      <div class="progress">
-                                        <div class="progress-bar" style="width: 10%;"></div>
-                                      </div>
-                                      <div class="percent">10%</div>
-                                    </div>
-                                    <!-- rating bars item end -->
-                                    <!-- rating bars item start -->
-                                    <div class="rating-bars-item">
-                                      <div class="star-text">2 star</div>
-                                      <div class="progress">
-                                        <div class="progress-bar" style="width: 7%;"></div>
-                                      </div>
-                                      <div class="percent">7%</div>
-                                    </div>
-                                    <!-- rating bars item end -->
-                                    <!-- rating bars item start -->
-                                    <div class="rating-bars-item">
-                                      <div class="star-text">1 star</div>
-                                      <div class="progress">
-                                        <div class="progress-bar" style="width: 3%;"></div>
-                                      </div>
-                                      <div class="percent">3%</div>
-                                    </div>
-                                    <!-- rating bars item end -->
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- rating summary end -->
-
-                            <!-- revies filter start -->
-                            <div class="reviews-filter">
-                              <h3 class="mb-4 text-capitalize">Reviews</h3>
-                              <form action="">
-                                <div class="form-group">
-                                  <i class="fas fa-chevron-down select-icon"></i>
-                                  <select class="form-control">
-                                    <option value="">All Views</option>
-                                    <option value="1">1 Star</option>
-                                    <option value="1">2 Star</option>
-                                    <option value="1">3 Star</option>
-                                    <option value="1">4 Star</option>
-                                    <option value="1">5 Star</option>
-                                  </select>
-                                </div>
-                              </form>
-                            </div>
-                            
-                            <!-- revies filter end -->
-
-                            <!-- revies list start -->
-                            <div class="reviews-list">
-                              <!-- reviews item start -->
-                              <div class="reviews-item">
-                                <div class="img-box">
-                                  <img src="img/review/1.png" alt="review img">
-                                </div>
-                                <h4>Amin Tofa</h4>
-                                <div class="stars-rating">
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <span class="date">1 week ago</span>
-                                </div>
-                                <p>kerja bagus. sayas belajar banhyak dari website ini dan sangat membantu saya untuk belajar fisika</p>
-                              </div>
-                              <!-- reviews item end -->
-                               <!-- reviews item start -->
-                               <div class="reviews-item">
-                                <div class="img-box">
-                                  <img src="img/review/1.png" alt="review img">
-                                </div>
-                                <h4>Amin Tofa</h4>
-                                <div class="stars-rating">
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <span class="date">1 week ago</span>
-                                </div>
-                                <p>kerja bagus. sayas belajar banhyak dari website ini dan sangat membantu saya untuk belajar fisika</p>
-                              </div>
-                              <!-- reviews item end -->
-                               <!-- reviews item start -->
-                               <div class="reviews-item">
-                                <div class="img-box">
-                                  <img src="img/review/1.png" alt="review img">
-                                </div>
-                                <h4>Amin Tofa</h4>
-                                <div class="stars-rating">
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <i class="fas fa-star"></i>
-                                  <span class="date">1 week ago</span>
-                                </div>
-                                <p>kerja bagus. sayas belajar banhyak dari website ini dan sangat membantu saya untuk belajar fisika</p>
-                              </div>
-                              <!-- reviews item end -->
-                            </div>
-                            <!-- revies list end -->
-                            <button type="button" class="btn btn-theme">more reviews</button>
-                          </div>
-                        </div>
-                        <!--course reviews end-->
+                        <!------------------- PERSAMAAN GETARAN SELARAS END ------------------------->
 
                     </div>
                     <!-- tab panes end-->
                 </div>
                 <div class="col-lg-4">
                     <!--course sidebar start-->
-                    <!-- <div class="course-sidebar box">
+                    <div class="course-sidebar box">
                         <div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
                           <img src="img/courses/web-development/3.jpg" alt="course img" class="w-100">
                           <div class="play-icon">
@@ -460,8 +396,8 @@
                           
                           </div>
                           <p class="text-center">Course Preview</p>
-                        </div> -->
-                        <!-- <div class="price d-flex align-items-center mb-3">
+                        </div>
+                        <div class="price d-flex align-items-center mb-3">
                           <span class="price-old text-decoration-line-through">$100</span>
                           <span class="price-new">$49</span>
                           <span class="price-discount">51% off</span>
@@ -475,7 +411,16 @@
                         </ul>
                         <div class="btn-wrap">
                           <button type="button" class="btn btn-theme btn-block">enroll now</button>
-                        </div> -->
+                        </div>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, est nesciunt id nostrum cupiditate harum amet. Vero deleniti labore cupiditate libero quos, molestiae, distinctio perferendis voluptates officiis aperiam odit hic dolores. Est nobis mollitia vel nemo. Modi velit cupiditate dignissimos, qui voluptatum nemo vel dolorum deserunt sapiente ut dicta esse vitae libero quod eaque doloribus distinctio assumenda consequatur ipsam officia tempore temporibus quasi deleniti quas? Quidem facere quia quasi rem, modi nisi sed voluptatum! Recusandae vel quam, excepturi eveniet aperiam incidunt adipisci, distinctio tenetur commodi magnam iusto atque beatae esse fuga voluptas necessitatibus consequuntur saepe sapiente ex, voluptatem non tempora?</P>
+                    </div>
+                    <div class="course-sidebar box mt-md-5">
+                        <div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
+                        </div>
+                        <h3 class="mb-3">Catatan</h3>
+                        
+                        
+                        <P>Notes disini</P>
                     </div>
                     <!--course sidebar end-->
                 </div>
