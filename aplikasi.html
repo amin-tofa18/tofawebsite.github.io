@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Penerapan Getaran</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      class="js-color-style"
+      href="css/colors/color-1.css"
+    />
+    <link
+      rel="stylesheet"
+      class="js-glass-style"
+      href="css/glass.css"
+      disabled
+    />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <!-- page loader start -->
+    <div class="page-loader js-page-loader">
+      <div></div>
+    </div>
+    <!-- page loader end -->
+
+    <!--main wrapper start-->
+    <div class="main-wrapper">
+      <header class="header">
+        <div class="container">
+          <div
+            class="header-main d-flex justify-content-between align-items-center"
+          >
+            <div class="header-logo">
+              <a href="index.html"><span>tofa</span> study</a>
+            </div>
+            <button
+              type="button"
+              class="header-hamburger-btn js-header-menu-toggler"
+            >
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu">
+              <button
+                type="button"
+                class="header-close-btn js-header-menu-toggler"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu"
+                    >Materi<i class="fas fa-chevron-down"></i
+                  ></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="hooke.html">Hukum Hooke</a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="getaran.html">Getaran Selaras</a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="aplikasi.html"
+                        >Penerapan dan Contoh Getaran Harmonik</a
+                      >
+                    </li>
+                    <!-- <li class="sub-menu-item"><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html">Simulasi (Phet)</a></li> -->
+                  </ul>
+                </li>
+                <!-- <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu">Pages<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
+                    <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
+                  </ul>
+                </li> -->
+                <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
+                <li class="menu-item"><a href="info.html">Tentang</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--breadcrumb start-->
+      <div class="breadcrumb-nav">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-8">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">materi</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Penerapan Getaran Selaras
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!--breadcrumb end-->
+
+      <!-- log in section start -->
+      <section class="login-section section-padding">
+        <div class="container">
+          <div class="materi box mb-3">
+            <h3 style="text-align: center">Getaran Selaras Pada Pegas</h3>
+            <div class="definisi">
+              <!-- Pegas Start -->
+              <p class="kalimat_utama definisi">
+                Salah satu penerapan getaran harmonik sederhana yaitu pada sebuah benda dengan massa \( m\) yang diikatkan pada pegas dengan konstanta \( k \) yang bebas bergerak tanpa hambatan atau gesekan. Ilustrasinya dapat dilihat pada animasi dibawah ini
+                <img class="gambarPegas" src="img/materi/Muelle.gif">
+                Telah dijelaskan pada pembahasan sebelumnya bahwa gerak harmonik dipengaruhi oleh adanya gaya pembalik. Besar gaya pembalik pada gerak harmonik yaitu dirumuskan dengan \(F = - kx \). Jika disubstitusikan hukum II Newton tentang gerak \( (F = ma) \) maka persamaan gaya pada gerak harmonik diperoleh sebagai berikut:</p>
+              <div class="rumus definisi">
+              <p>\( -kx = ma \)</p> 
+              <p>\( -kx = m \frac{d^2x}{dt^2} \)</p>
+              <p>\( \frac{d^2x}{dt^2} + \frac{k}{m}x = 0\)</p>
+              <p>\( \frac{d^2x}{dt^2}  = - \frac{k}{m}x\)</p> 
+              </div>
+              <p>Salah satu solusi dari persamaan diatas yaitu 
+              \( x = A \ cos \ (\omega t + \phi)\)
+              Jika x diturunkan dua kali terhadap waktu maka diperoleh</p>
+              <p class="rumus">\( \frac{d^2x}{dt^2} = - \omega^2 A \cos \ (\omega t + \phi) \) </p>
+               Sehingga jika disubstitusikan pada persamaan gaya pada setaran selaras diperoleh 
+              <p class="rumus">\( - \omega^2 A \cos \ (\omega t + \phi)  = - \frac{k}{m} A \ cos \ (\omega t + \phi)\)</p> <p>Maka diperoleh persamaan untuk \( \omega \) (kecepatan sudut) yaitu:</p>
+              <p class="rumus">\( \omega^2 = \frac{k}{m} \)
+              atau \( \omega = \sqrt \frac{k}{m} \)</p>
+              <p> Jika \( x = A \ cos \ (\omega t + \phi)\) dijumlahkan dengan \( \frac{2 \pi}{\omega} \)maka persamaannya menjadi 
+              <div class="rumus">
+                <p>\( x = A \ cos \ [\omega (t+ \frac{2 \pi} {\omega}) + \phi]\)</p>
+                <p>\( x = A \ cos \ (\omega t+ 2 \pi + \phi)\)</p>
+                <p>\( x = A \ cos \ (\omega t + \pi)\)</p> 
+              </div>
+              Tampak bahwa persamaan tersebut berulang kembali setelah waktu \( \frac{2 \pi}{\omega} \). Oleh karena itu \( \frac{2 \pi}{\omega} \) adalah periode geraknya (T). Karena \( \omega^2 = \frac{k}{m} \) maka diperoleh: 
+              <p class="rumus">\( T = \frac{2 \pi}{\omega} = 2 \pi \sqrt \frac{m}{k} \)</p> Persamaan frekuensi untuk getaran pada pegas yaitu
+              <p class="rumus">\( f = \frac {1}{T} = \frac {1}{2 \pi} \sqrt \frac {k}{m} \)</p>
+            </div>
+              <!-- Pegas End -->
+            </div>
+
+
+            <!-- BANDUL START -->
+            <div class="materi box mb-3">
+              <h3 class="text-center">Getaran Selaras Pada Bandul</h3>
+              <div class="definisi">
+              <div class="bandul_21">
+              <img class="bandul_2" src="img/materi/bandul_2.gif" style="width: 300px; "></img>
+              </div>
+              <p class="kalimat_utama definisi">Bandul sederhana adalah benda ideal yang terdiri dari sebuah titik massa, yang digantungkan pada tali ringan yang tidak dapat mulur. Jika bandul diberikan simpangan ke arah samping dari posisi setimbangnya, maka bandul akan berayun dalam bidang vertikal karena pengaruh gaya gravitasi </p>
+
+             
+
+
+              <div class="bandul_grid">
+              <img src="img/materi/bandul.png"></img>
+              <p class="kalimat_utama definisi"> Gambar tersebut menunjukkan sebuah bandul yang panjangnya l dengan massa beban yaitu m, membentuk sudut \( \theta \) terhadap sumbu Y. Gaya \( F \) yang bekerja pada beban adalah \( mg \) dengan T adalah tegangan tali. gaya pemulih pada bandul yaitu \( F = -mg \ sin \ \theta \). 
+              Perhatikan bahwa gaya pemulih ini tidaklah sebanding dengan simpangan sudut \( \theta \), melainkan dengan \( sin \ \theta \). Tetapi jika sudut \(\theta\) kecil, maka \( sin \theta \) hampir sama dengan \(\theta\). Maka diperoleh </p>
+              </div>
+              <p class="rumus"> \( F = -mg \theta = - mg \frac{x}{l} = -( \frac{mg}{l} ) x \)</p>
+              
+            <p>Konstanta \( (\frac{mg}{l}) \) adalah konstanta \(k\) dalam \( F=-kx \). Sehingga periode bandul jika amplitudonya kecil adalah </p>
+            <div class="rumus">
+            <p> \( T = 2 \pi \sqrt \frac{m}{k} = 2 \pi \sqrt \frac {m}{\frac {mg}{l}}  \)</p> atau 
+            <p>\( T = 2 \pi \sqrt \frac{l}{g} \)</p>
+          </div>
+             Berdasarkan persamaan periode diatas maka persamaan frekuensi getaran pada bandul memenuhi
+            <p class="rumus">\( f = \frac {1}{T} = \frac {1}{2 \pi} \sqrt \frac {g}{l} \)</p>
+          </div>
+          </div>
+            
+          
+          <!-- <h3 class="contoh">
+            Penerapan Hukum Hooke dalam kehidupan sehari-hari
+          </h3> -->
+
+          <!-- coba corousel botstrap hehe -->
+          <!-- <div class="box">
+            <div class="slider">
+              <div class="item box">
+                <h3 class="text-center">Pena Tarik</h3>
+                <div class="carousel-ku">
+                  <img src="img/pena.gif" alt="" />
+                  <div class="definisi">
+                    Pena yang bisa ditarik juga dikenal sebagai pena klik.
+                    Biasanya pena klik terdiri dari pegas yang dipasang di
+                    bagian atas dan bawah kartrid tinta. Ada tabung plastik di
+                    antara pengaturan ini, yang dipasang di tempat tertentu.
+                    Pegas yang dipasang pada pengaturan mekanis internal plunger
+                    dan bodycam pena yang dapat ditarik bekerja berdasarkan
+                    prinsip Hooke dan bertanggung jawab untuk mengunci dan
+                    melepaskan kartrid tinta sesuai kebutuhan.
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <h3 class="text-center">Timbangan Pegas</h3>
+                <div class="carousel-ku">
+                  <img src="img/timbangan-pegas-removebg-preview.png" alt="" />
+                  <div class="definisi">
+                    Timbangan pegas merupakan timbangan gantung yang biasa
+                    digunakan oleh pedagang sayur dan buah-buahan. Timbangan ini
+                    terdiri dari kail yang digantung dengan benda yang akan
+                    ditimbang. Pengait dihubungkan terhadap dua pegas besar
+                    dibagian atas perangkat dengan bantuan baut.
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <h3 class="text-center">Ketapel</h3>
+                <div class="carousel-ku">
+                  <img src="img/ketapel.gif" class="w-50 h-75 top-0" />
+                  <div class="definisi">
+                    Hukum hooke yang diterapkan pada ketapel terdapat pada karet
+                    yang berfungsi sebagai pelontar peluru ketapel. Keret pada
+                    ketapel ditarik sehingga karet bertabah panjang. Setelah
+                    karet dilepaskan maka karet kehilangan gaya tarik dan karet
+                    kembali pada panjang awal. Hal tersebut relevan dengan hukum
+                    hooke.
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <h3 class="text-center">Kasur Pegas (Springbed)</h3>
+                <div class="carousel-ku">
+                  <img src="img/srpingbad.gif" alt="" />
+                  <div class="definisi">
+                    Hukum hooke bekerja pada pegas yang terdapat didalam
+                    springbad. Ketika tiduran di atas kasur pegas ada gaya berat
+                    yang diberikan tubuh pada kasur. Akibat gaya berat tersebut
+                    pegas pada kasur akan termampatkan. Karena ada gaya pemulih
+                    pada pegas maka pegas akan meregang kembali. Gaya gesek
+                    antara pegas dan bagian dalam kasur mengakibatkan pegas
+                    berhenti bergerak. Sebagai akibat dari gaya yang diberikan
+                    pegas kita akan merasa empuk saat tiduran di atas kasur
+                    pegas.
+                  </div>
+                </div>
+              </div>
+
+              <button id="next">></button>
+              <button id="prev"><</button>
+            </div>
+          </div> -->
+
+          <!-- coba corousel botstrap hehe -->
+        </div>
+      </section>
+      <!-- log in section end -->
+
+      <!---------------------------- footer start ----------------------------------->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h3 class="footer-logo">tofa<span>study</span></h3>
+                  <ul>
+                    <li><a href="info.html">Informasi Website</a></li>
+                    <li><a href="contact.html">Profil Pengembang</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h3>Sosial Media</h3>
+                  <ul>
+                    <li>
+                      <a href="contact.html"
+                        ><i class="fab fa-facebook social-icon"></i>facebook</a
+                      >
+                    </li>
+                    <li>
+                      <a href="contact.html"
+                        ><i class="fab fa-instagram social-icon"></i
+                        >instagram</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="container">
+              <p class="m-8 py-4 text-center">
+                copyright &copy; 2023 TofaStudy
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!---------------------------- footer end ----------------------------------->
+    </div>
+    <!--main wrapper end-->
+    <!-- style switcher start -->
+    <div class="style-switcher js-style-switcher">
+      <div class="style-switcher-toggler js-style-switcher-toggler">
+        <i class="fas fa-cog"></i>
+      </div>
+      <h3>Style switcher</h3>
+      <div class="style-switcher-item">
+        <p class="mb-2">Theme Colors</p>
+        <!-- theme colours -->
+        <div class="theme-colors js-theme-colors">
+          <button
+            type="button"
+            data-js-theme-color="color-1"
+            class="js-theme-color-item color-1"
+          ></button>
+          <button
+            type="button"
+            data-js-theme-color="color-2"
+            class="js-theme-color-item color-2"
+          ></button>
+          <button
+            type="button"
+            data-js-theme-color="color-3"
+            class="js-theme-color-item color-3"
+          ></button>
+          <button
+            type="button"
+            data-js-theme-color="color-4"
+            class="js-theme-color-item color-4"
+          ></button>
+          <button
+            type="button"
+            data-js-theme-color="color-5"
+            class="js-theme-color-item color-5"
+          ></button>
+        </div>
+      </div>
+      <div class="style-switcher-item">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input js-dark-mode"
+            type="checkbox"
+            role="switch"
+            id="dark-mode"
+          />
+          <label class="form-check-label" for="dark-mode">Dark Mode</label>
+        </div>
+      </div>
+      <div class="style-switcher-item">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input js-glass-effect"
+            type="checkbox"
+            role="switch"
+            id="glass-effect"
+          />
+          <label class="form-check-label" for="glass-effect"
+            >Glass Effect</label
+          >
+        </div>
+      </div>
+    </div>
+    <!-- style switcher end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

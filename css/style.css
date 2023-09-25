@@ -35,6 +35,7 @@
 
 /*----------------------01. =google fonts---------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;600;700&display=swap');
 /*------------------02. =Variables------------*/
 
 :root {
@@ -744,9 +745,8 @@ textarea.form-control {
   justify-content: space-evenly;
   align-items: center;
 }
-.tambahan_item {
-  
-}
+
+
 .fun-facts-item {
 
   margin: 1px auto;
@@ -1044,19 +1044,7 @@ textarea.form-control {
   display: flex;
   border: 1px  var(--border-color-2);
 }
-.kompetensi .kompetensi_nomor li{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-.kompetensi_inti {
-  display: flex;
-  text-align: justify;
-  flex: 11;
-  border: var(--border-color-1);
-  padding: 30px auto;
-}
+
 
 .course-curriculum .accordion-button span {
   position: absolute;
@@ -1593,3 +1581,219 @@ textarea.form-control {
   margin: 15px auto;
   margin-bottom: 15px;
 }
+.gambar_pengertian {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gambar_pengertian img {
+  width: 230px;
+}
+
+.accordion-body {
+  padding: 0;
+  margin:2px;
+}
+.jawaban_contoh01 {
+  margin-left: 1rem;
+}
+/*==========
+ TYPOGRAPY 
+============*/
+
+.kalimat {
+  text-align:justify;
+  }
+  
+  .kalimat_utama {
+    text-align: justify;
+    text-indent: 25px;
+  }
+  
+  .definisi {
+    font-family: 'roboto';
+    font-weight: 400;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .keterangan {
+    font-family: 'Roboto mono', monospace;
+    margin-left: 1rem;
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+  
+  .persamaan {
+    font-family: 'Roboto mono', monospace;
+    font-size: 18px;
+    width: 200px;
+    border: 1px solid var(--main-color);
+    box-shadow: 3px 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 20px auto;
+    padding: 18px;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .persamaan_panjang {
+    display: flex;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px solid var(--main-color);
+    height: auto;
+    
+  }
+  
+  .bungkus_persamaan {
+    padding: 10px;
+    margin: 1px auto;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+/* ===============
+=========Pada Laman Penerapan========
+================== */
+
+.definisi .rumus {
+  border: 1px solid var(--main-color);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+}
+
+.rumus p {
+  margin: 10px 20px;
+}
+
+.bandul_grid {
+background-color: var(--white);
+  display: grid;
+  width: 100%;
+  /* grid-template-columns: 1fr 2fr; */
+  grid-template-columns: 1.5fr 3fr;
+}
+
+.bandul_grid p {
+  margin: auto;
+  margin-left: 10px;
+}
+
+.bandul_grid img {
+ justify-content: center;
+ align-items: center;
+ width: 50%;
+}
+
+.definisi .gambarPegas {
+  width: 400px;
+}
+
+/* KI dan KD */
+
+.accordion-body2 .kompetensi{
+  border: 1px solid var(--border-color-2);
+  display: grid;
+  grid-template-columns: 60px auto;
+  padding: 1px 1px;
+}
+
+.accordion-body2 {
+  padding: 10px 20px;
+}
+
+
+.kompetensi_3 {
+  /* background-color: aqua; */
+  border: 1px solid var(--border-color-2);
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+
+}
+.kompetensiDasar_3 {
+  /* background-color: aqua; */
+  border: 1px solid var(--border-color-2);
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+
+}
+
+.kompetensi_nomor {
+  /* background-color: antiquewhite; */
+
+  border: 1px solid var(--border-color-2);
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-right: 1px solid var(--border-color-2);
+}
+
+.kompetensi_inti1 {
+  /* background-color: brown; */
+  margin-bottom: 0;
+  text-align: justify;
+  margin: 2px 5px;
+}
+.kompetensi {
+  text-align: justify;
+}
+.kompetensi li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-right: 10px;
+}
+.kompetensi_inti {
+  text-align: justify;
+  border: var(--border-color-1);
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+
+/* REFERENSI */
+
+.referensi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.referensi_box {
+  width: 80%;
+  gap: 3px;
+}
+
+.bungkusReferensi {
+  padding: 10px 15px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+}
+
+.gambarBuku {
+  /* background-color: aqua; */
+  width: 150px;
+  margin: auto;
+}
+
+

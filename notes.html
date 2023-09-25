@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <title>Tambahkan Catatan ff</title>
+    <link rel="stylesheet" href="css/notes.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Iconscout Link For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      class="js-color-style"
+      href="css/colors/color-1.css"
+    />
+    <link
+      rel="stylesheet"
+      class="js-glass-style"
+      href="css/glass.css"
+      disabled
+    />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+
+
+    <div class="main-wrapper">
+
+      <!-- header start -->
+      <header class="header">
+        <div class="container">
+          <div class="header-main d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+              <a href="index.html"><span>tofa</span> study</a>
+            </div>
+            <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu">
+              <button type="button" class="header-close-btn js-header-menu-toggler">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu">Materi<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="hooke.html">Hukum Hooke</a></li>
+                    <li class="sub-menu-item"><a href="getaran.html">Getaran Selaras</a></li>
+                    <li class="sub-menu-item"><a href="penerapan.html">Penerapan dan Contoh Getaran Harmonik</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
+                <li class="menu-item"><a href="info.html">Tentang</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+      <!--breadcrumb start-->
+        <div class="breadcrumb-nav">
+          <div class="container">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb mb-8">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">Materi</li>
+                <li class="breadcrumb-item active" aria-current="page">Getaran Selaras</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+        <!--breadcrumb end-->
+
+        <!--course details section start-->
+    <section class="course-details section-padding">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                  <!--course header start-->
+                  <div class="course-header box">
+                      <h2 class="text-capitalize">Getaran Selaras</h2>
+                  </div>
+                  <!--course header end-->
+
+                  <!--course tab start-->
+                  <nav class="course-tabs">
+                      <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="course-curriculum-tab" data-bs-toggle="tab" data-bs-target="#course-curriculum" type="button" role="tab" aria-controls="course-curriculum" aria-selected="true">Pengertian Getaran Selaras</button>
+                        <button class="nav-link" id="course-description-tab" data-bs-toggle="tab" data-bs-target="#course-description" type="button" role="tab" aria-controls="course-description" aria-selected="false">Besaran Utama pada Getaran Selaras</button>
+                        <button class="nav-link" id="course-instructor-tab" data-bs-toggle="tab" data-bs-target="#course-instructor" type="button" role="tab" aria-controls="course-instructor" aria-selected="false">Persamaan Getaran Selaras</button>
+                        <!-- <button class="nav-link" id="course-reviews-tab" data-bs-toggle="tab" data-bs-target="#course-reviews" type="button" role="tab" aria-controls="course-reviews" aria-selected="false">reviews</button> -->
+                      </div>
+                    </nav>
+                  <!--course tab END-->
+
+                  <!-- tab panes start-->
+                  <div class="tab-content" id="nav-tabContent">
+                    <!------------------- PENGERTIAN GETARAN SELARAS START ------------------------->
+                        <!--course curriculum start-->
+                        <div class="tab-pane fade show active" id="course-curriculum" role="tabpanel" aria-labelledby="course-curriculum--tab"> 
+                          <div class="course-curriculum box">
+                              <h3 class="text-capitalize mb-4 text-center">PENGERTIAN</h3>
+                              <div class="definisi">
+                              <div style="text-align: justify; text-indent: 30px; font-weight: 400;"> Getaran Harmonik (Selaras) dapat didefinisikan sebagai gerak benda secara bolak balik yang melewati titik setimbangnya. Untuk membuat benda mampu bergerak secara harmonik maka diperlukan gaya yang menarik benda tersebut ke arah posisi setimbang. Perhatikan gambar berikut:<br> 
+                                <div class="gambar_pengertian">
+                                 <img src="img/materi/pengertian.PNG" alt="">
+                              </div>Pada gambar diatas, benda dari posisi setimbang diberikan simpangan dengan arah y. Maka gaya pembaliknya adalah \( F \) yang memilki arah berlawanan dengan arah simpangannya. Secara matematis persamaan dari gambar diatas dapat dituliskan sebagai berikut.
+                              </div>
+                              <div class="login-form box definisi"><div class="persamaan"> \( \vec{F} = \ - k \ . \ y \)</div>
+                                <ul class="keterangan definisi">
+                                  <li>Dengan</li>
+                                  <li>\( \vec{F} \) adalah gaya yang menarik benda</li>
+                                  <li>\( k \) adalah sebuah konstanta</li>
+                                  <li>\(y\) adalah simpangan benda dari posisi setimbang </li>
+                                </ul>
+                              </div>
+                              Pada gerak harmonik, arah gaya selalu berlawanan dengan arah simpangannya ditunjukkan dengan tanda negatif pada persamaan diatas. Sebuah benda dapat bergerak secara harmonik jika  gaya pembaliknya memiliki besar yang sama dengan gaya simpangannya.
+                              
+                              <div class="animasi_hooke"><img class="gambar" src="img/animasi/222_anim.gif (501×281).gif" style="width: 300px;"></div>
+                              <p class="definisi"> Animasi diatas merupakan gambaran benda yang bergerak secara bolak-balik (harmonik) melewati titik setimbangnya. Untuk mengetahui besaran apa
+                              </p>
+                              <!-- ACCORDION CONTOH SOAL START -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                    Contoh soal
+                                  </button>
+                                </h2><div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordion">
+                                  <div class="accordion-body">
+                                    <ul class="pt-sm-2">
+                                      <p class ="contoh_pengertian" style="font-weight: 500; text-decoration: underline; margin-left: 1rem;">Contoh 1</p>
+                                        <p class="mt-1 px-3 mb-0 definisi">Seorang peneliti ingin mengukur elastisitas suatu bahan. Dia memiliki seutas tali elastis dengan panjang awal 1 meter. Ketika dia menggantung beban 10 kg pada ujung tali, tali itu meregang hingga panjangnya 1,1 meter. Lalu, jika dia menggantung beban tambahan 5 kg pada tali yang sudah diberi beban sebelumnya, berapa panjang tali itu sekarang?<br>(g= 10 \( m/ s^2 \))</p>
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header border-3">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Pembahasan #1
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                              <div class="accordion-body">
+                                                <div class="definisi jawaban_contoh01">
+                                              <p clas="jawaban_contoh01" style="text-indent: 0;">Diketahui<br> \( m_1 \) = 10 Kg <br>\( m_2 \) = 5 Kg <br> \( L_0 \) = 1 m <br> \( L_1 \) = 1,1 m <br><p style="text-indent: 0;"> Ditanya: Panjang tali setelah diberi beban tambahan (\( L_2 \))</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;"> Kita memiliki informasi bahwa ketika beban 10 kg diterapkan pada tali, tali meregang hingga 1,1 meter dari panjang awal 1 meter. Ini adalah perubahan panjangnya:</p> \( \Delta L_1 \) = 1,1 - 1 = 0.1 m<br>Selanjutnya, kita ingin mengetahui perubahan panjang tambahan ketika beban tambahan 5 kg diterapkan.<br> \( \vec{F_2} = k . \Delta L_2 \) <br> dengan \( \vec{F_2} = m_2 . g \) <br> kita tahu bahwa \( \vec{F_2}\) = 5 kg . 10 \( m/ s^2 \) , sehingga <br>5 kg . 10 \( m/ s^2 \) = \(k . \Delta L_2 \) <br> 
+                                              Sekarang kita memiliki dua persamaan yaitu <br><br>(1) \(k \) . 0,1 = 10 kg . 10 \( m/ s^2 \) <br>(2) \(k . \Delta L_2 \) = 5 kg x 10 \( m/ s^2 \)<br>
+                                              Dari persamaan pertama, kita dapat menghitung nilai \(k \)<br> \(k = \frac{10 kg . 10 m/ s^2}{0,1}\) = 1000 \(N/m \)<br> Sekarang, kita dapat menggunakan nilai \(k \) untuk menghitung \( \Delta L_2 \) pada persamaan ke-2 <br> \( \Delta L_2 \) = \( \frac {5 kg . 10 m/ s^2 }{1000 N/m }\) = 0,05 \(m \) <br><br> Jadi, ketika beban tambahan 5 kg diterapkan pada tali yang sudah diberi beban sebelumnya, panjang tali itu akan meregang sekitar 5 cm. Panjang tali setelah beban tambahan adalah: <br> 1,1 + 0,5 = 1,15 \(m \) <p style="text-indent: 0; margin-top: 5px;">Jadi, panjang tali setelah beban tambahan adalah 1,15 \(m \)</p>
+                                              </p>
+                                            </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </ul>
+                                    <ul class="mt-3 pt-sm-2 definisi"><p class ="" style="font-weight: 500; text-decoration: underline; margin-left: 1rem;">Contoh 2</p>
+                                        <p class="mb-sm-2 px-3">Andi adalah seorang ilmuwan yang sedang melakukan eksperimen dengan pegas. Dia memiliki dua pegas identik yang terbuat dari bahan yang sama. Dia ingin menentukan konstanta elastisitas (k) kedua pegas tersebut. Andi memiliki sebuah beban yang dia tahu memiliki massa 2 kg.
+                                        <p class="mb-sm-2 px-3">Dia menggantung beban tersebut pada pegas pertama dan mengamati perubahan panjangnya. Kemudian, dia menggantung beban yang sama pada pegas kedua dan juga mengamati perubahan panjangnya. Setelah melakukan pengukuran, Andi menemukan bahwa pegas pertama meregang 0,5 meter dan pegas kedua meregang 0,8 meter ketika beban yang sama digantung padanya.</p>
+                                        <p class="mb-0 px-3">Pertanyaannya adalah: Berapakah konstanta dari masing-masing pegas tersebut?</p></p>
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header border-3">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Pembahasan #2
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                              <div class="accordion-body jawaban_contoh01" style="text-indent: 0px;">
+                                                    <p>Untuk menentukan konstanta elastisitas (<i>k</i>) dari masing-masing pegas, kita menggunakan hukum Hooke:</p>
+                                                    <p><i>F = -kx</i></p>
+                                                    <p>Ada dua kasus:</p>
+                                                    <p style="text-decoration: underline;">Kasus 1:</p>
+                                                    <p>Pegas pertama meregang 0,5 meter saat beban 2 kg digantung padanya.</p>
+                                                    <p>Mari hitung <i>k<sub>1</sub></i> untuk pegas pertama:</p>
+                                                    <p><i>k<sub>1</sub> = F / x<sub>1</sub></i></p>
+                                                    <p>Kita perlu menghitung gaya yang bekerja pada pegas pertama. Gaya ini adalah berat beban (<i>W</i>) yang dapat dihitung sebagai massa (<i>m</i>) dikalikan dengan percepatan gravitasi (<i>g</i>):</p>
+                                                    <p><i>W = mg</i></p> 
+                                                    <p><i>W = (2 kg)(10 m/s²) = 20 N</i></p>
+                                                    <p>Sekarang, kita dapat menghitung <i>k<sub>1</sub></i>:</p>
+                                                    <p><i>k<sub>1</sub> = 20 N / 0,5 m = 40 N/m</i></p>
+                                                    <p style="text-decoration: underline;">Kasus 2:</p>
+                                                    <p>Pegas kedua meregang 0,8 meter saat beban yang sama (2 kg) digantung padanya.</p>
+                                                    <p>Mari hitung <i>k<sub>2</sub></i> untuk pegas kedua:</p>
+                                                    <p><i>k<sub>2</sub> = F / x<sub>2</sub></i></p>
+                                                    <p>Sekarang, kita dapat menghitung <i>k<sub>2</sub></i>:</p>
+                                                    <p><i>k<sub>2</sub> = 20 N / 0,8 m = 25 N/m</i></p>
+                                                    <p>Jadi, konstanta elastisitas <i>k<sub>1</sub></i> dari pegas pertama adalah 40 N/m dan konstanta elastisitas <i>k<sub>2</sub></i> dari pegas kedua adalah 25 N/m.</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </ul>
+                                    
+                                  </div>
+                                  </div>
+                              </div>
+                              <!-- ACCORDION CONTOH SOAL START -->
+
+                              <!-- ACCORDION CONTOH SOAL END -->
+                              
+                           </div>
+                        </div>
+                      </div>
+                    <!------------------- PENGERTIAN GETARAN SELARAS END ------------------------->
+
+                      <!--course curriculum start-->
+
+                      <!--course description start-->
+                      <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab">
+                        <div class="course-description box">
+                          <!------------------- BESARAN UTAMA PADA GETARAN SELARAS START ------------------------->
+                          <h2 class="text-capitalize mb-2">Besaran Utama pada Getaran Selaras</h2>
+                          <div class="kalimat_utama definisi">Beberapa besaran yang terdapat dalam getaran selaras meliputi frekuensi, perioda, amplitudo getaran, simpangan getaran, kecepatan sudut, fase getaran, dan sudut fase getaran.
+                          </div>
+                          <!-- frekuensi -->
+                          <h3>a. Frekuensi (f)</h3>
+                          <div class="kalimat_utama definisi"> Frekuensi pada gerak harmonik sederhana diukur dalam hertz (Hz) dan mengacu pada jumlah lengkap siklus gerakan (siklus penuh dari satu arah ke arah yang berlawanan dan kembali) yang terjadi dalam satu detik atau satu waktu. Frekuensi berkaitan dengan dua parameter penting lainnya dalam gerak harmonik sederhana, yaitu jumlah getaran dan periode pegas. Rumus dari frekuensi yaitu:<br> </div>
+                          <div class="login-form box">
+                              <div class="persamaan">\( f = \frac{n}{t} \)</div>
+                          <div class="kalimat definisi keterangan">
+                            Keterangan:<br>
+                            \( f\) = frekuensi (Hz)<br>
+                            n = banyaknya getaran<br> t = waktu (s)<br>
+                          </div>
+                          </div>
+                            <p class="kalimat definisi">Frekuensi tidak tergantung pada amplitudo gerak (jarak maksimum dari posisi keseimbangan) asalkan gerakan tetap berada dalam kisaran gerak harmonik sederhana.</p>
+                          
+                          
+                          <!-- periode -->
+                          <h3>b. Perioda (T)</h3>
+                          <div class="kalimat_utama definisi"> Periode dalam gerak harmonik sederhana adalah parameter penting yang menggambarkan karakteristik dasar dari gerakan ini. Gerak harmonik sederhana adalah jenis gerakan osilasi atau getaran yang terjadi pada sistem yang kembali ke posisi keseimbangan setelah diberikan gangguan. Periode mengukur waktu yang diperlukan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, yaitu perjalanan dari satu arah gerakan ke arah gerakan yang berlawanan dan kembali lagi ke posisi awal. Rumus dari perioda yaitu:
+                          </div>
+                          <div class="login-form box">
+                              <div class="persamaan">\( T = \frac{t}{n} \)</div>
+                            <div class="kalimat definisi keterangan">
+                              Keterangan:<br>
+                              \( T\) = perioda (s)<br>
+                              t = waktu (s)<br> n = banyaknya getaran
+                            </div>
+                          </div>
+                          
+                          
+                          <!-- Gif 2 -->
+                          
+                          <!-- Gif 2 end -->
+                          
+                          <!-- ACCORDION CONTOH SOAL START -->
+                          <div class="course-curriculum box p-0"><div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                Contoh soal
+                              </button>
+                            </h2><div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordion">
+                              <div class="accordion-body">
+                                <ul class="pt-sm-2">
+                                  <p class ="contoh_pengertian definisi" style="font-weight: 500; text-decoration: underline; margin-left: 1rem;">Contoh 1</p>
+                                    <p class="mt-1 px-3 mb-0 definisi">Ketika melewati jalan berlubang, shockbreaker sepeda motor bergetar 8 kali dalam 10 detik. Tentukan :</p>
+                                      <div class="definisi kalimat px-3">
+                                      <p >a. Periode getaran pegas shockbreaker</p>
+                                      <p>b. Frekuensi getaran pegas shockbreaker</p>
+                                    </div>
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header border-3">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Pembahasan
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                          <div class="accordion-body">
+                                            <div class="definisi jawaban_contoh01">
+                                          <p clas="jawaban_contoh01" style="text-indent: 0;">Diketahui<br> \( n \) = 8 <br>\( t \) = 10 detik<br><p style="text-indent: 0;"> Ditanya: a. Periode getaran pegas shockbreaker</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;"> \( T = \frac{t}{n} \)</p> \( T = \frac{10}{8} \)<br>\( T = 1,25 \) s
+                                          <p style="text-indent: 0;"> Ditanya: b. Frekuensi getaran pegas shockbreaker</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;"> \( f = \frac{n}{t} \)</p> \( f = \frac{8}{10} \)<br>\( f = 0,8 \) Hz
+                                          
+                                          </p>
+                                        </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </ul>
+                              </div>
+                              </div>
+                          </div>
+                        </div>
+                          
+                          <!-- contoh soal periode end -->
+
+                          <!-- amplitudo -->
+                          <h3>c. Amplitudo Getaran (A)</h3>
+                          <p class="kalimat_utama definisi">Amplitudo dalam gerak harmonik sederhana adalah salah satu parameter penting yang menggambarkan karakteristik gerakan osilasi atau getaran tersebut. Amplitudo adalah besaran yang mengukur jarak maksimum benda dari posisi keseimbangannya</p>
+                          <div class="d-flex justify-content-center mb-2 gambar_amplitudo">
+                          <img src="img/materi/amplitudo.gif" style="width: 50%;" class="d-flex justify-content-center align-items-center"></div> <p class="kalimat_utama definisi">Berdasarkan gambar diatas, amplitudo benda dituliskan pada -A dan +A. Pegas yang digantungkan dan benda yang digantung pada pegas tersebut bergerak naik turun, amplitudo mengukur sejauh mana benda bergerak dari posisi keseimbangannya. Ketika benda bergerak ke atas dari posisi keseimbangan, amplitudo memiliki nilai positif. Ketika benda bergerak ke bawah dari posisi keseimbangan, amplitudo memiliki nilai negatif. Dengan demikian, amplitudo adalah besaran yang mengukur besarnya simpangan maksimum benda dalam gerak harmonik sederhana dan dapat memiliki nilai positif atau negatif tergantung pada arah gerakan benda tersebut. Besaran ini selalu diukur dari posisi keseimbangan.</p>
+                          <!-- simpangan -->
+                          
+                          <!-- kecepatan sudut -->
+                          <h3>d. Kecepatan Sudut ( \( \omega \) = omega )</h3>
+                          <div class="kalimat_utama definisi">Kecepatan sudut dalam gerak harmonik sederhana mengacu pada kecepatan dengan mana benda bergerak mengelilingi posisi keseimbangan dalam gerakan osilasi atau getaran tersebut. Kecepatan sudut (ω) memiliki hubungan terbalik dengan periode (T) gerak harmonik sederhana. Periode adalah waktu yang dibutuhkan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, sedangkan kecepatan sudut adalah berapa banyak sudut yang ditempuh oleh benda dalam satu waktu. Hubungannya dapat dijelaskan oleh rumus berikut:<br></div>
+                          <div class="login-form box">
+                            <div class="persamaan">\( \omega = \frac{2 \pi}{T} \)</div>
+                            <div class="definisi text-center">atau</div>
+                            <div class="persamaan"> \( \omega = {2 \pi}{f} \)</div>
+                          
+                          <div class="kalimat definisi keterangan">Keterangan:<br>
+                            \( \omega \) = kecepatan sudut (rad/s)<br>
+                            T = perioda (s)<br> f = frekuensi (Hz)<br><br>
+                          </div>
+                        </div>
+                        
+                          <!-- Sudut fase getaran -->
+                          <h3>e. Sudut Fase Getaran ( \( \theta \) = teta )</h3>
+                          <div class="kalimat_utama definisi">Sudut fase getaran dalam gerak harmonik sederhana adalah parameter yang menggambarkan posisi relatif dari suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran. Sudut fase digunakan untuk mengidentifikasi di mana benda berada dalam gerakannya terhadap posisi keseimbangan atau pusat gerakan.. Rumus dari sudut fase getaran yaitu:<br></div>
+                          <div class="login-form box">
+                              <div class="persamaan_panjang">
+                                <div class="bungkus_persamaan">
+                                  <p>\( \theta = \omega {t +} {\theta_0} \) </p>
+                                  <p>\( \theta = \frac{2 \pi }{T} {t} + \theta_0 \) </p>
+                                  <p>\( \theta = {2 \pi} (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) </p>
+                                  <p>\( \theta = {2 \pi}{\psi}\)</p>
+                              </div>
+                            </div>
+                            <div class="kalimat definisi keterangan">Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( \omega \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
+                              <br>
+                              T = waktu dalam satu getaran penuh (s)<br> \( \psi \) = Fase getaran
+                            </div>
+                          </div>
+                          
+                          
+                          <!-- fase getaran -->
+                          <h3>f. Fase Getaran ( \( \psi \) = psi )</h3>
+                          <div class="kalimat_utama definisi">Konsep fase getaran dalam gerak harmonik sederhana adalah cara untuk menggambarkan posisi relatif suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran dalam konteks gerak harmonik sederhana. Fase getaran membantu kita memahami sejauh mana benda berada dalam gerakannya terkait dengan posisi keseimbangan atau titik awal gerakan tersebut. Fase getaran didapatkan melalui perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:</div>
+                            <div class="login-form box">
+                              <div class="persamaan">\( \psi = \frac{\theta}{2 \pi} = (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) </div>
+                              <div class="kalimat definisi keterangan">Keterangan:<br>
+                                \( \psi \) = Fase getaran<br>
+                                t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> T = waktu dalam satu getaran penuh (s) <br> \( \theta \) = sudut fase getaran
+                              </div>
+                            </div><br>
+                        </div>
+                      </div>
+                      <!--course description end-->
+                      <!------------------- BESARAN UTAMA PADA GETARAN SELARAS END ------------------------->
+
+                      <!------------------- PERSAMAAN GETARAN SELARAS START ------------------------->
+                        <!--persamaan getaran selaras start-->
+                        <div class="tab-pane fade" id="course-instructor" role="tabpanel" aria-labelledby="course-instructor-tab"> 
+                          <div class="course-instructor box">
+                            
+                              <h2 class="mb3 text-capitalize">Persamaan Getaran Selaras</h2>
+                              <h3>a. Simpangan Getaran (Y)</h3>
+                              <div class="kalimat definisi"> Persamaan simpangan getaran memenuhi:<br></div>
+                                <div class="login-form box">
+                                  <div class="persamaan definisi">\( Y = A \ sin\ ({\omega t} + { \theta_0} ) \) </div>
+                                  <div class="keterangan kalimat definisi">Keterangan:<br>
+                                    Y = simpangan getaran<br>A = Amplitudo<br>
+                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran (rad/s)
+                                    </div>
+                                  </div>
+                              
+                                
+                            <!-- kecepatan getaran saat simpangan -->
+                            <h3>b. Kecepatan Getaran Saat Simpangannya Y (vy)</h3>
+                              <div class="kalimat definisi"> Persamaan kecepatan getaran dapat diperoleh dari turunan pertama simpangan getaran, yaitu<br>
+                                <div class="login-form box">
+                                  <div class="persamaan_panjang">
+                                    <div class="bungkus_persamaan definisi">
+                                    <p style="font-size: 18px;">\( v_y = \frac{d_y}{d_t} \)</p>
+                                    <p>\( v_y = \frac{d}{d_t}  (A \ sin ({\omega t} \ + \ { \theta_0}) ) \) 
+                                    <p>\( v_y = {\omega}\ A\ cos ({\omega t} + { \theta_0}) \) </p>
+                                    </div>
+                                  </div>
+                                  <div class="keterangan definisi kalimat">Keterangan:<br> \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
+                                    Y = simpangan getaran<br>
+                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran
+                                    </div> 
+                                </div>
+                              
+                              </div>
+                              
+                              <!-- percepatan getaran -->
+                              <h3>c. Percepatan Getaran Saat Simpangannya Y (vY)</h3>
+                              <div class="kalimat definisi"> Percepatan getaran dapat diperoleh dari turunan pertama kecepatan atau turunan kedua simpangan, yaitu:<br>
+                                <div class="login-form box">
+                                  <div class="persamaan_panjang">
+                                    <div class="bungkus_persamaan definisi">
+                                        <p>\( a_y = \frac{d_v}{d_t} \)</p>
+                                        <p>\( a_y = \frac{d}{d_t}  ({\omega} A cos ({\omega t}\ +\ { \theta_0}) ) \)</p>
+                                        <p>\( a_y = - {\omega ^2}\ A\ sin ({\omega t} + { \theta_0}) \)</p>
+                                    </div>
+                                  </div>
+                                  <div class="keterangan definisi kalimat">Keterangan:<br> \( a_y\) = percepatan getaran saat simpangan Y( \( \frac {m}{s^2}\))<br>
+                                    Y = simpangan getaran<br>
+                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran
+                                    </div> 
+                                </div>
+                              </div>
+                              
+                              <!-- Energi Getaran -->
+                              <h2>Energi Getaran</h2>
+                              <!-- energi potensial -->
+                              <h3>1. Energi Potensial (Ep)</h3>
+                              <div class="kalimat_utama definisi"> Besar gaya yang bekerja pada getaran harmonik selalu berubah yaitu berbanding lurus dengan simpangannya (F = ky). Secara matematis energi potensial yang dimiliki gerak harmonik dirumuskan sebagai berikut<br></div>
+                                
+                                <div class="login-form box">
+                                  <div class="persamaan_panjang">
+                                    <div class="bungkus_persamaan definisi">
+                                        <p>\( E_p = \frac{1}{2} {k}{y^2}\)</p>
+                                        <p>\( E_p = \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\)</p>
+                                        
+                                    </div>
+                                  </div>
+                                  <div class="keterangan definisi kalimat">Keterangan:<br>
+                                    Y = simpangan getaran<br>
+                                      t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
+                                    </div> 
+                                </div>
+                              
+                              
+                              <!-- energi kinetik -->
+                              <h3>2. Energi kinetik (Ek)</h3>
+                              <div class="kalimat definisi"> Energi kinetik pada getaran harmonik memenuhi persamaan sebagai berikut:<br></div>
+                                <div class="login-form box">
+                                  <div class="persamaan_panjang">
+                                    <div class="bungkus_persamaan definisi">
+                                        <p>\( E_k = \frac{1}{2} {m} (v_y)^2 \)</p>
+                                        <p>\( E_k = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\)</p>
+                                        
+                                    </div>
+                                  </div>
+                                  <div class="keterangan definisi kalimat">Keterangan:<br>
+                                    \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
+                                      t = waktu (s)<br> A = Amplitudo<br> k = nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
+                                    </div> 
+                                </div>
+                                
+                              <!-- energi mekanik -->
+                              <h3>3. Energi Mekanik (Em)</h3>
+                              <div class="kalimat_utama definisi"> Energi mekanik pada getaran pegas merupakan penjumlahan antara energi potensial dan energi kinetik. Besar energi mekanik memenuhi persamaan sebagai berikut:<br></div>
+                              <div class="login-form box">
+                                <div class="persamaan_panjang">
+                                  <div class="bungkus_persamaan definisi">
+                                      <p>\( E_m = E_k+E_p \)</p>
+                                      <p>\( E_m = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) + \( \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\)</p>
+                                      <p>\( E_m = \frac {1}{2} m {\omega}^2 {A^2} \)</p>
+                                      
+                                  </div>
+                                </div>
+                                <div class="keterangan definisi kalimat">Keterangan:<br>Y = simpangan getaran<br>
+                                  \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
+                                    t = waktu (s)<br> A = Amplitudo<br> k = nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
+                                  </div> 
+                              </div>
+                          </div>
+                        </div>
+                        <!--course description start-->
+                        <!------------------- PERSAMAAN GETARAN SELARAS END ------------------------->
+
+                  </div>
+                  <!-- tab panes end-->
+              </div>
+              <div class="col-lg-4">
+                  <!--course sidebar start-->
+                  
+                  <div class="course-sidebar box md-5">
+                      
+                    <div class="wrapper">
+                      <li class="add-box">
+                        <div class="icon"><i class="uil uil-plus"></i></div>
+                        <p>Tambahkan Catatan</p>
+                      </li>
+                    </div>
+                    <div class="popup-box">
+                      <div class="popup">
+                        <div class="content">
+                          <header>
+                            <p></p>
+                            <i class="uil uil-times"></i>
+                          </header>
+                          <form action="#">
+                            <div class="row title">
+                              <label>Title</label>
+                              <input type="text" spellcheck="false" />
+                            </div>
+                            <div class="row description">
+                              <label>Description</label>
+                              <textarea spellcheck="false"></textarea>
+                            </div>
+                            <button></button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--course sidebar end-->
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--course details section end-->
+
+    <!-- notes start -->
+      <!-- notes end -->
+      <!---------------------------- footer start ----------------------------------->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3 class="footer-logo">tofa<span>study</span></h3>
+                <ul>
+                  <li><a href="info.html">Informasi Website</a></li>
+                  <li><a href="contact.html">Profil Pengembang</a></li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3>Sosial Media</h3>
+                <ul>
+                  <li><a href="contact.html"><i class="fab fa-facebook social-icon"></i>facebook</a></li>
+                  <li><a href="contact.html"><i class="fab fa-instagram social-icon"></i>instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="m-8 py-4 text-center">copyright &copy; 2023 TofaStudy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!---------------------------- footer end ----------------------------------->
+</div>
+<!-- style switcher start -->
+<div class="style-switcher js-style-switcher">
+  <div class="style-switcher-toggler js-style-switcher-toggler">
+    <i class="fas fa-cog"></i>
+  </div>
+  <h3>Style switcher</h3>
+  <div class="style-switcher-item">
+    <p class="mb-2">Theme Colors</p>
+    <!-- theme colours -->
+    <div class="theme-colors js-theme-colors">
+      <button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+      <button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+      <button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+      <button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+      <button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+    </div>
+  </div>
+  <div class="style-switcher-item">
+    <div class="form-check form-switch">
+      <input class="form-check-input js-dark-mode" type="checkbox" role="switch" id="dark-mode">
+      <label class="form-check-label" for="dark-mode">Dark Mode</label>
+    </div>
+  </div>
+  <div class="style-switcher-item">
+    <div class="form-check form-switch">
+      <input class="form-check-input js-glass-effect" type="checkbox" role="switch" id="glass-effect">
+      <label class="form-check-label" for="glass-effect">Glass Effect</label>
+    </div>
+  </div>
+</div>
+<!-- style switcher end -->
+    </div>
+    <script src="js/notes.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/notes.css" />
+
     <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
     <link rel="stylesheet" class="js-glass-style" href="css/glass.css" disabled>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -16,9 +18,9 @@
   <body>
 
       <!-- page loader start -->
-<div class="page-loader js-page-loader">
-  <div></div>
-</div>
+      <div class="page-loader js-page-loader">
+        <div></div>
+      </div>
 <!-- page loader end -->
 
     <!--main wrapper start-->
@@ -45,16 +47,8 @@
                     <li class="sub-menu-item"><a href="hooke.html">Hukum Hooke</a></li>
                     <li class="sub-menu-item"><a href="getaran.html">Getaran Selaras</a></li>
                     <li class="sub-menu-item"><a href="penerapan.html">Penerapan dan Contoh Getaran Harmonik</a></li>
-                    <!-- <li class="sub-menu-item"><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html">Simulasi (Phet)</a></li> -->
                   </ul>
                 </li>
-                <!-- <li class="menu-item menu-item-has-children">
-                  <a href="#" class="js-toggle-sub-menu">Pages<i class="fas fa-chevron-down"></i></a>
-                  <ul class="sub-menu js-sub-menu">
-                    <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
-                    <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
-                  </ul>
-                </li> -->
                 <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
                 <li class="menu-item"><a href="info.html">Tentang</a></li>
               </ul>
@@ -84,23 +78,7 @@
                     <!--course header start-->
                     <div class="course-header box">
                         <h2 class="text-capitalize">Getaran Selaras</h2>
-                        <!-- <div class="rating">
-                            <span class="average-rating">(4.5)</span>
-                            <span class="average-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </span>
-                            <span class="reviews">(230 Reviews)</span>
-                        </div> -->
-                        <!-- <ul>
-                            <li>encrolled students - <span> 2200</span></li>
-                            <li>created by - <span><a href="#">Amin Tofa</a></span></li>
-                            <li>last update - <span>23/02/2023</span></li>
-                            <li>language - <span>english</span></li>
-                        </ul> -->
+                        
                     </div>
                     <!--course header end-->
 
@@ -137,7 +115,7 @@
                                 Pada gerak harmonik, arah gaya selalu berlawanan dengan arah simpangannya ditunjukkan dengan tanda negatif pada persamaan diatas. Sebuah benda dapat bergerak secara harmonik jika  gaya pembaliknys memiliki besar yang sama dengan gaya simpangannya.
                                 
                                 <div class="animasi_hooke"><img class="gambar" src="img/animasi/222_anim.gif (501×281).gif" style="width: 300px;">
-                                <p class="definisi"> Animasi diatas merupakan gambaran benda yang bergerak secara bolak-balik (harmonik) melewati titik setimbangnya. Untuk mengetahui besaran apa saja yang terdapat pada getaran selaras, silahkan pelajari materi berikutnya.
+                                <p class="definisi"> Animasi diatas merupakan gambaran benda yang bergerak secara bolak-balik (harmonik) melewati titik setimbangnya. Untuk mengetahui besaran apa
                                 </p></div>
                                 <!-- ACCORDION CONTOH SOAL START -->
                                 <div class="accordion-item">
@@ -224,12 +202,12 @@
                         <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab">
                           <div class="course-description box">
                             <!------------------- BESARAN UTAMA PADA GETARAN SELARAS START ------------------------->
-                            <h3 class="text-capitalize mb-4">Besaran Utama pada Getaran Selaras</h3>
+                            <h2 class="text-capitalize mb-4">Besaran Utama pada Getaran Selaras</h2>
                             <div style="text-align: justify; text-indent: 30px;">Beberapa besaran yang terdapat dalam getaran selaras meliputi frekuensi, perioda, amplitudo getaran, simpangan getaran, kecepatan sudut, fase getaran, dan sudut fase getaran. <br><br>
                             </div>
                             <!-- frekuensi -->
-                            <h4>a. Frekuensi (f)</h4>
-                            <div class="definisi"> Frekuensi pada gerak harmonik sederhana diukur dalam hertz (Hz) dan mengacu pada jumlah lengkap siklus gerakan (siklus penuh dari satu arah ke arah yang berlawanan dan kembali) yang terjadi dalam satu detik. Frekuensi ini berkaitan dengan dua parameter penting lainnya dalam gerak harmonik sederhana, yaitu jumlah getaran dan periode pegas. Rumus dari frekuensi yaitu:<br>
+                            <h3>a. Frekuensi (f)</h3>
+                            <div class="kalimat"> Frekuensi pada gerak harmonik sederhana diukur dalam hertz (Hz) dan mengacu pada jumlah lengkap siklus gerakan (siklus penuh dari satu arah ke arah yang berlawanan dan kembali) yang terjadi dalam satu detik. Frekuensi ini berkaitan dengan dua parameter penting lainnya dalam gerak harmonik sederhana, yaitu jumlah getaran dan periode pegas. Rumus dari frekuensi yaitu:<br>
                               <div class="login-form box"><div class="persamaan">\( f = \frac{n}{t} \)</div></div><br>
                             <div class="kalimat">Keterangan:<br>
                               \( f\) = frekuensi (Hz)<br>
@@ -238,24 +216,23 @@
                             </div>
                             </div>
                             <!-- periode -->
-                            <h4>b. Perioda (T)</h4>
-                            <div class="definisi font-500"> Periode dalam gerak harmonik sederhana adalah parameter penting yang menggambarkan karakteristik dasar dari gerakan ini. Gerak harmonik sederhana adalah jenis gerakan osilasi atau getaran yang terjadi pada sistem yang kembali ke posisi keseimbangan setelah diberikan gangguan. Periode mengukur waktu yang diperlukan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, yaitu perjalanan dari satu arah gerakan ke arah gerakan yang berlawanan dan kembali lagi ke posisi awal.. Rumus dari perioda yaitu:<br>
+                            <h3>b. Perioda (T)</h3>
+                            <div class="kalimat font-500"> Periode dalam gerak harmonik sederhana adalah parameter penting yang menggambarkan karakteristik dasar dari gerakan ini. Gerak harmonik sederhana adalah jenis gerakan osilasi atau getaran yang terjadi pada sistem yang kembali ke posisi keseimbangan setelah diberikan gangguan. Periode mengukur waktu yang diperlukan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, yaitu perjalanan dari satu arah gerakan ke arah gerakan yang berlawanan dan kembali lagi ke posisi awal.. Rumus dari perioda yaitu:<br>
                               <div class="login-form box"><div class="persamaan">\( T = \frac{t}{n} \)</div></div><br>
                             </div>
                             <div>Keterangan:<br>
                               \( T\) = perioda (s)<br>
                               t = waktu (s)<br> n = banyaknya getaran<br><br>
                             </div>
-                            </div>
                             <!-- Gif 2 -->
-                            <div class="login-form box definisi">
+                            <div class="login-form box">
                               
                               <p>Perhatikan animasi perbandingan 2 pegas berikut!!<br>
                                 <img src="img/animasi/pegaas.gif" alt="">
                                 <p>Berdasarkan animasi diatas diketahui: <br> a. Pegas 1 memiliki frekuensi lebih besar karena mampu melewati titik setimbang dengan waktu lebih singkat.<br> b. Pegas 2 memiliki periode lebih besar karena memiliki waktu yang lebih lama untuk melakukan satu getaran.</p>
                             </div><br>
                             <!-- Gif 2 end -->
-                            <div class="login-form box definisi">
+                            <div class="login-form box">
                               <div class="right-box">
                               <p>Contoh Soal:<br>
                                 Ketika melewati jalan berlubang, shockbreaker sepeda motor bergetar 8 kali dalam 10 detik. Tentukan<br>
@@ -277,14 +254,14 @@
                             <br>
                             <!-- amplitudo -->
                             <h3>c. Amplitudo Getaran (A)</h3>
-                            <p class="definisi">Amplitudo dalam gerak harmonik sederhana adalah salah satu parameter penting yang menggambarkan karakteristik gerakan osilasi atau getaran tersebut. Amplitudo adalah besaran yang mengukur jarak maksimum benda dari posisi keseimbangannya
+                            <p>Amplitudo dalam gerak harmonik sederhana adalah salah satu parameter penting yang menggambarkan karakteristik gerakan osilasi atau getaran tersebut. Amplitudo adalah besaran yang mengukur jarak maksimum benda dari posisi keseimbangannya
                             <div class="d-flex justify-content-center mb-2">
                             <img src="img/materi/amplitudo.gif" style="width: 300px; height: 250px;" class="d-flex justify-content-center align-items-center"></div> Berdasarkan gambar diatas, amplitudo benda dituliskan pada -A dan +A. Pegas yang digantungkan dan benda yang digantung pada pegas tersebut bergerak naik turun, amplitudo mengukur sejauh mana benda bergerak dari posisi keseimbangannya. Ketika benda bergerak ke atas dari posisi keseimbangan, amplitudo memiliki nilai positif. Ketika benda bergerak ke bawah dari posisi keseimbangan, amplitudo memiliki nilai negatif. Dengan demikian, amplitudo adalah besaran yang mengukur besarnya simpangan maksimum benda dalam gerak harmonik sederhana dan dapat memiliki nilai positif atau negatif tergantung pada arah gerakan benda tersebut. Besaran ini selalu diukur dari posisi keseimbangan.</p><br>
                             <!-- simpangan -->
                             
                             <!-- kecepatan sudut -->
-                            <h4>d. Kecepatan Sudut ( \( \omega \) = omega )</h4>
-                            <div class="definisi">Kecepatan sudut dalam gerak harmonik sederhana mengacu pada kecepatan dengan mana benda bergerak mengelilingi posisi keseimbangan dalam gerakan osilasi atau getaran tersebut. Kecepatan sudut (ω) memiliki hubungan terbalik dengan periode (T) gerak harmonik sederhana. Periode adalah waktu yang dibutuhkan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, sedangkan kecepatan sudut adalah berapa banyak sudut yang ditempuh oleh benda dalam satu waktu. Hubungannya dapat dijelaskan oleh rumus berikut:<br>
+                            <h3>d. Kecepatan Sudut ( \( \omega \) = omega )</h3>
+                            <div class="kalimat">Kecepatan sudut dalam gerak harmonik sederhana mengacu pada kecepatan dengan mana benda bergerak mengelilingi posisi keseimbangan dalam gerakan osilasi atau getaran tersebut. Kecepatan sudut (ω) memiliki hubungan terbalik dengan periode (T) gerak harmonik sederhana. Periode adalah waktu yang dibutuhkan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, sedangkan kecepatan sudut adalah berapa banyak sudut yang ditempuh oleh benda dalam satu waktu. Hubungannya dapat dijelaskan oleh rumus berikut:<br>
                               <div class="login-form box"><div class="persamaan">\( \omega = \frac{2 \pi}{T} \)</div> <br> <div style="display: inline-block; align-items: center;">atau</div><div class="persamaan"> \( \omega = {2 \pi}{f} \)</div></div><br>
                             </div>
                             <div>Keterangan:<br>
@@ -292,21 +269,21 @@
                               T = perioda (s)<br> f = frekuensi (Hz)<br><br>
                             </div>
                             <!-- Sudut fase getaran -->
-                            <h4>e. Sudut Fase Getaran ( \( \theta \) = teta )</h4>
-                            <div class="definisi">Sudut fase getaran dalam gerak harmonik sederhana adalah parameter yang menggambarkan posisi relatif dari suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran. Sudut fase digunakan untuk mengidentifikasi di mana benda berada dalam gerakannya terhadap posisi keseimbangan atau pusat gerakan.. Rumus dari sudut fase getaran yaitu:<br>
-                            <div class="login-form box"><div class="">\( \theta = \omega {t +} {\theta_0} \) <br> \( \theta = \frac{2 \pi }{T} {t} + \theta_0 \) <br> \( \theta = {2 \pi} (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> \( \theta = {2 \pi}{\psi}\)</div></div><br>
+                            <h3>e. Sudut Fase Getaran ( \( \theta \) = teta )</h3>
+                            <div class="kalimat">Sudut fase getaran dalam gerak harmonik sederhana adalah parameter yang menggambarkan posisi relatif dari suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran. Sudut fase digunakan untuk mengidentifikasi di mana benda berada dalam gerakannya terhadap posisi keseimbangan atau pusat gerakan.. Rumus dari sudut fase getaran yaitu:<br>
+                            <div class="login-form box"><div class="persamaan">\( \theta = \omega {t +} {\theta_0} \) <br> \( \theta = \frac{2 \pi }{T} {t} + \theta_0 \) <br> \( \theta = {2 \pi} (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> \( \theta = {2 \pi}{\psi}\)</div></div><br>
                             </div>
-                            <div class="definisi">Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( \omega \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
+                            <div>Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( \omega \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
                               <br>
                               T = waktu dalam satu getaran penuh (s)<br> \( \psi \) = Fase getaran<br><br>
                             </div>
                             <!-- fase getaran -->
                             <h3>f. Fase Getaran ( \( \psi \) = psi )</h3>
-                            <div class="definisi">Konsep fase getaran dalam gerak harmonik sederhana adalah cara untuk menggambarkan posisi relatif suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran dalam konteks gerak harmonik sederhana. Fase getaran membantu kita memahami sejauh mana benda berada dalam gerakannya terkait dengan posisi keseimbangan atau titik awal gerakan tersebut. Fase getaran didapatkan melalui perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:<br>
+                            <div class="kalimat">Konsep fase getaran dalam gerak harmonik sederhana adalah cara untuk menggambarkan posisi relatif suatu benda atau sistem dalam satu siklus gerakan osilasi atau getaran dalam konteks gerak harmonik sederhana. Fase getaran membantu kita memahami sejauh mana benda berada dalam gerakannya terkait dengan posisi keseimbangan atau titik awal gerakan tersebut. Fase getaran didapatkan melalui perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:<br>
                               <div class="login-form box"><div class="persamaan">\( \psi = \frac{\theta}{2 \pi} = (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) <br> </div></div><br>
                             
                             </div>
-                            <div class="definisi">Keterangan:<br>
+                            <div>Keterangan:<br>
                               \( \psi \) = Fase getaran<br>
                               t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> T = waktu dalam satu getaran penuh (s) <br> \( \theta \) = sudut fase getaran<br><br>
                             </div>
@@ -330,8 +307,8 @@
                                 t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran<br><br>
                               </div>  
                             <!-- kecepatan getaran saat simpangan -->
-                            <h4>b. Kecepatan Getaran Saat Simpangannya Sebesar Y (vy)</h3>
-                              <div class="definisi"> Persamaan kecepatan getaran dapat diperoleh dari turunan pertama simpangan getaran, yaitu<br>
+                            <h3>b. Kecepatan Getaran Saat Simpangannya Sebesar Y (vy)</h3>
+                              <div class="kalimat"> Persamaan kecepatan getaran dapat diperoleh dari turunan pertama simpangan getaran, yaitu<br>
                                 <div class="login-form box"><div class="">\( v_y = \frac{d_y}{d_t} \)<br> \( v_y = \frac{d}{d_t}  (A \ sin ({\omega t} \ + \ { \theta_0}) ) \)<br> \( v_y = {\omega}\ A\ cos ({\omega t} + { \theta_0}) \) </div></div><br>
                               
                               </div>
@@ -340,7 +317,7 @@
                                 t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran<br><br>
                               </div> 
                               <!-- percepatan getaran -->
-                              <h4>c. Percepatan Getaran Saat Simpangannya Sebesar Y (vY)</h4>
+                              <h3>c. Percepatan Getaran Saat Simpangannya Sebesar Y (vY)</h3>
                               <div class="kalimat"> Percepatan getaran dapat diperoleh dari turunan pertama kecepatan atau turunan kedua simpangan, yaitu:<br>
                                 <div class="login-form box"><div class="">\( a_y = \frac{d_v}{d_t} \)<br> \( a_y = \frac{d}{d_t}  ({\omega} A cos ({\omega t}\ +\ { \theta_0}) ) \)<br> \( a_y = - {\omega ^2}\ A\ sin ({\omega t} + { \theta_0}) \) </div></div><br>
                               
@@ -353,21 +330,21 @@
                               <h3>d. Energi Getaran</h3>
                               <!-- energi potensial -->
                               <h6>1. Energi Potensial (Ep)</h6>
-                              <div class="definisi"> Besar gaya yang bekerja pada getaran harmonik selalu berubah yaitu berbanding lurus dengan simpangannya (F = ky). Secara matematis energi potensial yang dimiliki gerak harmonik dirumuskan sebagai berikut<br>
+                              <div class="kalimat"> Besar gaya yang bekerja pada getaran harmonik selalu berubah yaitu berbanding lurus dengan simpangannya (F = ky). Secara matematis energi potensial yang dimiliki gerak harmonik dirumuskan sebagai berikut<br>
                                 <div class="login-form box"><div class="">\( E_p = \frac{1}{2} {k}{y^2}\)<br>\( E_p = \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\) </div></div><br>
                               
                               </div>
-                              <div class="definisi">Keterangan:<br>
+                              <div>Keterangan:<br>
                               Y = simpangan getaran<br>
                                 t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)<br><br>
                               </div> 
                               <!-- energi kinetik -->
-                              <h4>2. Energi kinetik (Ek)</h4>
-                              <div class="definisi"> Energi kinetik pada getaran harmonik memenuhi persamaan sebagai berikut:<br>
+                              <h6>2. Energi kinetik (Ek)</h6>
+                              <div> Energi kinetik pada getaran harmonik memenuhi persamaan sebagai berikut:<br>
                                 <div class="login-form box"><div class="text-center">\( E_k = \frac{1}{2} {m} (v_y)^2 \)<br><br>\( E_k = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) </div></div><br>
                               
                               </div>
-                              <div class="definisi">Keterangan:<br>
+                              <div>Keterangan:<br>
                               Y = simpangan getaran<br>
                                 t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)<br><br>
                               </div>
@@ -388,52 +365,54 @@
                         </div>
                         <!--course description start-->
                         <!------------------- PERSAMAAN GETARAN SELARAS END ------------------------->
-
                     </div>
                     <!-- tab panes end-->
                 </div>
-                <!-- <div class="col-lg-4"> -->
-                    <!--course sidebar start-->
-                    <!-- <div class="course-sidebar box">
-                        <div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
-                          <img src="img/courses/web-development/3.jpg" alt="course img" class="w-100">
-                          <div class="play-icon">
-                            <i class="fas fa-play"></i>
-                          
-                          </div>
-                          <p class="text-center">Course Preview</p>
-                        </div>
-                        <div class="price d-flex align-items-center mb-3">
-                          <span class="price-old text-decoration-line-through">$100</span>
-                          <span class="price-new">$49</span>
-                          <span class="price-discount">51% off</span>
-                        </div>
-                        <h3 class="mb-3">Course Features</h3>
-                        <ul class="features-list">
-                          <li>Total 15 lesson</li>
-                          <li>Other Feature</li>
-                          <li>Other Feature</li>
-                          <li>Other Feature</li>
-                        </ul>
-                        <div class="btn-wrap">
-                          <button type="button" class="btn btn-theme btn-block">enroll now</button>
-                        </div>
-                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, est nesciunt id nostrum cupiditate harum amet. Vero deleniti labore cupiditate libero quos, molestiae, distinctio perferendis voluptates officiis aperiam odit hic dolores. Est nobis mollitia vel nemo. Modi velit cupiditate dignissimos, qui voluptatum nemo vel dolorum deserunt sapiente ut dicta esse vitae libero quod eaque doloribus distinctio assumenda consequatur ipsam officia tempore temporibus quasi deleniti quas? Quidem facere quia quasi rem, modi nisi sed voluptatum! Recusandae vel quam, excepturi eveniet aperiam incidunt adipisci, distinctio tenetur commodi magnam iusto atque beatae esse fuga voluptas necessitatibus consequuntur saepe sapiente ex, voluptatem non tempora?</P>
+                <div class="col-lg-4">
+                  <!--course sidebar start-->
+                  
+                  <div class="course-sidebar box md-5">
+                      
+                    <div class="wrapper">
+                      <li class="add-box">
+                        <div class="icon"><i class="uil uil-plus"></i></div>
+                        <p>Add new note</p>
+                      </li>
                     </div>
-                    <div class="course-sidebar box mt-md-5">
-                        <div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
-                        </div>
-                        <h3 class="mb-3">Catatan</h3>
-                        
-                        
-                        <P>Notes disini</P>
-                    </div> -->
-                    <!--course sidebar end-->
-                </div>
+                      
+
+                  </div>
+                  <!--course sidebar end-->
+              </div>
             </div>
         </div>
     </section>
     <!--course details section end-->
+    <!-- notes start -->
+    <div class="course-sidebar box d-none">
+      <div class="popup-box">
+        <div class="popup">
+          <div class="content">
+            <header>
+              <p></p>
+              <i class="uil uil-times"></i>
+            </header>
+            <form action="#">
+              <div class="row title">
+                <label>Judul</label>
+                <input type="text" spellcheck="false" />
+              </div>
+              <div class="row description">
+                <label>Isi Catatan</label>
+                <textarea spellcheck="false"></textarea>
+              </div>
+              <button></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- notes end -->
 
     <!---------------------------- footer start ----------------------------------->
     <footer class="footer">
@@ -524,7 +503,7 @@
   </div>
 </div>
 <!-- style switcher end -->
-
+    <script src="js/notes.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

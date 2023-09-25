@@ -300,8 +300,8 @@
   .keterangan {
     font-size: 13px;
   }
-
-  /* @media (max-width:476px) {
+}
+/* @media (max-width:476px) {
     .fun-facts-item img {
         width: 150px;
         height: 75px;
@@ -316,34 +316,137 @@
       }
 } */
 
-  /* dibawah 500px */
-  /* samsung a20 pakai yang ini */
-  @media (max-width: 500px) {
-    .sub-materi {
-      display: inline-block;
-      margin: auto;
-    }
-    .course-item {
-      display: inline-block;
-    }
-    .courses-item .img-box {
-      margin: auto;
-      display: block;
-      justify-content: center;
-      align-items: center;
-    }
-    .courses-item .title {
-      font-size: 12px;
-    }
+/* dibawah 500px */
+/* samsung a20 pakai yang ini */
+@media (max-width: 500px) {
+  .sub-materi {
+    display: inline-block;
+    margin: auto;
+  }
+  .course-item {
+    display: inline-block;
+  }
+  .courses-item .img-box {
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses-item .title {
+    font-size: 12px;
+  }
 
-    .fun-facts-item img {
-      width: 150px;
-      height: 150px;
-    }
+  .fun-facts-item img {
+    width: 150px;
+    height: 150px;
+  }
+  /* =======
+    TYPOGRAFI
+    ========== */
+  .definisi,
+  .keterangan,
+  .persamaan,
+  .persamaan_panjang {
+    font-size: 14px;
+  }
+  .keterangan {
+    font-size: 10px;
+  }
+  .course-header {
+    padding: 5px 10px;
+  }
+  .course-header h2 {
+    font-size: 25px;
+    margin-bottom: 1px;
+  }
+  .course-tabs {
+    margin: 10px 0;
+  }
+  .nav-tabs .nav-link {
+    font-size: 12px;
+  }
+  /*==================== FONT PADA MATERI=========== */
+  .course-instructor h2 {
+    font-size: 19px;
+    color: var(--main-color);
+    text-align: center;
+  }
+  .course-instructor h3 {
+    font-size: 14px;
+    border-bottom: 1px solid var(--main-color);
+  }
+  .course-description h2 {
+    font-size: 19px;
+    color: var(--main-color);
+    text-align: center;
+  }
+  .course-description h3 {
+    font-size: 14px;
+    border-bottom: 1px solid var(--main-color);
+  }
 
-    .definisi,
-    .keterangan {
-      font-size: 13px;
-    }
+  .accordion-header button {
+    font-size: 13px;
+    padding: 8px;
+  }
+  .course-curriculum {
+    margin-bottom: 5px;
+  }
+
+  .bandul_grid img {
+    width: 200px;
+  }
+
+  .bandul_21 {
+    width: 200px;
+    margin: 1px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .bandul_21 img {
+    border-radius: 5px;
+  }
+  .definisi .gambarPegas {
+    width: 200px;
+  }
+
+  /* KI dan Kd */
+
+  .kompetensi_3,
+  .kompetensi_nomor,
+  .kompetensi_inti,
+  .kompetensiDasar_3,
+  .kompetensi {
+    font-size: 12px;
+  }
+  .kompetensiDasar_3 {
+    grid-template-columns: 1.5fr 6fr;
+  }
+  .kompetensi ul li {
+    padding-right: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .accordion-item h2 button {
+    font-size: 14px;
+  }
+  .kompetensi_inti {
+    padding: 5px;
+    margin-bottom: 2px;
+  }
+  /* REFERENSI */
+  .referensi,
+  .referensi h4 {
+    display: block;
+    font-size: 12px;
+  }
+  .referensi img {
+    width: 120px;
+  }
+  .bungkusReferensi {
+    gap: 5px;
+  }
+  .section-padding {
+    padding: 0;
   }
 }
