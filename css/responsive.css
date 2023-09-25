@@ -328,9 +328,7 @@
   .container_foto {
     width: 100px;
   }
-  .container_foto .card_foto {
-    width: auto;
-  }
+  
   .course-item {
     display: inline-block;
   }
