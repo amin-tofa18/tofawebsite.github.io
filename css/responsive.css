@@ -320,8 +320,16 @@
 /* samsung a20 pakai yang ini */
 @media (max-width: 500px) {
   .sub-materi {
-    display: inline-block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_foto {
+    width: 100px;
+  }
+  .container_foto .card_foto {
+    width: auto;
   }
   .course-item {
     display: inline-block;
