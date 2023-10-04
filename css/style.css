@@ -121,6 +121,11 @@ h3 {
   padding: 30px;
 }
 
+.sub-bab {
+  margin: 15px auto;
+  padding: 10px;
+}
+
 /*------------------ 06. =customized bootstrap classes ------------------*/
 .container {
   --bs-gutter-x: 15px;
@@ -659,7 +664,7 @@ textarea.form-control {
 .footer-top {
   padding: 50px 0 20px;
   border-top: 1px solid var(--border-color-2);
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer-item {
@@ -1365,9 +1370,6 @@ textarea.form-control {
   margin-right: auto;
   width: 240px;
 }
-
-
-
 .materi img {
   display: block;
   margin: 20px auto;
@@ -1563,16 +1565,70 @@ textarea.form-control {
   background-color: var(--main-color);
 }
 
+/* =============
+SOAL STYLE
+ ===========*/
+
+ .box_pembahasan {
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  padding: 15px;
+} 
+
+.box_pembahasan p {
+  margin-bottom: 5px;
+}
+
+.accordion_pembahasan {
+  margin-top: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.accordion_pembahasan button {
+  background-color: transparent;
+}
+
+.button-pembahasan {
+  
+}
+
+.opsi_pembahasan {
+  margin-left: 20px;
+
+}
+
+.opsi_pembahasan input {
+  margin: 10px 0;
+}
+
+.jawaban_benar {
+  color: var(--main-color);
+}
+
+.accordion_pembahasan .button-pembahasan {
+  padding: 8px 8px;
+  font-size: 14px;
+  color: var(--white);
+  background-color: transparent;
+}
+
 .soal {
   padding: 10px 10px 0 10px;
   text-align: justify;
-  font-weight: 500;
+  font-weight: 300;
 }
 .opsi {
   margin: 10px;
   margin-top: 0;
+  margin-left: 20px;
 }
 
+.opsi input {
+  margin-bottom: 20px;
+}
 .opsi .nomor_6 {
   margin-bottom: 30px;
 }

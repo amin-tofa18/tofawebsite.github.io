@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
 /* Responsive */
 
 @media (max-width: 1199px) {
@@ -319,6 +321,11 @@
 /* dibawah 500px */
 /* samsung a20 pakai yang ini */
 @media (max-width: 500px) {
+  
+  .courses-section .section-title {
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
   .sub-materi {
     display: flex;
     flex-direction: column;
@@ -328,7 +335,7 @@
   .container_foto {
     width: 100px;
   }
-  
+
   .course-item {
     display: inline-block;
   }
