@@ -1568,31 +1568,8 @@ textarea.form-control {
 /* =============
 SOAL STYLE
  ===========*/
-
- .box_pembahasan {
-  background-color: var(--white);
-  border-radius: 5px;
-  box-shadow: var(--shadow);
-  padding: 15px;
-} 
-
-.box_pembahasan p {
-  margin-bottom: 5px;
-}
-
-.accordion_pembahasan {
-  margin-top: 10px;
-  margin-left: 10px;
-  box-sizing: border-box;
-  background-color: transparent;
-}
-
-.accordion_pembahasan button {
-  background-color: transparent;
-}
-
-.button-pembahasan {
-  
+ .penjelasan {
+  padding-left: 20px;
 }
 
 .opsi_pembahasan {
@@ -1600,7 +1577,14 @@ SOAL STYLE
 
 }
 
-.opsi_pembahasan input {
+
+
+.opsi_pembahasan {
+  margin-left: 20px;
+
+}
+
+.opsi_pembahasan div {
   margin: 10px 0;
 }
 

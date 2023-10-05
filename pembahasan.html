@@ -44,7 +44,7 @@
             <a href="#" class="js-toggle-sub-menu">Materi<i class="fas fa-chevron-down"></i></a>
             <ul class="sub-menu js-sub-menu">
               <li class="sub-menu-item"><a href="hooke.html">Hukum Hooke</a></li>
-              <li class="sub-menu-item"><a href="getaran.html">Getaran Selaras</a></li>
+              <li class="sub-menu-item"><a href="notes.html">Getaran Selaras</a></li>
               <li class="sub-menu-item"><a href="penerapan.html">Penerapan dan Contoh Getaran Harmonik</a></li>
               <!-- <li class="sub-menu-item"><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html">Simulasi (Phet)</a></li> -->
             </ul>
@@ -86,109 +86,90 @@
         <div>
           <h3>Pembahasan</h3>
           
-          <!-- SOAL NO 0 -->
-          <div class="box_pembahasan" style="margin-bottom: 4px; padding-bottom: 12px;">
-            1. Persamaan getaran harmonik y = 5 sin 0,25 \( \pi \) t. Jika y dalam cm dan t dalam sekon, hitunglah periode dan frekuensinya....
+          <!-- SOAL NO 1 -->
+          <div class="box_pembahasan box" style="margin-bottom: 4px; padding-bottom: 12px;">
+            1. Persamaan getaran harmonik y = 5 sin 0,25 \( \pi \) t. Hitunglah periode dan frekuensinya....
             <div class="opsi_pembahasan">
-              <div type="radio" name="presiden" id="jno1" class="jawaban_benar"> A. 0,125 Hz (Jawaban) <br></div>
-              <div type="radio" name="presiden" > B. 12,5 Hz <br></div>
-              <div type="radio" name="presiden" > C. 1,25 Hz <br></div>
-              <div type="radio" name="presiden" > D. 125 Hz <br></div>
-              <div type="radio" name="presiden" > E. 0,0125 Hz <br></div>
+              <div type="radio" name="presiden" id="jno1" class="jawaban_benar"> A. 8 s dan 0,125 Hz (Jawaban) <br></div>
+              <div type="radio" name="presiden" > B. 1/8 s dan 12,5 Hz <br></div>
+              <div type="radio" name="presiden" > C. 1/8 s dan 1,25 Hz <br></div>
+              <div type="radio" name="presiden" > D. 8 s dan 125 Hz <br></div>
+              <div type="radio" name="presiden" > E. 0,8 s dan 0,0125 Hz <br></div>
             </div>
-            <!-- ACCORDION CONTOH SOAL START -->
-            <div class="accordion-item accordion_pembahasan">
-              <h2 class="accordion-header" id="heading-1">
-                <button class="accordion-button button-pembahasan collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                  Pembahasan Nomor 1
+            <!-- ACCORDION pembahasan START -->
+            <div class="course-curriculum box p-0"><div class="accordion-item accordion_penjelasan">
+              <p class="accordion-header" id="heading-1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                  Pembahasan No 1
                 </button>
-              </h2><div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordion">
+              </p><div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordion">
                 <div class="accordion-body">
-                  <ul class="pt-sm-2"><p class ="mb-0 ml-0 mx-0" style="font-weight: 500; text-decoration: underline;">Contoh 1</p>
-                      <p class="mt-1 px-3 mb-0 definisi">Seorang peneliti ingin mengukur elastisitas suatu bahan. Dia memiliki seutas tali elastis dengan panjang awal 1 meter. Ketika dia menggantung beban 10 kg pada ujung tali, tali itu meregang hingga panjangnya 1,1 meter. Lalu, jika dia menggantung beban tambahan 5 kg pada tali yang sudah diberi beban sebelumnya, berapa panjang tali itu sekarang?<br>(g= 10 \( m/ s^2 \))</p>
-                      <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header border-3">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                              Pembahasan #1
-                            </button>
-                          </h2>
-                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                              <div class="definisi">
-                            <p clas="definisi" style="text-indent: 0;">Diketahui<br> \( m_1 \) = 10 Kg <br>\( m_2 \) = 5 Kg <br> \( L_0 \) = 1 m <br> \( L_1 \) = 1,1 m <br><p style="text-indent: 0;"> Ditanya: Panjang tali setelah diberi beban tambahan (\( L_2 \))</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;"> Kita memiliki informasi bahwa ketika beban 10 kg diterapkan pada tali, tali meregang hingga 1,1 meter dari panjang awal 1 meter. Ini adalah perubahan panjangnya:</p> \( \Delta L_1 \) = 1,1 - 1 = 0.1 m<br>Selanjutnya, kita ingin mengetahui perubahan panjang tambahan ketika beban tambahan 5 kg diterapkan.<br> \( \vec{F_2} = k . \Delta L_2 \) <br> dengan \( \vec{F_2} = m_2 . g \) <br> kita tahu bahwa \( \vec{F_2}\) = 5 kg . 10 \( m/ s^2 \) , sehingga <br>5 kg . 10 \( m/ s^2 \) = \(k . \Delta L_2 \) <br> 
-                            Sekarang kita memiliki dua persamaan yaitu <br><br>(1) \(k \) . 0,1 = 10 kg . 10 \( m/ s^2 \) <br>(2) \(k . \Delta L_2 \) = 5 kg x 10 \( m/ s^2 \)<br>
-                            Dari persamaan pertama, kita dapat menghitung nilai \(k \)<br> \(k = \frac{10 kg . 10 m/ s^2}{0,1}\) = 1000 \(N/m \)<br> Sekarang, kita dapat menggunakan nilai \(k \) untuk menghitung \( \Delta L_2 \) pada persamaan ke-2 <br> \( \Delta L_2 \) = \( \frac {5 kg . 10 m/ s^2 }{1000 N/m }\) = 0,05 \(m \) <br><br> Jadi, ketika beban tambahan 5 kg diterapkan pada tali yang sudah diberi beban sebelumnya, panjang tali itu akan meregang sekitar 5 cm. Panjang tali setelah beban tambahan adalah: <br> 1,1 + 0,5 = 1,15 \(m \) <p style="text-indent: 0; margin-top: 5px;">Jadi, panjang tali setelah beban tambahan adalah 1,15 \(m \)</p>
-                            </p>
-                          </div>
-                            </div>
-                          </div>
-                        </div>
+                  <ul class="pt-sm-2">
+                    
+                      
+                        <div class="definisi kalimat px-3 penjelasan">
+                          <p class="">Diberikan persamaan getaran harmonik: <strong>y = 5 sin(0,25 π t)</strong></p>
+                          <p style="font-weight: 800;">Periode (T):</p>
+                          <p>Untuk menghitung periode, kita menggunakan rumus:</p>
+                          <p>\(T = \frac{2\pi}{\omega}\)</p>
+                          <p>Dimana ω = 0,25π rad/s</p>
+                          <p>\(T = \frac{2\pi}{0.25\pi/s }\) = 8 s</p>
+                          <p>Jadi, periode (T) dari getaran ini adalah 8 s.</p>
+                          <p style="font-weight: 700;">Frekuensi (f):</p>
+                          <p>Untuk menghitung frekuensi, kita menggunakan rumus:</p>
+                          <p>f = 1 / T</p>
+                          <p>f = 1 / 8 detik = 0,125 Hz</p>
+                          <p>Jadi, frekuensi (f) dari getaran ini adalah 0,125 Hz.</p>
+                      </div>
+                      
+                  </ul>
+                </div>
+                </div>
+                </div>
+              </div>
+              <!-- ACCORDION pembahasan end -->
+          </div>
+          <!-- SOAL NO 2 -->
+          <div class="box_pembahasan box" style="margin-bottom: 4px; padding-bottom: 12px;">
+            2. Sebuah partikel melakukan gerak harmonik sederhana dangan simpangan y = 0,2 sin 0,25πt . dimana y dan A berturut - turut adalah simpangan dan amplitude dalam satuan cm dan t adalah waktu dalam satuan SI, maka besar fase getaan partikel tersebut terhadap titik setimbangnya saat t = 2 detik adalah…
+            <div class="opsi_pembahasan">
+              <div type="radio" name="nomor2" id="jno2" class="jawaban_benar"> A. 0,25 (Jawaban)<br></div>
+              <div type="radio" name="nomor2"> B. 0,50<br></div>
+              <div type="radio" name="nomor2"> C. 1<br></div>
+              <div type="radio" name="nomor2"> D. 2<br></div>
+              <div type="radio" name="nomor2"> E. π<br></div>
+            </div>
+            <!-- ACCORDION pembahasan START -->
+            <div class="course-curriculum box p-0"><div class="accordion-item accordion_penjelasan">
+              <p class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                  Pembahasan No 2
+                </button>
+              </p><div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordion">
+                <div class="accordion-body">
+                  <ul class="pt-sm-2">
+                    <div class="definisi kalimat px-3 penjelasan">
+                      <p>2. Rumus simpangan:</p>
+                      <p>\(y = A \sin(2\pi ft) \quad \text{atau} \quad y = A \sin(2\pi \phi)\)</p>
+                      <p>Saat \(t = 2\) detik:</p>
+                      <p>\(y = 0,2 \sin(0,25\pi \cdot 2) = 0,2 \sin(0,5\pi)\)</p>
+                      <p>Mencari fase getaran:</p>
+                      <p>\(2\pi \phi = 0,5\pi\)</p>
+                      <p>\(\phi = 0,25\)</p>
                       </div>
                   </ul>
-                  
-                  
                 </div>
                 </div>
-            </div>
-            <!-- ACCORDION CONTOH SOAL START -->
-                
-                <p class="">Diberikan persamaan getaran harmonik: <strong>y = 5 sin(0,25 π t)</strong></p>
-                <p style="font-weight: 800;">Periode (T):</p>
-                <p>Untuk menghitung periode, kita menggunakan rumus:</p>
-                <p>\(T = \frac{2\pi}{\omega}\)</p>
-                <p>Dimana ω = 0,25π rad/s</p>
-                <p>\(T = \frac{2\pi}{0.25\pi/s }\) = 8 s</p>
-                <p>Jadi, periode (T) dari getaran ini adalah 8 s.</p>
-                <p style="font-weight: 700;">Frekuensi (f):</p>
-                <p>Untuk menghitung frekuensi, kita menggunakan rumus:</p>
-                <p>f = 1 / T</p>
-                <p>f = 1 / 8 detik = 0,125 Hz</p>
-                <p>Jadi, frekuensi (f) dari getaran ini adalah 0,125 Hz.</p>
-          
+                </div>
+              </div>
+              <!-- ACCORDION pembahasan end -->
           </div>
-          <!-- SOAL NO 1 -->
-          <div class="box" style="margin-bottom: 4px; padding-bottom: 12px;">
-          <label for="">
-            
-                
-                <p class="pertanyaan">1. Persamaan getaran harmonik y = 5 sin 0,25 \( \pi \) t. Jika y dalam cm dan t dalam sekon, hitunglah periode dan frekuensinya....</p>
-                <p class="jawaban_contoh01">Jawab:</p>
-                <p class="jawaban_contoh01">Diberikan persamaan getaran harmonik: <strong>y = 5 sin(0,25 π t)</strong></p>
-                
-                <p style="font-weight: 800;">Periode (T):</p>
-                <p>Untuk menghitung periode, kita menggunakan rumus:</p>
-                <p>\(T = \frac{2\pi}{\omega}\)</p>
-                <p>Dimana ω = 0,25π rad/s</p>
-                <p>\(T = \frac{2\pi}{0.25\pi/s }\)
-                  = 8 s</p>
-                <p>Jadi, periode (T) dari getaran ini adalah 8 s.</p>
 
-                <p style="font-weight: 700;">Frekuensi (f):</p>
-                <p>Untuk menghitung frekuensi, kita menggunakan rumus:</p>
-                <p>f = 1 / T</p>
-                <p>f = 1 / 8 detik = 0,125 Hz</p>
-                <p>Jadi, frekuensi (f) dari getaran ini adalah 0,125 Hz.</p>
-          </label>
-          </div>
           <!-- SOal No 2 -->
-          <div class="box" style="margin-bottom: 4px; padding-bottom: 12px;  font-size: 0.9rem;">
-            <label for="">
-            <p>2. Rumus simpangan:</p>
-            <p>\(y = A \sin(2\pi ft) \quad \text{atau} \quad y = A \sin(2\pi \phi)\)</p>
-
-            <p>Saat \(t = 2\) detik:</p>
-            <p>\(y = 0,2 \sin(0,25\pi \cdot 2) = 0,2 \sin(0,5\pi)\)</p>
-
-            <p>Mencari fase getaran:</p>
-            <p>\(2\pi \phi = 0,5\pi\)</p>
-            <p>\(\phi = 0,25\)</p>
-          </label>
-
-          </div>
           <!-- soal no 3 -->
           <div class="box" style="margin-bottom: 4px; padding-bottom: 12px; font-size: 0.9rem;">
-            <label for=""> <p>3. Diketahui Persamaan: \(y = \frac{1}{2}\sqrt{3}A\)</p>
+            <label for=""> 
+              <p>3. Diketahui Persamaan: \(y = \frac{1}{2}\sqrt{3}A\)</p>
               <p>Penyelesaian:</p>
               <p>\(y = A \sin(2\pi\phi)\)</p>
               <p>\(\frac{1}{2}\sqrt{3}A = A \sin(2\pi\phi)\)</p>
@@ -198,8 +179,6 @@
               <p>\(\phi = \frac{1}{6}\)</p>
               </label>
           </div>
-
-
           <!-- soal no 4 -->
           <div class="box" style="margin-bottom: 4px; padding-bottom: 12px; font-size: 0.9em;">
             <label for="">4. Pembahasan: <br>
