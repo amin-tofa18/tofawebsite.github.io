@@ -12,7 +12,24 @@
     justify-content: center;
     align-items: center;
   }
+
+ 
 }
+
+@media (min-width: 1199px) {
+  .materi_hooke,
+  .definisi {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  /* .definisi {
+    text-indent: 30px;
+  } */
+}
+
+
 
 @media (max-width: 991px) {
   .tambahan {
@@ -266,6 +283,10 @@
     display: inline-block;
     margin: auto;
   }
+  .bungkus_footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 /* dibawah 575 */
@@ -302,6 +323,9 @@
   .keterangan {
     font-size: 13px;
   }
+  .bungkus_footer {
+    display: block;
+  }
 }
 /* @media (max-width:476px) {
     .fun-facts-item img {
@@ -321,7 +345,13 @@
 /* dibawah 500px */
 /* samsung a20 pakai yang ini */
 @media (max-width: 500px) {
+  .bungkus_footer {
+    display: block;
+  }
   
+  .header-logo img {
+    width: 30px;
+  }
   .courses-section .section-title {
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
@@ -460,6 +490,17 @@
     gap: 5px;
   }
   .section-padding {
-    padding: 0;
+    padding: 0px;
   }
+
+  /* coba-coba */
+  /* .login-section{
+    margin-top: 20px;
+    background-color: var(--shadow);
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 20px 2px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  } */
 }

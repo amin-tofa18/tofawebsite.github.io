@@ -593,6 +593,11 @@ textarea.form-control {
   color: var(--black-70);
 }
 
+.header-logo img {
+  width: 30px;
+  padding-bottom: 20px;
+}
+
 .header-logo span {
   color: var(--main-color);
 }
@@ -662,9 +667,15 @@ textarea.form-control {
 
 /*------------------ 20. =footer ------------------*/
 .footer-top {
-  padding: 50px 0 20px;
+  padding: 30px 0 20px;
   border-top: 1px solid var(--border-color-2);
   justify-content: space-between;
+}
+
+.bungkus_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-item {
@@ -725,6 +736,8 @@ textarea.form-control {
 .footer-bottom p {
   font-size: 14px;
 }
+
+
 /*------------------ 21. =banner ------------------*/
 .banner-section {
   padding: 80px 0;
@@ -879,7 +892,7 @@ textarea.form-control {
 .testimonials-section .img-box {
   height: 150px;
   width: 150px;
-  background-color: var(--red-light);
+  background-color: var(--main-color);
   margin: 30px auto 50px;
 }
 
@@ -1373,7 +1386,7 @@ textarea.form-control {
 .materi img {
   display: block;
   margin: 20px auto;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 3px 3px solid hwb(214 96% 1%);
 }
 
@@ -1568,16 +1581,11 @@ textarea.form-control {
 /* =============
 SOAL STYLE
  ===========*/
- .penjelasan {
+
+
+.penjelasan {
   padding-left: 20px;
 }
-
-.opsi_pembahasan {
-  margin-left: 20px;
-
-}
-
-
 
 .opsi_pembahasan {
   margin-left: 20px;
@@ -1592,11 +1600,8 @@ SOAL STYLE
   color: var(--main-color);
 }
 
-.accordion_pembahasan .button-pembahasan {
-  padding: 8px 8px;
-  font-size: 14px;
-  color: var(--white);
-  background-color: transparent;
+.penjelasan p {
+  margin-bottom: 5px;
 }
 
 .soal {
