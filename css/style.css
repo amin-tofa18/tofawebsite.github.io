@@ -35,7 +35,7 @@
 
 /*----------------------01. =google fonts---------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;600;700&display=swap");
 /*------------------02. =Variables------------*/
 
 :root {
@@ -393,7 +393,6 @@ textarea.form-control {
   font-size: 14px;
   text-transform: capitalize;
   text-align: center;
-  
 }
 
 .breadcrumb-nav .breadcrumb-item * .breadcrumb-item::before,
@@ -737,7 +736,6 @@ textarea.form-control {
   font-size: 14px;
 }
 
-
 /*------------------ 21. =banner ------------------*/
 .banner-section {
   padding: 80px 0;
@@ -759,20 +757,16 @@ textarea.form-control {
 }
 /*------------------ 22. =fun facts section ------------------*/
 .tambahan {
-  
   justify-content: space-evenly;
   align-items: center;
 }
 
-
 .fun-facts-item {
-
   margin: 1px auto;
   padding: 15px 0;
   display: block;
   align-items: center;
   justify-content: center;
-  
 }
 
 .fun-facts-item img {
@@ -824,7 +818,6 @@ textarea.form-control {
 .courses-item {
   margin-bottom: 30px;
   position: relative;
-
 }
 
 .courses-item .img-box {
@@ -836,9 +829,7 @@ textarea.form-control {
 .courses-item .link {
   color: var(--black-70);
   display: inline-block;
-
 }
-
 
 .course-header.box {
   margin-bottom: 20px;
@@ -1060,9 +1051,8 @@ textarea.form-control {
 }
 .course-curriculum .accordion-body .kompetensi {
   display: flex;
-  border: 1px  var(--border-color-2);
+  border: 1px var(--border-color-2);
 }
-
 
 .course-curriculum .accordion-button span {
   position: absolute;
@@ -1391,7 +1381,7 @@ textarea.form-control {
 }
 
 .definisi {
-  font-family: 'roboto';
+  font-family: "roboto";
   /* color: hsl(0, 71%, 86%); */
   font-weight: 400;
   text-align: justify;
@@ -1428,7 +1418,6 @@ textarea.form-control {
   font-weight: 500;
   padding: 8px 20px;
   transition: all 0.3s ease;
-  
 }
 
 .tombol_baru:hover {
@@ -1452,15 +1441,12 @@ textarea.form-control {
   border: 1px solid black;
   padding: 20px;
   border-radius: 20px;
-
 }
 
-.soal {
-  margin-bottom: 15px;
-}
+
 
 /*---------- carousel coba-------------------------- */
-.slider{
+.slider {
   position: relative;
   margin-top: 20px;
   width: 100%;
@@ -1471,7 +1457,7 @@ textarea.form-control {
   align-items: center;
   background-color: var();
 }
-.item{
+.item {
   /* display: flex; */
   position: absolute;
   width: 800px;
@@ -1482,14 +1468,14 @@ textarea.form-control {
   border-radius: 10px;
   box-shadow: var(--shadow);
   padding: 20px;
-  transition:  0.5s;
+  transition: 0.5s;
   /* left: calc(50% - 110px); */
   top: 0;
   border: 1px solid var(--main-color);
 }
 .carousel-ku {
- display: grid;
- grid-template-columns: 40% auto;
+  display: grid;
+  grid-template-columns: 40% auto;
 }
 
 .carousel-ku img {
@@ -1504,19 +1490,20 @@ textarea.form-control {
 .item h1 {
   text-align: center;
 }
-#next{
+#next {
   position: absolute;
   right: 50px;
   top: 40%;
   z-index: 5;
 }
-#prev{
+#prev {
   position: absolute;
   left: 50px;
   top: 40%;
   z-index: 5;
 }
-#prev, #next{
+#prev,
+#next {
   color: var(--main-color);
   background: none;
   border: none;
@@ -1527,10 +1514,9 @@ textarea.form-control {
   transition: opacity 0.5s;
 }
 #prev:hover,
-#next:hover{
+#next:hover {
   opacity: 1;
 }
-
 
 .login-form.box {
   margin-top: 15px;
@@ -1582,6 +1568,9 @@ textarea.form-control {
 SOAL STYLE
  ===========*/
 
+ .soal {
+  margin-bottom: 15px;
+}
 
 .penjelasan {
   padding-left: 20px;
@@ -1589,7 +1578,6 @@ SOAL STYLE
 
 .opsi_pembahasan {
   margin-left: 20px;
-
 }
 
 .opsi_pembahasan div {
@@ -1607,12 +1595,17 @@ SOAL STYLE
 .soal {
   padding: 10px 10px 0 10px;
   text-align: justify;
-  font-weight: 300;
+  font-weight: 400;
 }
+.pembungkus_soal {
+  display: grid;
+  grid-template-columns: 20px auto;
+}
+
 .opsi {
   margin: 10px;
-  margin-top: 0;
-  margin-left: 20px;
+  margin-top: -20px;
+  margin-left: 30px;
 }
 
 .opsi input {
@@ -1639,7 +1632,7 @@ SOAL STYLE
 
 .accordion-body {
   padding: 0;
-  margin:2px;
+  margin: 2px;
 }
 .jawaban_contoh01 {
   margin-left: 1rem;
@@ -1647,67 +1640,70 @@ SOAL STYLE
 /*==========
  TYPOGRAPY 
 ============*/
+.judul_subBab {
+  font-size: 24px;
+  color: var(--main-color);
+}
 
 .kalimat {
-  text-align:justify;
-  }
-  
-  .kalimat_utama {
-    text-align: justify;
-    text-indent: 25px;
-  }
-  
-  .definisi {
-    font-family: 'roboto';
-    font-weight: 400;
-    text-align: justify;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .keterangan {
-    font-family: 'Roboto mono', monospace;
-    margin-left: 1rem;
-    margin-bottom: 1em;
-    font-size: 16px;
-  }
-  
-  .persamaan {
-    font-family: 'Roboto mono', monospace;
-    font-size: 18px;
-    width: 200px;
-    border: 1px solid var(--main-color);
-    box-shadow: 3px 3px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    margin: 20px auto;
-    padding: 18px;
-    border-radius: 20px;
-    position: relative;
-  }
-  
-  .persamaan_panjang {
-    display: flex;
-    width: auto;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 3px 3px solid var(--main-color);
-    height: auto;
-    
-  }
-  
-  .bungkus_persamaan {
-    padding: 10px;
-    margin: 1px auto;
-    position: relative;
-    width: auto;
-    height: auto;
-    border: 1px solid var(--main-color);
-    border-radius: 20px;
-    box-sizing: border-box;
-  }
+  text-align: justify;
+}
+
+.kalimat_utama {
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.definisi {
+  font-family: "roboto";
+  font-weight: 400;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.keterangan {
+  font-family: "Roboto mono", monospace;
+  margin-left: 1rem;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
+.persamaan {
+  font-family: "Roboto mono", monospace;
+  font-size: 18px;
+  width: 200px;
+  border: 1px solid var(--main-color);
+  box-shadow: 3px 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin: 20px auto;
+  padding: 18px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.persamaan_panjang {
+  display: flex;
+  width: auto;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 3px 3px solid var(--main-color);
+  height: auto;
+}
+
+.bungkus_persamaan {
+  padding: 10px;
+  margin: 1px auto;
+  position: relative;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--main-color);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
 
 /* ===============
 =========Pada Laman Penerapan========
@@ -1729,7 +1725,7 @@ SOAL STYLE
 }
 
 .bandul_grid {
-background-color: var(--white);
+  background-color: var(--white);
   display: grid;
   width: 100%;
   /* grid-template-columns: 1fr 2fr; */
@@ -1742,9 +1738,9 @@ background-color: var(--white);
 }
 
 .bandul_grid img {
- justify-content: center;
- align-items: center;
- width: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .definisi .gambarPegas {
@@ -1753,7 +1749,7 @@ background-color: var(--white);
 
 /* KI dan KD */
 
-.accordion-body2 .kompetensi{
+.accordion-body2 .kompetensi {
   border: 1px solid var(--border-color-2);
   display: grid;
   grid-template-columns: 60px auto;
@@ -1764,31 +1760,28 @@ background-color: var(--white);
   padding: 10px 20px;
 }
 
-
 .kompetensi_3 {
   /* background-color: aqua; */
   border: 1px solid var(--border-color-2);
   display: grid;
   grid-template-columns: 1fr 10fr;
-
 }
 .kompetensiDasar_3 {
   /* background-color: aqua; */
   border: 1px solid var(--border-color-2);
   display: grid;
   grid-template-columns: 1fr 10fr;
-
 }
 
 .kompetensi_nomor {
   /* background-color: antiquewhite; */
 
   border: 1px solid var(--border-color-2);
- 
- display: flex;
- justify-content: center;
- align-items: center;
- border-right: 1px solid var(--border-color-2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--border-color-2);
 }
 
 .kompetensi_inti1 {
@@ -1800,7 +1793,7 @@ background-color: var(--white);
 .kompetensi {
   text-align: justify;
 }
-.kompetensi li{
+.kompetensi li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1863,7 +1856,7 @@ background-color: var(--white);
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
 }
 .container_foto .card_foto:hover {
@@ -1877,7 +1870,7 @@ background-color: var(--white);
   top: -60px;
   left: 4px;
   z-index: 1;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container_foto .card_foto .imgBx img {
@@ -1896,13 +1889,91 @@ background-color: var(--white);
   transition: 0.3s ease-in-out;
 }
 
-.container_foto .card_foto:hover .content{
+.container_foto .card_foto:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
   transition-delay: 0.3s;
 }
 
+/* PADA LAMAM ENERGI */
+.gambar_energi { 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.gambar_energi img {
+  width: 400px;
+  margin: 5px auto;
+  border-radius: 3px;
+}
+
+.atau {
+  color: var(--main-color);
+}
+
+.penjelasan_animasi {
+  display: grid;
+  grid-template-columns: 20px auto;
+  margin-bottom: 0.4rem;
+}
+
+.penjelasan_proses {
+  text-align: justify;
+}
+.jawaban_energi {
+  display: grid;
+  grid-template-columns: 20px auto;
+  margin-bottom: 0.4rem;
+  padding: 5px 3px;
+  text-align: justify;
+}
+.nomor_contoh {
+  margin-top: 3px;
+}
 
 
+/* CONTOH PENERAPAN DI PENDAHULUAN */
+.bungkus_contoh {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+  font-size: 14px;
+  margin-bottom: 20px;
+}
 
+.contoh_1 {
+  font-weight: 500;
+  flex-grow: 1;
+  flex-basis: 300px;
+  text-align: center;
+  border-bottom: 1px solid var(--main-color);
+  border-radius: 3px;
+}
+
+.contoh_2 {
+  font-weight: 500;
+  flex-grow: 1;
+  flex-basis: 300px;
+  text-align: center;
+  border-bottom: 1px solid var(--main-color);
+  border-radius: 3px;
+}
+
+.contoh_2 img {
+  width: 85%;
+}
+
+.contoh_3 {
+  font-weight: 500;
+  flex-grow: 1;
+  flex-basis: 300px;
+  text-align: center;
+  border-bottom: 1px solid var(--main-color);
+  border-radius: 3px;
+}
+
+.contoh_3 img {
+  width: 70%;
+}
