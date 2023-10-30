@@ -1637,6 +1637,13 @@ SOAL STYLE
 .jawaban_contoh01 {
   margin-left: 1rem;
 }
+
+/* PADA LAMAN NOTES DI BESARAN-BESARAN */
+.soal_periode p{
+  margin-bottom: 3px;
+  margin-left: 16px;
+}
+
 /*==========
  TYPOGRAPY 
 ============*/
@@ -1705,6 +1712,13 @@ SOAL STYLE
   box-sizing: border-box;
 }
 
+.head-simpangan {
+  text-align: center;
+  font-size: 1.7rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
 /* ===============
 =========Pada Laman Penerapan========
 ================== */
@@ -1734,19 +1748,39 @@ SOAL STYLE
 
 .bandul_grid p {
   margin: auto;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .bandul_grid img {
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 55%;
 }
 
 .definisi .gambarPegas {
   width: 400px;
 }
 
+.pembahasan-pegas {
+  padding: 3px 15px;
+}
+
+.pembahasan-pegas img {
+  width: 300px;
+}
+
+
+.persamaan-pegas {
+  color: var(--main-color);
+}
+
+.besarin {
+  font-size: 16px;
+}
+
+.besarin-2 {
+  font-size: 18px;
+}
 /* KI dan KD */
 
 .accordion-body2 .kompetensi {
@@ -1931,6 +1965,10 @@ SOAL STYLE
 .nomor_contoh {
   margin-top: 3px;
 }
+.padding-energi {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 /* CONTOH PENERAPAN DI PENDAHULUAN */
@@ -1976,4 +2014,50 @@ SOAL STYLE
 
 .contoh_3 img {
   width: 70%;
+}
+
+/* PER FASE AN DUNIAWI */
+.fase {
+  display: flex;
+  justify-content: center;
+}
+.fase img {
+  width: 450px;
+  margin: 3px auto;
+}
+
+.contoh_fase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contoh_fase img{
+  width: 550px;
+  margin-bottom: 10px;
+}
+
+.penjelasan_fase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.penjelasan_fase div {
+  border: 3px solid var(--main-color);
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.penjelasan_fase section {
+  border-top: 1px solid var(--main-color);
+}
+
+.titik_a, .titik_b, .titik_c, .titik_d, .titik_e, .titik_f, .titik_g, .titik_h, .titik_i {
+  text-align: center;
+}
+.bungkus_fase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.jawaban_fase {
+  margin: 0 16px 0 16px;
 }

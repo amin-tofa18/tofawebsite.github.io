@@ -108,11 +108,13 @@
       </div>
       <!--breadcrumb end-->
 
+
+      <!-- PEGAS START -->
       <!-- log in section start -->
       <section class="login-section section-padding">
         <div class="container">
           <div class="materi box mb-3">
-            <h3 style="text-align: center">Getaran Selaras Pada Pegas</h3>
+            <h3 style="text-align: center">Gerak Harmonik Sederhana Pada Pegas</h3>
             <div class="definisi">
               <!-- Pegas Start -->
               <p class="kalimat_utama definisi">
@@ -126,53 +128,164 @@
               <p>\( \frac{d^2x}{dt^2}  = - \frac{k}{m}x\)</p> 
               </div>
               <p>Salah satu solusi dari persamaan diatas yaitu 
-              \( x = A \ cos \ (\omega t + \phi)\)
+              \( x = A \ cos \ (\omega t + \theta_0)\)
               Jika x diturunkan dua kali terhadap waktu maka diperoleh</p>
-              <p class="rumus">\( \frac{d^2x}{dt^2} = - \omega^2 A \cos \ (\omega t + \phi) \) </p>
+              <p class="rumus">\( \frac{d^2x}{dt^2} = - \omega^2 A \cos \ (\omega t + \theta_0) \) </p>
                Sehingga jika disubstitusikan pada persamaan gaya pada setaran selaras diperoleh 
               <p class="rumus">\( - \omega^2 A \cos \ (\omega t + \phi)  = - \frac{k}{m} A \ cos \ (\omega t + \phi)\)</p> <p>Maka diperoleh persamaan untuk \( \omega \) (kecepatan sudut) yaitu:</p>
               <p class="rumus">\( \omega^2 = \frac{k}{m} \)
               atau \( \omega = \sqrt \frac{k}{m} \)</p>
-              <p> Jika \( x = A \ cos \ (\omega t + \phi)\) dijumlahkan dengan \( \frac{2 \pi}{\omega} \)maka persamaannya menjadi 
-              <div class="rumus">
-                <p>\( x = A \ cos \ [\omega (t+ \frac{2 \pi} {\omega}) + \phi]\)</p>
-                <p>\( x = A \ cos \ (\omega t+ 2 \pi + \phi)\)</p>
-                <p>\( x = A \ cos \ (\omega t + \pi)\)</p> 
-              </div>
-              Tampak bahwa persamaan tersebut berulang kembali setelah waktu \( \frac{2 \pi}{\omega} \). Oleh karena itu \( \frac{2 \pi}{\omega} \) adalah periode geraknya (T). Karena \( \omega^2 = \frac{k}{m} \) maka diperoleh: 
-              <p class="rumus">\( T = \frac{2 \pi}{\omega} = 2 \pi \sqrt \frac{m}{k} \)</p> Persamaan frekuensi untuk getaran pada pegas yaitu
+              <p>Jika hubungan antara \( \omega \), frekuensi (f) dan periode T pada pembahasan sebelumnya memenuhi \( \omega = 2 \pi \ f \) dan \( \omega = \frac {2 \pi}{T} \) maka pada sistem pegas-massa hubungan tersebut dapat dituliskan sebagai berikut </p> 
+              <p class="rumus">\( T = \frac{2 \pi}{\omega} = 2 \pi \sqrt \frac{m}{k} \)</p> Sedangkan persamaan frekuensinya
               <p class="rumus">\( f = \frac {1}{T} = \frac {1}{2 \pi} \sqrt \frac {k}{m} \)</p>
             </div>
-              <!-- Pegas End -->
+              <!-- CONTOH SOAL ENERGI START-->
+              <div class="course-curriculum">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                      Contoh soal
+                    </button>
+                  </h2><div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                      <ul class="pt-sm-2">
+                        <p class ="contoh_pengertian" style="font-weight: 500; text-decoration: underline; margin-left: 1rem;">Contoh 1</p>
+                          <p class="mt-1 px-3 mb-0 definisi">Pegas dengan konstanta 250 N/m dihubungkan dengan benda bermassa 2,5 kg diatas bidang licin. Pada saat t = 0 benda berada sejauh 4 cm disumbu x positif dan memiliki laju 0,4 m/s kearah sumbu x negatif. Tentukan posisi benda setiap saat dalam fungsi cosinus!</p>
+                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header border-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Pembahasan
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  <div class="definisi">
+                                    <!-- jawaban contoh -->
+                                    <div class="pembahasan-pegas">
+                                      <p> Diketahui: </p>
+                                    <p>k = 250 N/m </p>
+                                    <p>m = 2,5 kg </p>
+                                    <p>t = 0 </p>
+                                    <p>\( x_0 = 4 \ cm \) &#8594; \( x_0 = 0,04 \ m \) (dari nilai x inii dapat diketahui bahwa benda mula-mula tidak pada posisi setimbangnya.)</p>
+                                    <p>\( v_0 = -0,4 \ m/s \) (tanda negatif mengartikan laju benda memiliki arah yang berlawanan dengan simpangan) </p>
+                                    <P>Kasus diatas dapat digambarkan sebagai berikut</P>
+                                      <img src="img/materi/contoh-pegas-massa.PNG" alt="">
+                                      <p>Ditanya : Posisi benda setiap saat dalam fungsi cosinus</p>
+                                      <p>Jawab: \( x(t) = A \ cos (\omega t + \theta_0)\)</p>
+                                      <p>Penyelesaian:</p>
+                                      <p>Gerkak harmonik pada pegas massa memberikan : \( \omega = \sqrt{\frac {k}{m}} \)</p>
+                                      <p>\( \omega = \sqrt{\frac {250}{2,5}} = 10 \ rad/s\)</p>
+                                      <p>t = 0 &#8594; \( x_0 = A \ cos \ \theta_0 \) <span class="persamaan-pegas"> (persamaan 1)</span></p>
+                                      <p>Kecepatan benda tersebut: </p>
+                                      <p>\( v = \frac{d_x}{d_t} = - \omega \ A \ sin (\omega \ t + \theta_0)  \) </p>
+                                      <p>t = 0 &#8594; \( v_0 = \frac{d_x}{d_t} = - \omega \ A \ sin (\theta_0)  \) <span class="persamaan-pegas"> (persamaan 2)</span></p>
+                                      <p>Nilai \( \theta_0 \) dapat diketahui dengan membagi persamaan 1 dengan persamaan 2 </p>
+                                      <p>\( \frac{v_0}{x_0} = \frac {- \omega \ A \ sin  \theta_0}{A \ cos \ \theta_0} \) &#8594; \( \frac{v_0}{x_0} = - \omega \ tan \theta_0 \)</p> 
+                                      <p>\( tan \ \theta_0 = - \frac {v_0}{\omega \ x_0} = - \frac{(-0,4)}{10(0,04)} = 1\)</p>
+                                      <p>Sehingga nilai \( \theta_0 = \frac{\pi}{4} \ , \frac {5 \pi}{4}  \)</p>
+                                      <p>Dari persamaan 1 : \( x_0 = A \ cos \ \theta_0 > 0 \) Sehingga \( \theta_0 \) haruslah \( \frac {\pi}{4} \)</p>
+                                      <p>Dari persamaan 1 : A = <span class="besarin"> \(  \frac{x_0}{ cos \ \omega_0}\)</span> \(= 4 \sqrt{2} \ cm \) </p>
+                                      <p>Sehingga posisi benda setiap saat dalam fungsi cosinus memenuhi \( x(t) = 4 \sqrt{2} \ cos \ (10t + \frac{\pi}{4} ) \ cm \) </p>
+                                  </div>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </ul>
+                    </div>
+                    </div>
+                </div>
+              </div>
             </div>
+
+            <!-- PEGAS END -->
 
 
             <!-- BANDUL START -->
             <div class="materi box mb-3">
-              <h3 class="text-center">Getaran Selaras Pada Bandul</h3>
+              <h3 class="text-center">Gerak Harmonik Sederhana Pada Bandul</h3>
               <div class="definisi">
               <div class="bandul_21">
-              <img class="bandul_2" src="img/materi/bandul_2.gif" style="width: 300px; "></img>
               </div>
-              <p class="kalimat_utama definisi">Bandul sederhana adalah benda ideal yang terdiri dari sebuah titik massa, yang digantungkan pada tali ringan yang tidak dapat mulur. Jika bandul diberikan simpangan ke arah samping dari posisi setimbangnya, maka bandul akan berayun dalam bidang vertikal karena pengaruh gaya gravitasi </p>
-
-             
-
-
+              <p class="kalimat_utama definisi">Bandul atau pendulum merupakan suatu benda ideal yang terdiri dari sebuah titik massa, yang digantungkan pada tali ringan yang tidak dapat mulur. Jika bandul diberikan simpangan ke arah samping dari posisi setimbangnya, maka bandul akan berayun dalam bidang vertikal karena pengaruh gaya gravitasi. Dalam gerak harmonik sederhana bandul yang diberikan simpangan akan bergerak bolak-balik secara terus menerus tanpa henti karena tidak dipengaruhi gaya eksternal. </p>
               <div class="bandul_grid">
-              <img src="img/materi/bandul.png"></img>
-              <p class="kalimat_utama definisi"> Gambar tersebut menunjukkan sebuah bandul yang panjangnya l dengan massa beban yaitu m, membentuk sudut \( \theta \) terhadap sumbu Y. Gaya \( F \) yang bekerja pada beban adalah \( mg \) dengan T adalah tegangan tali. gaya pemulih pada bandul yaitu \( F = -mg \ sin \ \theta \). 
-              Perhatikan bahwa gaya pemulih ini tidaklah sebanding dengan simpangan sudut \( \theta \), melainkan dengan \( sin \ \theta \). Tetapi jika sudut \(\theta\) kecil, maka \( sin \theta \) hampir sama dengan \(\theta\). Maka diperoleh </p>
+              <img src="img/materi/bandul-fix.png"></img>
+              <p class="kalimat_utama definisi"> Gambar tersebut menunjukkan sebuah bandul yang panjangnya L dengan massa beban yaitu m, membentuk sudut \( \theta \) terhadap sumbu Y. Gaya \( F \) yang bekerja pada beban adalah \( mg \) dengan \( F_T \) adalah tegangan tali. gaya pemulih pada bandul yaitu \( F = -mg \ sin \ \theta \). 
+              Perhatikan bahwa gaya pemulih ini tidaklah sebanding dengan simpangan sudut \( \theta \), melainkan dengan \( sin \ \theta \). Tetapi jika sudut \(\theta\) kecil, maka \( sin \theta \) dianggap sama dengan \(\theta\). Maka diperoleh </p>
               </div>
-              <p class="rumus"> \( F = -mg \theta = - mg \frac{x}{l} = -( \frac{mg}{l} ) x \)</p>
+              <p class="rumus"> \( F = -mg \theta = - mg \frac{x}{l} = -( \frac{mg}{L} ) x \)</p>
               
-            <p>Konstanta \( (\frac{mg}{l}) \) adalah konstanta \(k\) dalam \( F=-kx \). Sehingga periode bandul jika amplitudonya kecil adalah </p>
+            <p>Konstanta \( (\frac{mg}{L}) \) adalah konstanta \(k\) dalam \( F=-kx \). Sehingga periode bandul jika amplitudonya kecil adalah </p>
             <div class="rumus">
-            <p> \( T = 2 \pi \sqrt \frac{m}{k} = 2 \pi \sqrt \frac {m}{\frac {mg}{l}}  \)</p> atau 
-            <p>\( T = 2 \pi \sqrt \frac{l}{g} \)</p>
+            <p> \( T = 2 \pi \sqrt \frac{m}{k} \) = <span class="besarin-2"> \( 2 \pi \sqrt \frac {m}{\frac {mg}{L}}  \)</span></p> atau 
+            <p>\( T = 2 \pi \sqrt \frac{L}{g} \)</p>
           </div>
              Berdasarkan persamaan periode diatas maka persamaan frekuensi getaran pada bandul memenuhi
-            <p class="rumus">\( f = \frac {1}{T} = \frac {1}{2 \pi} \sqrt \frac {g}{l} \)</p>
+            <p class="rumus">\( f = \frac {1}{T} = \frac {1}{2 \pi} \sqrt \frac {g}{L} \)</p>
+          </div>
+          <!-- CONTOH SOAL ENERGI START-->
+          <div class="course-curriculum">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                  Contoh soal
+                </button>
+              </h2><div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordion">
+                <div class="accordion-body">
+                  <ul class="pt-sm-2">
+                    <p class ="contoh_pengertian" style="font-weight: 500; text-decoration: underline; margin-left: 1rem;">Contoh 1</p>
+                      <p class="mt-1 px-3 mb-0 definisi">Sebuah ayunan sederhana, panjang tali 100 cm massa benda 100 gram, percepatan gravitasi 10 \( m/s^2\). Kedudukan tertinggi 20 cm dari titik terendah. Maka kecepatan berayunnya pada titik terendah adalah ... m/s
+                    </p>
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header border-3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                              Pembahasan
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body padding-energi">
+                              <div class="jdefinisi">
+                                <!-- jawaban contoh a -->
+                                
+                                <div class="penjelasan_energi definisi">
+                                  <p>Untuk menghitung kecepatan benda pada titik terendah ayunan sederhana, kita dapat menggunakan energi mekanik. Pada kedudukan tertinggi, energi potensial maksimum diubah menjadi energi kinetik maksimum saat benda mencapai titik terendah.</p>
+                                    <p>Diketahui:</p>
+                                    <ul>
+                                      <li>Panjang tali (L) = 100 cm = 1 meter</li>
+                                      <li>Massa benda (m) = 100 gram = 0.1 kg</li>
+                                      <li>Percepatan gravitasi (g) = 10 m/s<sup>2</sup></li>
+                                      <li>Kedudukan tertinggi (h) = 20 cm = 0.2 meter</li>
+                                    </ul>
+                                    <p>Energi potensial maksimum (\( E_p\)) di kedudukan tertinggi:</p>
+                                    <p>\( E_p\) = mgh</p>
+                                    <p>\( E_p\) = 0.1 . 10 . 0.2</p>
+                                    <p>\( E_p\) = 0.2 Joule</p>
+                                    <p>Energi kinetik maksimum ( \( E_k \)) di titik terendah adalah sama dengan energi potensial maksimum:</p>
+                                    <p>\( E_k \) = \( E_p\)</p>
+                                    <p>\( E_k \) = 0.2 Joule</p>
+                                    <p>Kemudian, kita gunakan rumus energi kinetik untuk menghitung kecepatan (v) pada titik terendah:</p>
+                                    <p>\( E_k \) = 1/2 . m \( v^2 \)</p>
+                                    <p>0.2 = 1/2 . 0.1 . \( v^2 \)</p>
+                                    <p>0.2 = 0.05 . \( v^2 \)</p>
+                                    <p>Kemudian, untuk mendapatkan v, kita bagi kedua sisi dengan 0.05 dan mengakarkan hasilnya:</p>
+                                    <p>\( v^2 \) = 0.2 / 0.05 = 4</p>
+                                    <p>\( v \) = \( \sqrt(4) \)= 2</p>
+                                    <p>Jadi, kecepatan benda pada titik terendah adalah 2 m/s.</p>
+                                </div>
+                                
+                                    
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  </ul>
+                </div>
+                </div>
+            </div>
           </div>
           </div>
             

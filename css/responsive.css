@@ -13,6 +13,7 @@
     align-items: center;
   }
 
+
  
 }
 
@@ -24,6 +25,7 @@
     font-weight: 400;
   }
 
+
   /* .definisi {
     text-indent: 30px;
   } */
@@ -32,6 +34,9 @@
 
 
 @media (max-width: 991px) {
+  .bandul_grid img {
+    width: 60%;
+  }
   .tambahan {
     justify-content: center;
     align-items: center;
@@ -218,6 +223,8 @@
 }
 
 @media (max-width: 767px) {
+
+
   .container {
     --bs-gutter-x: 15px;
   }
@@ -287,6 +294,9 @@
     display: flex;
     justify-content: space-evenly;
   }
+  .bandul_grid {
+    display: block;
+  }
 }
 
 /* dibawah 575 */
@@ -326,6 +336,9 @@
   .bungkus_footer {
     display: block;
   }
+  .bandul_grid {
+    display: block;
+  }
 }
 /* @media (max-width:476px) {
     .fun-facts-item img {
@@ -344,7 +357,7 @@
 
 /* dibawah 500px */
 /* samsung a20 pakai yang ini */
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .bungkus_footer {
     display: block;
   }
@@ -444,6 +457,10 @@
     margin-bottom: 5px;
   }
 
+.bandul_grid {
+  display: block;
+}
+
   .bandul_grid img {
     width: 200px;
   }
@@ -523,6 +540,25 @@
   margin-bottom: 5px;
 }
 
+/* PER FASE AN */
+.fase img {
+  width: 300px;
+}
+
+.accordion-body .jawaban_fase p{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.titik_a, .titik_b, .titik_c, .titik_d, .titik_e, .titik_f, .titik_g, .titik_h, .titik_i {
+  text-align: center;
+  font-size: 12px;
+}
+
+.penjelasan_fase {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+}
 
 /* BUTTON SOAL */
 .periksa_jawaban {
