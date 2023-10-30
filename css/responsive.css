@@ -369,7 +369,18 @@
 
 /* dibawah 500px */
 /* samsung a20 pakai yang ini */
-@media (max-width: 550px) {
+@media (max-width: 767px) {
+  .banner-text p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footer-item ul a {
+  font-size: 14px;
+  }
+
+  .footer-item {
+    text-align: center;
+  }
   .bungkus_footer {
     display: block;
   }

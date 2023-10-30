@@ -1647,6 +1647,13 @@ SOAL STYLE
 /*==========
  TYPOGRAPY 
 ============*/
+
+
+
+.judul_notes {
+  font-size: 20px;
+  color: var(--main-color);
+}
 .judul_subBab {
   font-size: 24px;
   color: var(--main-color);
