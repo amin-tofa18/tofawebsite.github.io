@@ -370,6 +370,13 @@
 /* dibawah 500px */
 /* samsung a20 pakai yang ini */
 @media (max-width: 767px) {
+
+  .mekanik {
+
+    font-size: 11px;
+
+
+  }
   .banner-text p {
     font-size: 14px;
     font-weight: 400;
