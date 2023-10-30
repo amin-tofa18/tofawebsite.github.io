@@ -233,6 +233,18 @@
     padding: 20px 15px;
   }
 
+  .definisi {
+    font-size: 12px;
+  }
+  .box_pembahasan {
+    padding: 5px;
+  }
+
+  .opsi_pembahasan, .penjelasan_1 {
+    font-size: 14px;
+  }
+  
+
   .banner-text h1 {
     font-size: 24px;
   }
