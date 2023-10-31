@@ -370,12 +370,13 @@
 /* dibawah 500px */
 /* samsung a20 pakai yang ini */
 @media (max-width: 767px) {
+  
 
+  .instruksi {
+    font-size: 9px;
+  }
   .mekanik {
-
     font-size: 11px;
-
-
   }
   .banner-text p {
     font-size: 14px;
@@ -434,6 +435,11 @@
   .persamaan,
   .persamaan_panjang {
     font-size: 14px;
+  }
+
+  .penjelasan_proses {
+    font-size: 14px;
+    font-family: sans-serif;
   }
 
 .soal,

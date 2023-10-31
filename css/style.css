@@ -1647,8 +1647,14 @@ SOAL STYLE
 /*==========
  TYPOGRAPY 
 ============*/
-
-
+.nav-link {
+  text-align: start;
+}
+.instruksi {
+  margin-top: -20px;
+  font-style: italic;
+  font-size: 11px;
+}
 
 .judul_notes {
   font-size: 20px;
@@ -2020,7 +2026,7 @@ SOAL STYLE
 }
 
 .contoh_3 img {
-  width: 70%;
+  width: 85%;
 }
 
 /* PER FASE AN DUNIAWI */
