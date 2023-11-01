@@ -2074,3 +2074,12 @@ SOAL STYLE
 .jawaban_fase {
   margin: 0 16px 0 16px;
 }
+
+/* PERMODALAN DUNIAWI */
+
+
+/* POPOVER */
+.accordion-button:hover {
+  background-color: var(--main-color);
+  transition: 0.2s ease;
+}

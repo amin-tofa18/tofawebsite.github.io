@@ -284,4 +284,3 @@ prev.onclick = function () {
 };
 
 // ------------------notes app----------------
-
