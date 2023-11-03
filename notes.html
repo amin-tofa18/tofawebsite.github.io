@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <meta charset="utf-8" />
-    <title>Tambahkan Catatan ff</title>
+    <title>GERAK HARMONIK SEDERHANA</title>
     <link rel="stylesheet" href="css/notes.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css"/>
@@ -115,7 +115,7 @@
                         <!--course curriculum start-->
                         <div class="tab-pane fade show active" id="course-curriculum" role="tabpanel" aria-labelledby="course-curriculum--tab"> 
                           <div class="course-curriculum box">
-                              <h3 class="text-capitalize mb-4 text-center">PENGERTIAN</h3>
+                              <h3 class="text-capitalize mb-4 text-center judul_subBab">PENGERTIAN</h3>
                               <div class="definisi">
                               <div class="kalimat_utama definisi"> Gerak Harmonik dapat didefinisikan sebagai gerak benda secara bolak balik yang melewati titik setimbangnya. Gerak Harmonik Sederhana dapat didefinisikan sebagai gerak harmonik yang tidak dipengaruhi gaya gesek sehingga seluruh faktor yang mempengaruhi gerak harmonik sederhana tidak berubah. Sehingga akan bergerak bolak-balik secara terus menerus tanpa henti. Untuk membuat benda mampu bergerak secara harmonik maka diperlukan gaya yang menarik benda tersebut ke arah posisi setimbang. Perhatikan gambar berikut:<br> 
                                 <div class="gambar_pengertian">
@@ -510,13 +510,21 @@
                               </div>
                               <div class="kalimat definisi">Gambar diatas menunjukkan benda yang memiliki simpangan dengan besar simpangan tersebut yaitu Y. Persamaan simpangan Y ditinjau dari titik setimbangnya memenuhi :<br></div>
                                 <div class="login-form box">
-                                  <div class="persamaan definisi">\( Y = A \ sin\ ({\omega t} + { \theta_0} ) \) </div>
+                                  <div class="persamaan definisi">\( Y (t) = A \ sin\ ({\omega t} + { \theta_0} ) \) </div>
                                   <div class="keterangan kalimat definisi">Keterangan:<br>
                                     Y = simpangan getaran<br>A = Amplitudo<br>
                                       t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran (rad/s)
                                     </div>
                                   </div>
-                              
+                              <div class="kalimat definisi">
+                                Persamaan simpangan diatas merupakan persamaan simpangan yang ditinjau dari sumbu y. Untuk dapat menentukan simpangan yang ditinjau dari sumbu x perhatikan gambar berikut:
+                              </div>
+                              <div class="pegas_x">
+                              <img src="img/animasi/sumbu_x.jpg"> 
+                              </div>
+                              <div class="kalimat definisi">
+                                Titik P merupakan proyeksi titik Q terhadap sumbu x sehingga besarnya jarak antara pusat keseimbangan dan titik P adalah x(t) yang besarnya \( x(t) = A \ cos \ ( \omega \ t + \theta_0) \)
+                              </div>
                                 
                             <!-- kecepatan getaran saat simpangan -->
                             <h3>b. Kecepatan Gerak Harmonik Sederhana Saat Simpangannya Y (vy)</h3>
@@ -530,6 +538,9 @@
                                     <p style="font-size: 18px;">\( v_y = \frac{d_y}{d_t} \)</p>
                                     <p>\( v_y = \frac{d}{d_t}  (A \ sin ({\omega t} \ + \ { \theta_0}) ) \) 
                                     <p>\( v_y = {\omega}\ A\ cos ({\omega t} + { \theta_0}) \) </p>
+                                    <p>kecepatan yang ditinjau dari sumbu x yaitu:</p>
+                                    <p>\( v_x = - {\omega}\ A\ sin ({\omega t} + { \theta_0}) \) </p>
+
                                     
                                     </div>
                                   </div>
@@ -537,6 +548,9 @@
                                   <div class="persamaan_panjang">
                                     <div class="bungkus_persamaan definisi">
                                     <p>\( v_y = {\omega} \ \sqrt(A^2-Y^2) \) </p>
+                                    <p>atau</p>
+                                    <p>\( v_x = {\omega} \ \sqrt(A^2-x^2) \) </p>
+
                                   </div>
                                 </div>
                                   <div class="keterangan definisi kalimat">Keterangan:<br> \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
@@ -559,12 +573,18 @@
                                         <p>\( a_y = \frac{d}{d_t}  ({\omega} A cos ({\omega t}\ +\ { \theta_0}) ) \)</p>
                                         <p>\( a_y = - {\omega ^2}\ A\ sin ({\omega t} + { \theta_0}) \)</p>
                                         <p>\( a_y = - {\omega ^2}\ Y \)</p>
+                                        <p>atau</p>
+                                        <p>\( a_x = - {\omega ^2}\ x \)</p>
+
                                     </div>
                                   </div>
                                   <div class="keterangan definisi kalimat">Keterangan:<br> \( a_y\) = percepatan getaran saat simpangan Y( \( \frac {m}{s^2}\))<br>
                                     Y = simpangan getaran<br>
                                     t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran
                                     </div> 
+                                </div>
+                                <div class="kalimat definisi">
+                                  Kecepatan memiliki arah yang berlawanan dengan percepatan. Sehingga kecepatan benda berkurang seiring waktu sampai benda berhenti dan melakukan getaran dengan arah yang sebaliknya.
                                 </div>
                               
                                 <!-- CONTOH SOAL PERCEPATAN START-->

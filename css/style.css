@@ -1794,6 +1794,12 @@ SOAL STYLE
 .besarin-2 {
   font-size: 20px;
 }
+
+.pegas_x {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 /* KI dan KD */
 
 .accordion-body2 .kompetensi {
