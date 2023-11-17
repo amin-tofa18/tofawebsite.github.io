@@ -34,7 +34,7 @@
     <!-- page loader end -->
 
     <!--main wrapper start-->
-    <div class="main-wrapper">
+    <div class="main-wrapper" >
       <!----header start---->
   <header class="header">
     <div class="container">
@@ -63,7 +63,8 @@
               </ul>
             </li>
             <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
-            <li class="menu-item"><a href="info.html">Tentang</a></li>
+            <li class="menu-item"><a href="kompetensi.html">KI & KD</a></li>
+
           </ul>
         </nav>
       </div>
@@ -89,18 +90,24 @@
       <!-- log in section start -->
       <section class="login-section section-padding">
         <div class="container login-form">
-          <div class="materi">
+          <div class="materi" id="changeText">
             <!-- PENDAHULUAN START-->
             <div class="box mb-4">
             <h2 class="text-center">Pendahuluan</h2>
-            <p class="kalimat_utama definisi">Gerak Harmonik Sederhana (GHS) atau Simple Harmonic Oscillation (SHO) memiliki peranan penting dalam kehidupan sehari-hari. Contoh dari penerapan gerak harmonik dalam kehidupan sehari-hari dapat dilihat pada animasi berikut:</p>
+            <p class="kalimat_utama definisi">Gerak Harmonik Sederhana (GHS) atau <i> Simple Harmonic Oscillation (SHO)</i> memiliki peranan penting dalam kehidupan sehari-hari. Contoh dari penerapan gerak harmonik dalam kehidupan sehari-hari dapat dilihat pada animasi berikut:</p>
               <div class="bungkus_contoh">
-                <div class="contoh_1"><img src="img/pena.gif">Pena pegas memanfaatkan pegas untuk menarik dan memunculkan ujung pena. </div>
-                <div class="contoh_2"><img src="img/srpingbad.gif">Spring bed memanfaatkan pegas supaya permukaan tidak keras sehingga lebih nyaman digunakan.</div>
-                <div class="contoh_3"><img src="img/animasi/katak-ayunan.gif">Ayunan yang bergerak bolak-balik dan berulang merupakan salah satu penerapan prinsip gerak harmonik sederhana.</div>
+                <div class="contoh_1"><img src="img/pena.gif">
+                  <p class="keterangan_gambar">Gambar 1</p>
+                  Pena pegas memanfaatkan pegas untuk menarik dan memunculkan ujung pena. </div>
+                <div class="contoh_2"><img src="img/srpingbad.gif">
+                  <p class="keterangan_gambar">Gambar 2</p>
+                  <i>Spring bed </i>  memanfaatkan pegas supaya permukaan tidak keras sehingga lebih nyaman digunakan.</div>
+                <div class="contoh_3"><img src="img/animasi/ayunan2.gif">
+                  <p class="keterangan_gambar">Gambar 3</p>
+                  Ayunan yang bergerak bolak-balik dan berulang merupakan salah satu penerapan prinsip gerak harmonik sederhana.</div>
               </div>
-               <p class="kalimat_utama definisi"> Harmonik yang artinya bentuk atau pola yang selalu berulang pada waktu tertentu dan sederhana diartikan bahwa gerak tersebut tidak dipengaruhi gaya disipatif atau gaya gesek sehingga benda bergerak secara terus menerus. Pada dasarnya terdapat gerak harmonik yang dipengaruhi oleh gaya disipasi. Akan tetapi pada pembahasan ini hanya menjabarkan mengenai gerak harmonik yang tidak dipengaruhi gaya disipatif (Gerak Harmonik Sederhana). Gaya pembalik adalah salah satu konsep penting dalam fisika yang secara langsung menjadi dasar terjadinya gerak harmonik. Pembahasan mengenai gaya pembalik dijelaskan berdasarkan hukum Hooke. Hukum Hooke menjelaskan gaya yang bekerja pada suatu benda yang mengalami deformasi atau perpindahan dari posisi keseimbangan akan mencoba untuk mengembalikan benda tersebut ke posisi semula. Penjelasan lebih lengkap mengenai Hukum Hooke dijabarkan dibawah ini.
-            </p>
+               <p class="kalimat_utama definisi" id="changeText"> Harmonik yang artinya bentuk atau pola yang selalu berulang pada waktu tertentu dan sederhana diartikan bahwa gerak tersebut tidak dipengaruhi gaya disipatif atau gaya gesek sehingga benda bergerak secara terus menerus. Pada dasarnya terdapat gerak harmonik yang dipengaruhi oleh gaya disipasi. Akan tetapi pada pembahasan ini hanya menjabarkan mengenai gerak harmonik yang tidak dipengaruhi gaya disipatif (Gerak Harmonik Sederhana). Gaya pembalik adalah salah satu konsep penting dalam fisika yang secara langsung menjadi dasar terjadinya gerak harmonik. Pembahasan mengenai gaya pembalik dijelaskan berdasarkan hukum Hooke. Hukum Hooke menjelaskan sebuah benda elastis yang dikenai gaya akan kembali ke bentuk semula. Penjelasan lebih lengkap mengenai Hukum Hooke dijabarkan dibawah ini.
+              </p>
           </div>
             <!-- PENDAHULUAN END-->
             <div class="box">
@@ -108,27 +115,34 @@
             <div class="kalimat_utama definisi">
               <span class="istilah">Hukum Hooke</span> merupakan sebuah hukum fisika yang menjelaskan hubungan antara gaya pada suatu benda elastis dan perubahan panjang benda tersebut. Hukum ini ditemukan oleh Robert Hooke pada tahun 1660. Seperti yang telah dijelaskan pada pembahasan elastisitas, bahwa benda elastis memiliki kemampuan untuk kembali pada bentuk awalnya setelah diberikan beban atau dikenai gaya. Salah satu contoh peristiwa elastisitas yaitu pada pegas yang diregangkan atau dimampatkan (Ishaq, 2006). Perhatikan gambar pegas berikut
             </div>
-            <img src="img/courses/hooke.png" />
-            <div class="kalimat_utama definisi"> Berdasarkan gambar diatas, pemberian gaya sebesar F mengakibatkan pegas mengalami pertambahan sebesar ∆x. Besar gaya F berbanding lurus dengan perubahan panjang pegas ∆x. Semakin besar gaya yang diberikan pada pegas maka perubahan panjang juga semakin besar. Secara matematis dapat dituliskan sebagai berikut:
+            <div class="gambar_hooke">
+            <img src="img/courses/hooke.png"/>
+          
+            <p class="keterangan_gambar"> Gambar 4</p>
+            <p class="penjelasan_gambar"> Pegas mengalami perubahan panjang setelah diberikan gaya \( \vec {F} \) </p>
+             
+            </div>
+            <div class="kalimat_utama definisi"> Berdasarkan gambar 4, pemberian gaya sebesar F mengakibatkan pegas mengalami pertambahan sebesar ∆x. Besar gaya F berbanding lurus dengan perubahan panjang pegas ∆x. Semakin besar gaya yang diberikan pada pegas maka perubahan panjang juga semakin besar. Secara matematis dapat dituliskan sebagai berikut:
             </div>
 
 
             <div class="login-form box">
-
+              
               <div class="persamaan_panjang">
                 <div class="bungkus_persamaan">
                   <p>\( \vec{F} = k . \Delta x \) </p>
                   <p>besar gayanya :</p>
                   <p>\( {F} = k . \Delta x \) </p>
-
               </div>
             </div>
+            <p class="nomor_persamaan definisi"><span>Persamaan 1</span>. Hukum Hooke </p>
+
             <div class="kalimat definisi keterangan">Keterangan:<br> \( \vec{F}\) = Gaya (N) <br> \( k \) = konstanta pegas (N/m) <br> \( \Delta x\) = Pertambahan panjang (m) <br>
             </div>
           </div>
 
             
-            <div class="kalimat_utama definisi">Jika gaya yang diberikan pada pegas tidak melebihi batas elastisitasnya, maka pegas dapat berfungsi dengan normal. Akan tetapi, Apabila gaya yang diberikan melebihi batas elastisitas pegas maka pegas akan mengalami deformasi permanen dan pegas tidak dapat kembali ke bentuk semula sehingga pegas tidak dapat berfungsi dengan baik. Oleh karena itu, penting untuk memilih pegas yang sesuai untuk kepentingan tertentu dan memastikan bahwa beban yang diterapkan tidak melebihi batas elastisitas pegas tersebut.
+            <div class="kalimat_utama definisi">Jika gaya yang diberikan pada pegas tidak melebihi batas elastisitasnya, maka pegas dapat berfungsi dengan normal. Akan tetapi, Apabila gaya yang diberikan melebihi batas elastisitas pegas maka pegas akan mengalami deformasi permanen dan pegas tidak dapat kembali ke bentuk semula sehingga pegas tidak dapat berfungsi dengan baik. Sebuah benda yang tidak dapat kembali ke bentuk semula setelah dikenai gaya maka benda tersebut adalah benda yang tidak elastis atau biasa disebut juga plastis. Oleh karena itu, penting untuk memilih pegas yang sesuai untuk kepentingan tertentu dan memastikan bahwa beban yang diterapkan tidak melebihi batas elastisitas pegas tersebut.
             </div>
           </div>
         </div>
@@ -221,7 +235,8 @@
             <div class="footer-item">
               <h3 class="footer-logo">tofa<span>study</span></h3>
               <ul>
-                <li><a href="info.html">Informasi Website</a></li>
+                <li class="menu-item"><a href="kompetensi.html">KI & KD</a></li>
+
                 <li><a href="contact.html">Profil Pengembang</a></li>
               </ul>
             </div>
@@ -312,10 +327,31 @@
           >
         </div>
       </div>
+
+      <!-- <div id="fontSelector">
+        <label for="fontFamily">Ubah Font</label>
+        <select id="fontFamily" onchange="changeFontFamily()">
+          <option value="Poppins, serif">Poppins</option>
+          <option value="Arial, sans-serif">Arial</option>
+          <option value="Times New Roman, serif">Times New Roman</option>
+          <option value="Courier New, monospace">Courier New</option>
+          <option value="Georgia, serif">Georgia</option>
+        </select>
+      </div>
+    
+      <label for="fontSizeSlider">Ukuran Font:</label>
+      <input type="range" id="fontSizeSlider" min="10" max="50" value="18" oninput="changeFontSize()">
+    
+      <label for="fontWeightSlider">Ketebalan Font:</label>
+      <input type="range" id="fontWeightSlider" min="100" max="1200" step="100" value="400" oninput="changeFontWeight()"> -->
     </div>
+
+    
     <!-- style switcher end -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/changer.js"></script>
     <script src="js/main.js"></script>
+
   </body>
 </html>

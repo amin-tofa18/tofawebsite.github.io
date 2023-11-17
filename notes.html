@@ -66,7 +66,8 @@
               </ul>
             </li>
             <li class="menu-item"><a href="quiz.html">Latihan Soal</a></li>
-            <li class="menu-item"><a href="info.html">Tentang</a></li>
+            <li class="menu-item"><a href="kompetensi.html">KI & KD</a></li>
+
           </ul>
         </nav>
       </div>
@@ -101,8 +102,8 @@
                   <!--course tab start-->
                   <nav class="course-tabs">
                       <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="course-curriculum-tab" data-bs-toggle="tab" data-bs-target="#course-curriculum" type="button" role="tab" aria-controls="course-curriculum" aria-selected="true">(1) Pengertian Getaran Selaras</button>
-                        <button class="nav-link" id="course-description-tab" data-bs-toggle="tab" data-bs-target="#course-description" type="button" role="tab" aria-controls="course-description" aria-selected="false">(2) Besaran Utama pada Getaran Selaras</button>
+                        <button class="nav-link active" id="course-curriculum-tab" data-bs-toggle="tab" data-bs-target="#course-curriculum" type="button" role="tab" aria-controls="course-curriculum" aria-selected="true">(1) Pengertian Gerak Harmonik Sederhana</button>
+                        <button class="nav-link" id="course-description-tab" data-bs-toggle="tab" data-bs-target="#course-description" type="button" role="tab" aria-controls="course-description" aria-selected="false">(2) Besaran Utama pada Gerak Harmonik Sederhana</button>
                         <button class="nav-link" id="course-instructor-tab" data-bs-toggle="tab" data-bs-target="#course-instructor" type="button" role="tab" aria-controls="course-instructor" aria-selected="false">(3) Simpangan dan Energi pada Gerak Harmonik Sederhana</button>
                         <!-- <button class="nav-link" id="course-reviews-tab" data-bs-toggle="tab" data-bs-target="#course-reviews" type="button" role="tab" aria-controls="course-reviews" aria-selected="false">reviews</button> -->
                       </div>
@@ -116,18 +117,29 @@
                         <div class="tab-pane fade show active" id="course-curriculum" role="tabpanel" aria-labelledby="course-curriculum--tab"> 
                           <div class="course-curriculum box">
                               <h3 class="text-capitalize mb-4 text-center judul_subBab">PENGERTIAN</h3>
-                              <div class="definisi">
+                              <div>
                               <div class="kalimat_utama definisi"> Gerak Harmonik dapat didefinisikan sebagai gerak benda secara bolak balik yang melewati titik setimbangnya. Gerak Harmonik Sederhana dapat didefinisikan sebagai gerak harmonik yang tidak dipengaruhi gaya gesek sehingga seluruh faktor yang mempengaruhi gerak harmonik sederhana tidak berubah. Sehingga akan bergerak bolak-balik secara terus menerus tanpa henti. Untuk membuat benda mampu bergerak secara harmonik maka diperlukan gaya yang menarik benda tersebut ke arah posisi setimbang. Perhatikan gambar berikut:<br> 
                                 <div class="gambar_pengertian">
                                  <img src="img/materi/pengertian.PNG" alt="">
-                              </div>Pada gambar diatas, benda dari posisi setimbang diberikan simpangan dengan arah y. Maka gaya pembaliknya adalah \( F \) yang memilki arah berlawanan dengan arah simpangannya. Secara matematis persamaan dari gambar diatas dapat dituliskan sebagai berikut.
                               </div>
-                              <div class="login-form box definisi"><div class="persamaan"> \( \vec{F} = \ - k \ . \ y \)</div>
+
+
+                              <div class="keterangan_revisi">
+                              <p class="revisi1"> <span>Gambar 5</span> Benda elastis yang memiliki simpangan berlawanan arah dengan gaya pembalik. </p>
+                              </div>
+                              <p class="kalimat_utama definisi">
+                              Pada gambar 5, benda dari posisi setimbang diberikan simpangan dengan arah y. Maka gaya pembaliknya adalah \( F \) yang memilki arah berlawanan dengan arah simpangannya. Secara matematis persamaan dari gambar diatas dapat dituliskan sebagai berikut.
+                              </p>
+                              </div>
+                              <div class="login-form box definisi"><div class="persamaan"> \( \vec{F} = \ - k \ . \vec {y} \)</div>
+                              <div class="keterangan_persamaan">
+                              <p class="revisi1"> <span>Persamaan 2</span> Hubungan gaya dengan simpangan</p>
+                              </div>
                                 <ul class="keterangan definisi">
                                   <li>Dengan</li>
                                   <li>\( \vec{F} \) adalah gaya yang menarik benda</li>
                                   <li>\( k \) adalah sebuah konstanta</li>
-                                  <li>\(y\) adalah simpangan benda dari posisi setimbang </li>
+                                  <li>\( \vec {y} \) adalah simpangan benda dari posisi setimbang </li>
                                 </ul>
                               </div>
                               <p class="kalimat_utama definisi">
@@ -153,7 +165,7 @@
                                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                               <div class="accordion-body">
                                                 <div class="definisi jawaban_contoh01">
-                                              <p clas="jawaban_contoh01" style="text-indent: 0;">Diketahui<br> \( m_1 \) = 10 Kg <br>\( m_2 \) = 5 Kg <br> \( L_0 \) = 1 m <br> \( L_1 \) = 1,1 m <br>
+                                              <p clas="jawaban_contoh01" style="text-indent: 0;">Diketahui<br> \( m_1 \) = 10 kg <br>\( m_2 \) = 5 kg <br> \( L_0 \) = 1 m <br> \( L_1 \) = 1,1 m <br>
                                                 <p style="text-indent: 0;"> Ditanya: Panjang tali setelah diberi beban tambahan (\( L_2 \))</p>Jawab:<br>
                                                 <p style="text-indent: 0; margin-left: 0;"> Kita memiliki informasi bahwa ketika beban 10 kg diterapkan pada tali, tali meregang hingga 1,1 meter dari panjang awal 1 meter. Ini adalah perubahan panjangnya:<br>
                                                  \( \Delta L_1 \) = 1,1 - 1 = 0.1 m</p>
@@ -216,10 +228,15 @@
 
                               <h3 class="mt-4">Hubungan Gerak Harmonik Sederhana Dengan Gerak Melingkar Beraturan</h3>
                               <div class="animasi_hooke">
-                                <img class="gambar" src="img/animasi/222_anim.gif (501×281).gif" style="width: 300px;">
+                                <img class="gambar" src="img/animasi/222_anim.gif (501×281).gif">
+                                
+                                <div class="keterangan_revisi">
+                                  <p class="revisi1"> <span>Gambar 6</span> Gerak Harmonik Sederhana memiliki pola gelombang yang sama dengan gerak melingkar beraturan.</p>
+                                </div>
+
                               </div>
                               <p class="kalimat_utama definisi">
-                                Gerak Harmonik Sederhana dapat dipandang sebagai suatu komponen gerak melingkar atau dapat dikatakan bahwa sebuah benda yang melakukan gerak melingkar beraturan merupakan proyeksi gerak harmonik sederhana. Dapat dilihat pada animasi diatas bahwa benda yang bergerak secara naik turun melewati titik setimbangnya memiliki pola gelombang yang sama dengan benda yang bergerak melingkar beraturan. Gerak harmonik Sederhana yang ditinjau melalui proyeksi gerak melingkar beraturan memberikan kemudahan untuk mengartikan besaran-besaran yang mempengaruhi gerak harmonik sederhana. Kedua gerak tersebut memiliki karakteristik yang sama yaitu pola gerakannya membentuk fungsi sinus ataupun cosinus. Pembahasan mengenai besaran-besaran yang terdapat pada gerak harmonik sederhana dapat dilihat pada penjabaran berikutnya.
+                                Gerak Harmonik Sederhana dapat dipandang sebagai suatu komponen gerak melingkar atau dapat dikatakan bahwa sebuah benda yang melakukan gerak melingkar beraturan merupakan proyeksi Gerak Harmonik Sederhana. Dapat dilihat pada animasi diatas bahwa benda yang bergerak secara naik turun melewati titik setimbangnya memiliki pola gelombang yang sama dengan benda yang bergerak melingkar beraturan. Gerak Harmonik Sederhana yang ditinjau melalui proyeksi gerak melingkar beraturan memberikan kemudahan untuk mengartikan besaran-besaran yang mempengaruhi Gerak Harmonik Sederhana. Kedua gerak tersebut memiliki karakteristik yang sama yaitu pola gerakannya membentuk fungsi sinus ataupun cosinus. Pembahasan mengenai besaran-besaran yang terdapat pada Gerak Harmonik Sederhana dapat dilihat pada penjabaran berikutnya.
                                
                               </p>
                               <!-- ACCORDION CONTOH SOAL START -->
@@ -237,14 +254,17 @@
                       <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab">
                         <div class="course-description box">
                           <!------------------- BESARAN UTAMA PADA GETARAN SELARAS START ------------------------->
-                          <h3 class="text-capitalize mb-2 text-center judul_subBab">Besaran Utama pada Getaran Selaras</h3>
-                          <div class="kalimat_utama definisi">Beberapa besaran yang terdapat dalam getaran selaras meliputi frekuensi, perioda, amplitudo getaran, simpangan getaran, kecepatan sudut, fase getaran, dan sudut fase getaran.
+                          <h3 class="text-capitalize mb-2 text-center judul_subBab">Besaran Utama pada Gerak Harmonik Sederhana</h3>
+                          <div class="kalimat_utama definisi">Beberapa besaran yang terdapat dalam Gerak Harmonik Sederhana meliputi frekuensi, perioda, amplitudo getaran, simpangan getaran, kecepatan sudut, fase getaran, dan sudut fase getaran.
                           </div>
                           <!-- frekuensi -->
                           <h3>a. Frekuensi (f)</h3>
-                          <div class="kalimat_utama definisi"> Frekuensi pada gerak harmonik sederhana diukur dalam hertz (Hz) dan mengacu pada jumlah lengkap siklus gerakan (siklus penuh dari satu arah ke arah yang berlawanan dan kembali) yang dilakukan benda dalam satu detik atau satu waktu. Frekuensi berkaitan dengan dua parameter penting lainnya dalam gerak harmonik sederhana, yaitu jumlah getaran dan periode pegas. Rumus dari frekuensi yaitu:<br> </div>
+                          <div class="kalimat_utama definisi"> Frekuensi pada Gerak Harmonik Sederhana diukur dalam hertz (Hz) dan mengacu pada jumlah lengkap siklus gerakan (siklus penuh dari satu arah ke arah yang berlawanan dan kembali) yang dilakukan benda dalam satu detik atau satu waktu. Frekuensi berkaitan dengan dua parameter penting lainnya dalam Gerak Harmonik Sederhana, yaitu jumlah getaran dan periode pegas. Rumus dari frekuensi yaitu:<br> </div>
                           <div class="login-form box">
-                              <div class="persamaan">\( f = \frac{n}{t} \)</div>
+                              <div class="persamaan frekuensi">\( f = \frac{n}{t} \)</div>
+                              <div class="keterangan_persamaan">
+                                <p class="revisi1"> <span>Persamaan 3</span> persamaan frekuensi pada Gerak Harmonik Sederhana</p>
+                              </div>
                           <div class="kalimat definisi keterangan">
                             Keterangan:<br>
                             \( f\) = frekuensi (Hz)<br>
@@ -255,10 +275,13 @@
                           
                           <!-- periode -->
                           <h3>b. Perioda (T)</h3>
-                          <div class="kalimat_utama definisi"> Periode dalam gerak harmonik sederhana adalah parameter penting yang menggambarkan karakteristik dasar dari gerakan ini. Gerak harmonik sederhana adalah jenis gerakan osilasi atau getaran yang terjadi pada sistem yang kembali ke posisi keseimbangan setelah diberikan gangguan. Periode mengukur waktu yang diperlukan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, yaitu perjalanan dari satu arah gerakan ke arah gerakan yang berlawanan dan kembali lagi ke posisi awal. Rumus dari perioda yaitu:
+                          <div class="kalimat_utama definisi"> Periode dalam Gerak Harmonik Sederhana adalah parameter penting yang menggambarkan karakteristik dasar dari gerakan ini. Gerak harmonik sederhana adalah jenis gerakan osilasi atau getaran yang terjadi pada sistem yang kembali ke posisi keseimbangan setelah diberikan gangguan. Periode mengukur waktu yang diperlukan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, yaitu perjalanan dari satu arah gerakan ke arah gerakan yang berlawanan dan kembali lagi ke posisi awal. Rumus dari perioda yaitu:
                           </div>
                           <div class="login-form box">
-                              <div class="persamaan">\( T = \frac{t}{n} \)</div>
+                              <div class="persamaan periode">\( T = \frac{t}{n} \)</div>
+                              <div class="keterangan_persamaan">
+                                <p class="revisi1"> <span>Persamaan 4</span> persamaan perioda pada Gerak Harmonik Sederhana</p>
+                              </div>
                             <div class="kalimat definisi keterangan">
                               Keterangan:<br>
                               \( T\) = perioda (s)<br>
@@ -296,9 +319,13 @@
                                             \( n \) = 8 <br>
                                             \( t \) = 10 detik<br>
                                             <p style="text-indent: 0;"> Ditanya: a. Periode getaran pegas shockbreaker</p>Jawab:<br>
-                                            <p style="text-indent: 0; margin-left: 0;"> \( T = \frac{t}{n} \)
-                                             \( T = \frac{10}{8} \)<br>\( T = 1,25 \) s<br></p>
-                                          <p style="text-indent: 0;"> Ditanya: b. Frekuensi getaran pegas shockbreaker</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;"> \( f = \frac{n}{t} \)<br>\( f = \frac{8}{10} \)<br>\( f = 0,8 \) Hz</p> 
+                                            <p style="text-indent: 0; margin-left: 0;"> 
+                                              \( T \ \) <span class="periode">\( = \frac{t}{n} \)</span><br>
+                                              \( T \ \) <span class="periode"> \( = \frac{10}{8} \)</span><br>\( T = 1,25 \) s<br></p>
+                                          <p style="text-indent: 0;"> Ditanya: b. Frekuensi getaran pegas shockbreaker</p>Jawab:<br><p style="text-indent: 0; margin-left: 0;">
+                                             <span class="periode"> \( f = \frac{n}{t} \)</span><br>
+                                             <span class="periode"> \( f = \frac{8}{10} \)</span><br>
+                                             \( f = 0,8 \) Hz</p> 
                                           
                                           </p>
                                         </div>
@@ -316,21 +343,33 @@
 
                           <!-- amplitudo -->
                           <h3 class="mt-2">c. Amplitudo Getaran (A)</h3>
-                          <p class="kalimat_utama definisi">Amplitudo dalam gerak harmonik sederhana adalah salah satu parameter penting yang menggambarkan karakteristik gerakan osilasi atau getaran tersebut. Amplitudo adalah besaran yang mengukur jarak maksimum benda dari posisi keseimbangannya</p>
-                          <div class="d-flex justify-content-center mb-2 gambar_amplitudo">
-                          <img src="img/materi/amplitudo.gif" style="width: 50%;" class="d-flex justify-content-center align-items-center"></div> <p class="kalimat_utama definisi">Berdasarkan gambar diatas, amplitudo benda dituliskan pada -A dan +A. Benda yang digantung pada pegas tersebut bergerak naik turun, amplitudo mengukur sejauh mana benda bergerak dari posisi keseimbangannya. Ketika benda bergerak ke atas dari posisi keseimbangan, amplitudo memiliki nilai positif. Ketika benda bergerak ke bawah dari posisi keseimbangan, amplitudo memiliki nilai negatif. Dengan demikian, amplitudo adalah besaran yang mengukur besarnya simpangan maksimum benda dalam gerak harmonik sederhana dan dapat memiliki nilai positif atau negatif tergantung pada arah gerakan benda tersebut. Besaran ini selalu diukur dari posisi keseimbangan.</p>
-                          <!-- simpangan -->
+                          <p class="kalimat_utama definisi">Amplitudo dalam Gerak Harmonik Sederhana adalah salah satu parameter penting yang menggambarkan karakteristik gerakan osilasi atau getaran tersebut. Amplitudo adalah besaran yang mengukur jarak maksimum benda dari posisi keseimbangannya</p>
+                            
+                              <div class="gambar_amlitudo keterangan_revisi">
+                                <img src="img/materi/amplitudo.gif" class="gambar_amplitudo">
+                                <p class="revisi1"> <span>Gambar 7</span> Amplitudo pada benda yang bergerak harmonik sederhana</p>
+                              </div>
+                           
+                          
+                          
+
+                           
+                        <p class="kalimat_utama definisi">Berdasarkan gambar 7, amplitudo benda dituliskan pada -A dan +A. Benda yang digantung pada pegas tersebut bergerak naik turun, amplitudo mengukur sejauh mana benda bergerak dari posisi keseimbangannya. Ketika benda bergerak ke atas dari posisi keseimbangan, amplitudo memiliki nilai positif. Ketika benda bergerak ke bawah dari posisi keseimbangan, amplitudo memiliki nilai negatif. Dengan demikian, amplitudo adalah besaran yang mengukur besarnya simpangan maksimum benda dalam Gerak Harmonik Sederhana dan dapat memiliki nilai positif atau negatif tergantung pada arah gerakan benda tersebut. Besaran ini selalu diukur dari posisi keseimbangan.</p>
+                          
                           
                           <!-- kecepatan sudut -->
-                          <h3>d. Kecepatan Sudut ( \( \omega \) = omega )</h3>
-                          <div class="kalimat_utama definisi">Kecepatan sudut dalam gerak harmonik sederhana mengacu pada kecepatan benda bergerak mengelilingi posisi keseimbangan dalam gerakan osilasi atau getaran tersebut. Kecepatan sudut (ω) memiliki hubungan terbalik dengan periode (T) gerak harmonik sederhana. Periode adalah waktu yang dibutuhkan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, sedangkan kecepatan sudut adalah berapa banyak sudut yang ditempuh oleh benda dalam satu waktu. Hubungannya dapat dijelaskan oleh rumus berikut:<br></div>
+                          <h3>d. Kecepatan Sudut ( \(  {\omega} \) = omega )</h3>
+                          <div class="kalimat_utama definisi">Kecepatan sudut dalam Gerak Harmonik Sederhana mengacu pada kecepatan benda bergerak mengelilingi posisi keseimbangan dalam gerakan osilasi atau getaran tersebut. Kecepatan sudut ( \(  {\omega}\) ) memiliki hubungan terbalik dengan periode (T) Gerak Harmonik Sederhana. Periode adalah waktu yang dibutuhkan oleh benda atau sistem untuk menyelesaikan satu siklus gerakan penuh, sedangkan kecepatan sudut adalah berapa banyak sudut yang ditempuh oleh benda dalam satu waktu. Hubungannya dapat dijelaskan oleh rumus berikut:<br></div>
                           <div class="login-form box">
-                            <div class="persamaan">\( \omega = \frac{2 \pi}{T} \)</div>
+                            <div class="persamaan">\(  {\omega} \ \) = <span class="omega">\( \frac{2 \pi}{T} \)</span></div>
                             <div class="definisi text-center">atau</div>
-                            <div class="persamaan"> \( \omega = {2 \pi}{f} \)</div>
+                            <div class="persamaan"> \(  {\omega} = {2 \pi}{f} \)</div>
+                            <div class="keterangan_persamaan">
+                              <p class="revisi1"> <span>Persamaan 5</span> Persamaan kecepatan sudut pada Gerak Harmonik Sederhana</p>
+                            </div>
                           
                           <div class="kalimat definisi keterangan">Keterangan:<br>
-                            \( \omega \) = kecepatan sudut (rad/s)<br>
+                            \(  {\omega} \) = kecepatan sudut (rad/s)<br>
                             T = perioda (s)<br> f = frekuensi (Hz)<br><br>
                           </div>
                         </div>
@@ -339,29 +378,46 @@
                         <h3>e. Sudut Fase dan Fase Getaran</h3>
                         <div class="kalimat_utama definisi">Untuk mengetahui arti fisis dari besaran sudut fase ( \( \theta \) ) dan fase getaran ( \( \psi \) ) kita perlu meninjau gerak harmonik sebagai proyeksi gerak melingkar beraturan yang memuat fungsi sinus. Perhatikan gambar dibawah ini:</div>
                         <div class="fase">
-                          <img src="img/materi/fase.PNG" alt="">
+
+                          <div class="animasi_hooke">
+                            <div class="keterangan_revisi">
+                            <img src="img/materi/fase.PNG" alt="">
+                            <p class="revisi1"> <span>Gambar 8</span> Benda bergerak harmonik sederhana yang posisinya ditinjau dalam fungsi sinus dan gerak melingkar.</p>
+                            </div>
+                          </div>
+
                         </div>
                         <p class="kalimat_utama definisi">
-                          Gambar diatas menunjukkan sebuah benda yang berada pada sebuah titik yang berjarak y dari sumbu x. Besar sudut yang dibentuk benda terhadap sumbu x adalah \( \theta \) dan jari-jari lingkaran yaitu A. Maka dapat ditentukan nilai y yaitu \( y = A sin \ \theta \). \( \theta \) disebut sudut fase yang besarnya  yaitu \( \omega \ t \ + \theta_0 \) (hal tersebut linear dengan persamaan jarak pada gerak lurus \( s = vt + s_0 \)). Sudut fase digunakan untuk mengidentifikasi di mana benda berada dalam gerakannya terhadap posisi keseimbangan atau pusat gerakan. Secara matematis dituliskan sebagai berikut 
+                          Gambar 8 menunjukkan sebuah benda yang berada pada sebuah titik yang berjarak \( y \) dari sumbu x. Besar sudut yang dibentuk benda terhadap sumbu x adalah \( \theta \) dan jari-jari lingkaran yaitu A. Maka dapat ditentukan nilai \( y \) yaitu \( y = A \ sin \ \theta \). \( \theta \) disebut sudut fase yang besarnya \( \omega \ t \ + \theta_0 \) (hal tersebut linear dengan persamaan jarak pada gerak lurus \( s = vt + s_0 \)). Sudut fase digunakan untuk mengidentifikasi dimana benda berada dalam gerakannya terhadap posisi keseimbangan atau pusat gerakan. Secara matematis dituliskan sebagai berikut 
                           <div class="login-form box">
                             <div class="persamaan_panjang">
                               <div class="bungkus_persamaan">
-                                <p>\( \theta = \omega {t +} {\theta_0} \) </p>
-                                <p>\( \theta = \frac{2 \pi }{T} {t} + \theta_0 \) </p>
-                                <p>\( \theta = {2 \pi} (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) </p>
+                                <p>\( \theta =  {\omega} \ {t +} {\theta_0} \) </p>
+                                <p>\( \theta \) = <span class="omega">\( \frac{2 \pi }{T}  \)</span> \( t \)  + \( \theta_0 \) </p>
+                                <p>\( \theta = {2 \pi} \) <span class="omega">\( (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) </span></p>
                                 <p>\( \theta = {2 \pi}{\psi}\)</p>
                             </div>
                           </div>
-                          <div class="kalimat definisi keterangan">Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( \omega \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
+                          <div class="keterangan_persamaan">
+                            <p class="revisi1"> <span>Persamaan 6</span> Persamaan sudut fase pada Gerak Harmonik Sederhana</p>
+                          </div>
+                          <div class="kalimat definisi keterangan">Keterangan:<br> \( \theta \) = sudut fase getaran <br> \( {\omega} \) = kecepatan sudut (rad/s) <br> t = waktu sesaat (s) <br> \( \theta_0 \) = Sudut awal fase getaran
                             <br>
                             T = waktu dalam satu getaran penuh (s)<br> \( \psi \) = Fase getaran
                           </div>
                         </div>
                         </p>
                         <p class="kalimat_utama definisi">
-                          Besaran \( \psi \) disebut fase getaran. Fase getaran membantu kita memahami sejauh mana benda berada dalam gerakannya terkait dengan posisi keseimbangan atau titik awal gerakan tersebut. Fase getaran didapatkan melalui perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:
+                          Besaran \( \psi \) disebut fase getaran. Fase getaran digunakan untuk mengetahui fase benda dalam gerakannya terkait dengan posisi keseimbangan atau titik awal gerakan tersebut. Fase getaran didapatkan melalui perbandingan antara waktu sesaat benda (t) dan waktu yang diperlukan untuk bergerak satu putaran penuh (T) Rumus dari fase getaran yaitu:
                           <div class="login-form box">
-                            <div class="persamaan">\( \psi = \frac{\theta}{2 \pi} = (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) </div>
+                            <div class="persamaan_panjang">
+                              <div class="bungkus_persamaan">
+                              \( \psi = \) <span class="omega"> \( \frac{\theta}{2 \pi} = (\frac {t}{T} + \frac {\theta_0}{2 \pi}) \) </span>
+                            </div>
+                          </div>
+                            <div class="keterangan_persamaan">
+                              <p class="revisi1"> <span>Persamaan 7</span> Persamaan fase getaran dalam Gerak Harmonik Sederhana</p>
+                            </div>
                             <div class="kalimat definisi keterangan">Keterangan:<br>
                               \( \psi \) = Fase getaran<br>
                               t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> T = waktu dalam satu getaran penuh (s) <br> \( \theta \) = sudut fase getaran
@@ -369,11 +425,17 @@
                           </div>
                         </p>
                         <p class="definisi">
-                          Untuk lebih memahami tentang sudut fase dan fase getaran perhatikan ilustrasi gerak harmonik sederhana yang diproyeksikan terhadap gerak melingkar beraturan berikut ini:
+                          Untuk lebih memahami tentang sudut fase dan fase getaran perhatikan ilustrasi Gerak Harmonik Sederhana yang diproyeksikan terhadap gerak melingkar beraturan berikut ini:
                         </p>
                         <div class="contoh_fase">
                           <img src="img/materi/contoh-fase.png" alt="">
                         </div>
+
+                            <div class="keterangan_revisi">
+                            
+                            <p class="revisi1"> <span>Gambar 9</span> Fase dan sudut fase gerak harmonik sederhana.</p>
+                            </div>
+                          
                         <p class="definisi">Mari kita lihat komponen sudut fase dan fase pada gambar diatas</p>
                         <div class="login-form penjelasan_fase definisi">
                           <div class="titik_a">Titik a
@@ -431,6 +493,9 @@
                             </section>
                           </div>
                         </div>
+                        <div class="keterangan_persamaan">
+                          <p class="revisi1"> <span>Tabel 1</span> Penjelasan sudut fase dan fase gerak pada gambar 9</p>
+                        </div>
                         <!-- SEK KOSEK END -->
                         <!-- ACCORDION CONTOH SOAL FASE START -->
                         <div class="course-curriculum box p-0">
@@ -443,7 +508,7 @@
                             <div class="accordion-body">
                               <ul class="pt-sm-2">
                                 <p class ="contoh_pengertian definisi" style="font-weight: 500; text-decoration: underline; margin-left: 1rem;">Contoh 1</p>
-                                  <p class="mt-1 px-3 mb-0 definisi">Sebuah partikel melakukan gerak harmonik sederhana dangan simpangan Y = 0,2 sin 0,25πt. Dimana y dan A berturut - turut adalah simpangan, amplitudo, dan t dalam satuan SI. Tentukan fase getaran partikel tersebut terhadap titik setimbangnya saat t = 2 detik
+                                  <p class="mt-1 px-3 mb-0 definisi">Sebuah partikel melakukan Gerak Harmonik Sederhana dangan simpangan Y = 0,2 sin 0,25πt. Dimana y dan A berturut - turut adalah simpangan, amplitudo, dan t dalam satuan SI. Tentukan fase getaran partikel tersebut terhadap titik setimbangnya saat t = 2 detik
                                   </p>
                                     
                                   <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -470,9 +535,9 @@
                                           \( 0,25 \pi = \frac {2 \pi}{T}\)<br>
                                           \( T =\frac {2 \pi}{0,25 \pi}\)<br>
                                           \( T = 8 \) sekon<br><br>Besar fase dapat diketahui dengan membandingkan antara waktu (t) dengan periode (T)<br>
-                                          \( \psi = \frac {t}{T}\)<br>
-                                          \( \psi = \frac {2}{8}\)<br>
-                                          \( \psi = \frac {1}{4}\)<br>
+                                          <p class="omega">\( \psi = \frac {t}{T}\)<br></p>
+                                          <p class="omega">\( \psi = \frac {2}{8}\)<br></p>
+                                          <p class="omega">\( \psi = \frac {1}{4}\)<br></p>
                                           Jadi saat t = 2 detik partikel mencapai \( \frac {1}{4}\) fase getaran.
                                         </p>
                                       </div>
@@ -494,7 +559,9 @@
                       <!--course description end-->
                       <!------------------- BESARAN UTAMA PADA GETARAN SELARAS END ------------------------->
 
-                      <!------------------- PERSAMAAN GETARAN SELARAS START ------------------------->
+                      <!------------------- 
+                        =====================================PERSAMAAN GETARAN SELARAS START=========================== 
+                        ------------------------->
                         <!--persamaan getaran selaras start-->
                         <div class="tab-pane fade" id="course-instructor" role="tabpanel" aria-labelledby="course-instructor-tab"> 
                           <div class="course-instructor box">
@@ -503,59 +570,82 @@
                               
                               <h3>a. Simpangan (Y)</h3>
                               <p class="kalimat_utama definisi">
-                                Simpangan gerak harmonik adalah jarak antara posisi benda pada saat tertentu dengan posisi kesetimbangannya. Pada Gerak Harmonik Sederhana simpangan benda diukur dari titik kesetimbangan atau posisi awal benda mulai bergerak bolak-balik. Simpangan dalam gerak harmonik sederhana berubah-ubah seiring dengan waktu. Dalam satu periode getaran, simpangan benda mengalami perubahan dari simpangan maksimum hingga simpangan minimum kembali lagi kesimpangan maksimum.
+                                Simpangan gerak harmonik adalah jarak antara posisi benda pada saat tertentu dengan posisi kesetimbangannya. Pada Gerak Harmonik Sederhana simpangan benda diukur dari titik kesetimbangan atau posisi awal benda mulai bergerak bolak-balik. Simpangan dalam gerak Gerak Harmonik Sederhana berubah-ubah seiring dengan waktu. Dalam satu periode getaran, simpangan benda mengalami perubahan dari simpangan maksimum hingga simpangan minimum kembali lagi kesimpangan maksimum.
                               </p>
-                              <div class="fase">
-                                <img src="img/materi/fase.PNG" alt="">
+                              <div class="animasi_hooke">
+                                <div class="keterangan_revisi">
+                                  <div class="fase">
+                                    <img src="img/materi/fase.PNG" alt="">
+                                  </div>
+                                <p class="revisi1"> <span>Gambar 8</span> Benda bergerak harmonik sederhana yang posisinya ditinjau dalam fungsi sinus dan gerak melingkar.</p>
+                                </div>
                               </div>
                               <div class="kalimat definisi">Gambar diatas menunjukkan benda yang memiliki simpangan dengan besar simpangan tersebut yaitu Y. Persamaan simpangan Y ditinjau dari titik setimbangnya memenuhi :<br></div>
                                 <div class="login-form box">
-                                  <div class="persamaan definisi">\( Y (t) = A \ sin\ ({\omega t} + { \theta_0} ) \) </div>
+                                  <div class="persamaan definisi">\( y (t) = A \ sin\ ({  {\omega} t} + { \theta_0} ) \) </div>
+
+                                  <div class="keterangan_persamaan">
+                                    <p class="revisi1"> <span>Persamaan 8</span> Persamaan simpangan Gerak Harmonik Sederhana</p>
+                                  </div>
+
                                   <div class="keterangan kalimat definisi">Keterangan:<br>
-                                    Y = simpangan getaran<br>A = Amplitudo<br>
-                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran (rad/s)
+                                    y = simpangan getaran<br>A = Amplitudo<br>
+                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \(  {\omega} \) = kecepatan sudut getaran (rad/s)
                                     </div>
                                   </div>
                               <div class="kalimat definisi">
                                 Persamaan simpangan diatas merupakan persamaan simpangan yang ditinjau dari sumbu y. Untuk dapat menentukan simpangan yang ditinjau dari sumbu x perhatikan gambar berikut:
                               </div>
+
+                              <div class="animasi_hooke">
+                                <div class="keterangan_revisi">
+                                  <div class="sumbu_x">
+                                  <img src="img/animasi/sumbu_x.jpg"> 
+                                  </div>
+                                <p class="revisi1"> <span>Gambar 10</span> Posisi benda gerak harmonik ditinjau dari sumbu x</p>
+                                </div>
+                              </div>
+
                               <div class="pegas_x">
-                              <img src="img/animasi/sumbu_x.jpg"> 
                               </div>
                               <div class="kalimat definisi">
-                                Titik P merupakan proyeksi titik Q terhadap sumbu x sehingga besarnya jarak antara pusat keseimbangan dan titik P adalah x(t) yang besarnya \( x(t) = A \ cos \ ( \omega \ t + \theta_0) \)
+                                Titik P merupakan proyeksi titik Q terhadap sumbu x sehingga besarnya jarak antara pusat keseimbangan dan titik P adalah x(t) yang besarnya \( x(t) = A \ cos \ ( {\omega} \ t + \theta_0) \)
                               </div>
                                 
                             <!-- kecepatan getaran saat simpangan -->
-                            <h3>b. Kecepatan Gerak Harmonik Sederhana Saat Simpangannya Y (vy)</h3>
+                            <h3>b. Kecepatan Gerak Harmonik Sederhana Saat Simpangannya y ( \( v_y \) )</h3>
                             <p class="kalimat_utama definisi">
-                              Kecepatan menggambarkan perubahan posisi suatu benda per satuan waktu. Dalam gerak harmonik sederhana, kecepatan menggambarkan seberapa cepat benda bergerak pada suatu titik waktu tertentu disekitar titik kesetimbangan. Pada gerak harmonik sederhana, kecepatan benda pada titik waktu tertentu dapat dihitung dengaan menggunakan turunan waktu dari persamaan simpangan benda, seperti dijelaskan berikut
+                              Kecepatan menggambarkan perubahan posisi suatu benda per satuan waktu. Dalam Gerak Harmonik Sederhana, kecepatan menggambarkan seberapa cepat benda bergerak pada suatu titik waktu tertentu disekitar titik kesetimbangan. Pada Gerak Harmonik Sederhana, kecepatan benda pada titik waktu tertentu dapat dihitung dengaan menggunakan turunan waktu dari persamaan simpangan benda, seperti dijelaskan berikut
                             </p>
                               <div class="kalimat definisi">
                                 <div class="login-form box">
                                   <div class="persamaan_panjang">
                                     <div class="bungkus_persamaan definisi">
-                                    <p style="font-size: 18px;">\( v_y = \frac{d_y}{d_t} \)</p>
-                                    <p>\( v_y = \frac{d}{d_t}  (A \ sin ({\omega t} \ + \ { \theta_0}) ) \) 
-                                    <p>\( v_y = {\omega}\ A\ cos ({\omega t} + { \theta_0}) \) </p>
+                                    <p style="font-size: 18px;">\( \vec {v_y} \) = <span class="omega"> \(\frac{d_y}{d_t} \)</span></p>
+                                    <p>\( \vec {v_y} \) = <span class="omega"> \(\frac{d}{d_t}\)</span> \(  (A \ sin ({ {\omega} t} \ + \ { \theta_0}) ) \) 
+                                    <p>\( \vec {v_y} = { {\omega}}\ A\ cos ({ {\omega} t} + { \theta_0}) \) </p>
                                     <p>kecepatan yang ditinjau dari sumbu x yaitu:</p>
-                                    <p>\( v_x = - {\omega}\ A\ sin ({\omega t} + { \theta_0}) \) </p>
-
-                                    
+                                    <p>\( \vec {v_x} = - { {\omega}}\ A\ sin ({ {\omega} t} + { \theta_0}) \) </p>
                                     </div>
+                                    
+                                  </div>
+                                  <div class="keterangan_persamaan">
+                                    <p class="revisi1"> <span>Persamaan 9</span> Persamaan kecepatan pada Gerak Harmonik Sederhana</p>
                                   </div>
                                   <p class="definisi"> Hubungan antar kecepatan dan simpangan memenuhi </p>
                                   <div class="persamaan_panjang">
                                     <div class="bungkus_persamaan definisi">
-                                    <p>\( v_y = {\omega} \ \sqrt(A^2-Y^2) \) </p>
+                                    <p>\( \vec {v_y} = { {\omega}} \ \sqrt(A^2-Y^2) \) </p>
                                     <p>atau</p>
-                                    <p>\( v_x = {\omega} \ \sqrt(A^2-x^2) \) </p>
-
+                                    <p>\( \vec {v_x} = { {\omega}} \ \sqrt(A^2-x^2) \) </p>
                                   </div>
                                 </div>
-                                  <div class="keterangan definisi kalimat">Keterangan:<br> \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
+                                <div class="keterangan_persamaan">
+                                  <p class="revisi1"> <span>Persamaan 10</span> Hubungan kecepatan sudut dengan simpangan</p>
+                                </div>
+                                  <div class="keterangan definisi kalimat">Keterangan:<br> \( \vec {v_y}\) = kecepatan getaran saat simpangan y (m/s)<br>
                                     Y = simpangan getaran<br>
-                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran
+                                      t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( {\omega} \) = kecepatan sudut getaran
                                     </div> 
                                 </div>
                               </div>
@@ -563,24 +653,26 @@
                               <!-- percepatan getaran -->
                               <h3>c. Percepatan Gerak Harmonik Sederhana Saat Simpangannya Y (vY)</h3>
                               <p class="kalimat_utama definisi">
-                                Percepatan menggambarkan perubahan kecepatan suatu benda persatuan waktu. Dalam gerak harmonik sederhana, percepatan menggambarkan seberapa cepat kecepatan benda berubah pada waktu tertentu disekitar titik kesetimbangan. Pada gerak harmonik sederhana, percepatan dapat dihitung dengan menggunakan turunan waktu dari persamaan kecepatan. Secara matematis percepatan dituliskan sebagai berikut:
+                                Percepatan menggambarkan perubahan kecepatan suatu benda persatuan waktu. Dalam Gerak Harmonik Sederhana, percepatan menggambarkan seberapa cepat kecepatan benda berubah pada waktu tertentu disekitar titik kesetimbangan. Pada Gerak Harmonik Sederhana, percepatan dapat dihitung dengan menggunakan turunan waktu dari persamaan kecepatan. Secara matematis percepatan dituliskan sebagai berikut:
                               </p>
                               
                                 <div class="login-form box">
                                   <div class="persamaan_panjang">
                                     <div class="bungkus_persamaan definisi">
-                                        <p>\( a_y = \frac{d_v}{d_t} \)</p>
-                                        <p>\( a_y = \frac{d}{d_t}  ({\omega} A cos ({\omega t}\ +\ { \theta_0}) ) \)</p>
-                                        <p>\( a_y = - {\omega ^2}\ A\ sin ({\omega t} + { \theta_0}) \)</p>
-                                        <p>\( a_y = - {\omega ^2}\ Y \)</p>
+                                        <p>\( \vec {a_y} \) = <span class="besarin-2"> \( \frac{d_v}{d_t} \)</span></p>
+                                        <p>\( \vec {a_y} \) = <span class="omega"> \( \frac{d}{d_t} \) </span> \(( \ { {\omega}} \ A \ cos ({ {\omega} t}\ +\ { \theta_0}) ) \)</p>
+                                        <p>\( \vec {a_y} = - { {\omega} ^2}\ A\ sin ({ {\omega} t} + { \theta_0}) \)</p>
+                                        <p>\( \vec {a_y} = - { {\omega} ^2}\ y \)</p>
                                         <p>atau</p>
-                                        <p>\( a_x = - {\omega ^2}\ x \)</p>
-
+                                        <p>\( \vec {a_x} = - { {\omega} ^2}\ x \)</p>
+                                      </div>
                                     </div>
-                                  </div>
-                                  <div class="keterangan definisi kalimat">Keterangan:<br> \( a_y\) = percepatan getaran saat simpangan Y( \( \frac {m}{s^2}\))<br>
-                                    Y = simpangan getaran<br>
-                                    t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \( \omega \) = kecepatan sudut getaran
+                                    <div class="keterangan_persamaan">
+                                      <p class="revisi1"> <span>Persamaan 11</span> Persamaan percepatan pada Gerak Harmonik Sederhana</p>
+                                    </div>
+                                  <div class="keterangan definisi kalimat">Keterangan:<br> \( \vec {a_y}\) = percepatan getaran saat simpangan y( \( \frac {m}{s^2}\))<br>
+                                    y = simpangan getaran<br>
+                                    t = waktu (s)<br> \( \theta_0 \) = Sudut awal fase getaran <br> \(  {\omega} \) = kecepatan sudut getaran
                                     </div> 
                                 </div>
                                 <div class="kalimat definisi">
@@ -619,11 +711,11 @@
                                                       <p>T = \( 0,1 \ \pi \ s \)</p>
                                                       <p>Y = 5 cm = \( 5 \ . \ 10^{-2} \ m \)</p>
                                                       Kecepatan benda saat simpangan 5 cm dapat dihitung  menggunakan persaamaan 
-                                                      <p>\(v = \omega \sqrt{(A^2 - Y^2)} \)</p>
-                                                      <p>Sebelum itu kita hitung dulu nilai \( \omega \) menggunakan persamaan \(\omega = \frac {2 \pi}{T}\)</p>
-                                                      <p>\(\omega = \frac {2 \pi}{0,1 \pi \ s}\)</p>
-                                                      <p>\(\omega = 20 \ rad/s \)</p>Sehingga kecepatan benda tersebut saat simpangan 5 cm adalah
-                                                      <p>\( v = {\omega} \ \sqrt{(A^2-Y^2)} \)</p>
+                                                      <p>\(v =  {\omega} \sqrt{(A^2 - Y^2)} \)</p>
+                                                      <p>Sebelum itu kita hitung dulu nilai \(  {\omega} \) menggunakan persamaan \( {\omega} = \frac {2 \pi}{T}\)</p>
+                                                      <p>\( {\omega} = \frac {2 \pi}{0,1 \pi \ s}\)</p>
+                                                      <p>\( {\omega} = 20 \ rad/s \)</p>Sehingga kecepatan benda tersebut saat simpangan 5 cm adalah
+                                                      <p>\( v = { {\omega}} \ \sqrt{(A^2-Y^2)} \)</p>
                                                       <p>\( v = 20 \ \sqrt {( 13 \ . \ 10^{-2} )^2-( 5 \ . \ 10^{-2} )^2} \)</p>
                                                       <p>\( v = 20 \ \sqrt { 169 \ . \ 10^{-4} -  25 \ . \ 10^{-4}} \)</p>
                                                       <p>\( v = 20 \ \sqrt { 144 \ . \ 10^{-4}} \)</p>
@@ -634,10 +726,10 @@
                                                     <!-- jawaban contoh a end-->
   
                                                     <div>b.</div>
-                                                    <div class="penjelasan_energi definisi">Percepatan benda dapat kita hitung menggunakan persamaan \( a = - {\omega ^2}\ Y \)
+                                                    <div class="penjelasan_energi definisi">Percepatan benda dapat kita hitung menggunakan persamaan \( a = - { {\omega} ^2}\ Y \)
                                                       <p>diketahui:</p>
-                                                      <p>\(\omega = 20 \ rad/s \)</p>
-                                                      <p>\(\omega = 20 \ rad/s \)</p>
+                                                      <p>\( {\omega} = 20 \ rad/s \)</p>
+                                                      <p>\( {\omega} = 20 \ rad/s \)</p>
                                                       <p>Y = 10 cm = \( 10 \ . \ 10^{-2} \ m \)</p>Sehingga percepatan benda tersebut saat simpangan 10 cm adalah
                                                       <p>\( a = -  20^{2}\ . \ (10 \ . \ 10^{-2}) \)</p>
                                                       <p>\( a = 400 \ . \ (10 \ . \ 10^{-2}) \)</p>
@@ -668,15 +760,17 @@
                                 
                                 <div class="login-form box">
                                   <div class="persamaan_panjang">
-                                    <div class="bungkus_persamaan definisi">
-                                        <p>\( E_p =  \frac{1}{2} {k}{y^2}\)</p>
-                                        <p>\( E_p = \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\)</p>
-                                        
+                                    <div class="bungkus_persamaan definisi omega">
+                                        <p>\( E_p =  \frac{1}{2} \ {k} \ {y^2}\)</p>
+                                        <p>\( E_p = \frac {1}{2} m \ { {\omega} ^2} (A\ sin\ { {\omega} t})^2\)</p>
+                                      </div>
                                     </div>
-                                  </div>
+                                    <div class="keterangan_persamaan">
+                                      <p class="revisi1"> <span>Persamaan 12</span> Persamaan energi potensial pada Gerak Harmonik Sederhana</p>
+                                    </div>
                                   <div class="keterangan definisi kalimat">Keterangan:<br>
                                     Y = simpangan getaran<br>
-                                      t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
+                                      t = waktu (s)<br> A = Amplitudo<br> k= nilai ketetapan atau konstanta (N/m)<br> \(  {\omega} \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
                                     </div> 
                                 </div>
                               
@@ -687,14 +781,16 @@
                                 <div class="login-form box">
                                   <div class="persamaan_panjang">
                                     <div class="bungkus_persamaan definisi">
-                                        <p>\( E_k = \frac{1}{2} {m} (v_y)^2 \)</p>
-                                        <p>\( E_k = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\)</p>
-                                        
+                                        <p>\( E_k = \frac{1}{2} \ {m} \  ( \vec {v_y})^2 \)</p>
+                                        <p>\( E_k = \frac {1}{2} \ m \ { {\omega} ^2} \ (A\ cos \ { {\omega} t})^2\)</p>
+                                      </div>
                                     </div>
-                                  </div>
+                                    <div class="keterangan_persamaan">
+                                      <p class="revisi1"> <span>Persamaan 13</span> persamaan energi kinetik pada Gerak Harmonik Sederhana</p>
+                                    </div>
                                   <div class="keterangan definisi kalimat">Keterangan:<br>
-                                    \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
-                                      t = waktu (s)<br> A = Amplitudo<br> k = nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
+                                    \( \vec {v_y} \) = kecepatan getaran saat simpangan Y (m/s)<br>
+                                      t = waktu (s)<br> A = Amplitudo<br> k = nilai ketetapan atau konstanta (N/m)<br> \(  {\omega} \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
                                     </div> 
                                 </div>
                                 
@@ -705,24 +801,29 @@
                                 <div class="persamaan_panjang">
                                   <div class="bungkus_persamaan definisi">
                                       <p>\( E_m = E_k+E_p \)</p>
-                                      <p  class="mekanik">\( E_m = \frac {1}{2} m \ {\omega ^2} (A\ cos\ {\omega t})^2\) \( + \)  \( \frac {1}{2} m \ {\omega ^2} (A\ sin\ {\omega t})^2\)</p>
-                                      <p>\( E_m = \frac {1}{2} m {\omega}^2 {A^2} \ \ \) <span class="atau">atau</span> \( \ E_m = \frac {1}{2} k {A^2} \)</p>
-                                      
+                                      <p  class="mekanik">\( E_m = \frac {1}{2} m \ { {\omega} ^2} (A\ cos\ { {\omega} t})^2\) \( + \)  \( \frac {1}{2} m \ { {\omega} ^2} (A\ sin\ { {\omega} t})^2\)</p>
+                                      <p>\( E_m = \frac {1}{2} \ m \ { {\omega}}^2 {A^2} \ \ \) <span class="atau">atau</span> \( \ E_m = \frac {1}{2} \ k \ {A^2} \)</p>
+                                    </div>
                                   </div>
-                                </div>
+                                  <div class="keterangan_persamaan">
+                                    <p class="revisi1"> <span>Persamaan 14</span> Persamaan energi mekanik pada Gerak Harmonik Sederhana</p>
+                                  </div>
                                 <div class="keterangan definisi kalimat">Keterangan:<br>Y = simpangan getaran<br>
                                   \( v_y\) = kecepatan getaran saat simpangan Y (m/s)<br>
-                                    t = waktu (s)<br> A = Amplitudo<br> k = nilai ketetapan atau konstanta (N/m)<br> \( \omega \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
+                                    t = waktu (s)<br> A = Amplitudo<br> k = nilai ketetapan atau konstanta (N/m)<br> \(  {\omega} \) = kecepatan sudut getaran (rad/s)<br> m = massa (kg)
                                   </div> 
                               </div>
-                              <p class="kalimat_utama definisi">Persamaan ini memberikan sifat umum penting yang dimiliki gerak harmonik sederhana yaitu:
-                              <span class="text-decoration-underline color-2">Energi total dalam gerak harmonik sederhana berbanding lurus dengan kuadrat amplitudo.</span> Perhatikan animasi berikut</p>
+                              <p class="kalimat_utama definisi">Persamaan ini memberikan sifat umum penting yang dimiliki Gerak Harmonik Sederhana yaitu:
+                              <span class="text-decoration-underline color-2">Energi total dalam Gerak Harmonik Sederhana berbanding lurus dengan kuadrat amplitudo.</span> Perhatikan animasi berikut</p>
                               <div class="gambar_energi">
                                 <img src="img/animasi/energi_img.gif">
                               </div>
+                              <div class="keterangan_revisi">
+                                  <p class="revisi1"> <span>Gambar 11</span> Sistem pegas-massa ynag bergerak secara harmonik sederhana</p>
+                                </div>
                               <!-- masukkan animasi dan penjelasan mengenai gerakan disini -->
                               <div class="course-curriculum animasi_energi definisi kalimat">
-                                Hukum kekekalan energi gerak harmonik dalam animasi diatas dijelaskan sebagai berikut <br>
+                                Hukum kekekalan energi gerak harmonik dalam gambar dijelaskan sebagai berikut <br>
                                 <div class="penjelasan_animasi">
                                 <div class="nomor_proses">1.</div>
                                 <div class="penjelasan_proses">Saat benda pada simpangan maksimum (A+), energi totalnya hanya energi potensial karena benda pada posisi tesebut memiliki nilai \( v \ \)= 0 ( \( E_m = E_p \) )</div> 
@@ -857,43 +958,44 @@
     <!-- notes start -->
       <!-- notes end -->
         <!---------------------------- footer start ----------------------------------->
-  <footer class="footer">
-    <div class="footer-top">
-      <div class="container footer_container">
-        <div class="row footer_container">
-
-          <div class="bungkus_footer">
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-item">
-              <h3 class="footer-logo">tofa<span>study</span></h3>
-              <ul>
-                <li><a href="info.html">Informasi Website</a></li>
-                <li><a href="contact.html">Profil Pengembang</a></li>
-              </ul>
+        <footer class="footer">
+          <div class="footer-top">
+            <div class="container footer_container">
+              <div class="row footer_container">
+      
+                <div class="bungkus_footer">
+                <div class="col-sm-6 col-lg-3">
+                  <div class="footer-item">
+                    <h3 class="footer-logo">tofa<span>study</span></h3>
+                    <ul>
+                      <li class="menu-item"><a href="kompetensi.html">KI & KD</a></li>
+      
+                      <li><a href="contact.html">Profil Pengembang</a></li>
+                    </ul>
+                  </div>
+                </div>
+      
+                <div class="col-sm-6 col-lg-3">
+                  <div class="footer-item">
+                    <h3>Sosial Media</h3>
+                    <ul>
+                    <li><a href="contact.html"><i class="fab fa-facebook social-icon"></i>facebook</a></li>
+                    <li><a href="contact.html"><i class="fab fa-instagram social-icon"></i>instagram</a></li>
+                    </ul>
+                  </div>
+                </div>
+                
+      
+              </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="container">
+                <p class="m-8 py-4 text-center">copyright &copy; 2023 TofaStudy</p>
+              </div>
             </div>
           </div>
-
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-item">
-              <h3>Sosial Media</h3>
-              <ul>
-              <li><a href="contact.html"><i class="fab fa-facebook social-icon"></i>facebook</a></li>
-              <li><a href="contact.html"><i class="fab fa-instagram social-icon"></i>instagram</a></li>
-              </ul>
-            </div>
-          </div>
-          
-
-        </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <p class="m-8 py-4 text-center">copyright &copy; 2023 TofaStudy</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+        </footer>
   <!---------------------------- footer end ----------------------------------->
 </div>
 <!-- style switcher start -->
@@ -925,11 +1027,28 @@
       <label class="form-check-label" for="glass-effect">Glass Effect</label>
     </div>
   </div>
+  <!-- <div id="fontSelector">
+    <label for="fontFamily">Ubah Font</label>
+    <select id="fontFamily" onchange="changeFontFamily()">
+      <option value="Poppins, serif">Poppins</option>
+      <option value="Arial, sans-serif">Arial</option>
+      <option value="Times New Roman, serif">Times New Roman</option>
+      <option value="Courier New, monospace">Courier New</option>
+      <option value="Georgia, serif">Georgia</option>
+    </select>
+  </div>
+
+  <label for="fontSizeSlider">Ukuran Font:</label>
+  <input type="range" id="fontSizeSlider" min="10" max="50" value="18" oninput="changeFontSize()">
+
+  <label for="fontWeightSlider">Ketebalan Font:</label>
+  <input type="range" id="fontWeightSlider" min="100" max="1200" step="100" value="400" oninput="changeFontWeight()"> -->
 </div>
 <!-- style switcher end -->
     </div>
     <script src="js/notes.js"></script>
     <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/changer.js"></script>
   </body>
 </html>

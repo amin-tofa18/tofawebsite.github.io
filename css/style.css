@@ -300,6 +300,8 @@ h3 {
 .circular-img img {
   position: relative;
   z-index: 1;
+  width: 340px;
+  height: 340px;
 }
 /*------------------ 12. =forms ------------------*/
 .form-title {
@@ -1350,12 +1352,7 @@ textarea.form-control {
   position: relative;
 }
 
-.keterangan {
-  padding: 20px;
-  margin-bottom: 10px;
-  font-weight: 400;
-  display: block;
-}
+
 
 .paragraf {
   text-align: justify;
@@ -1380,15 +1377,27 @@ textarea.form-control {
   border: 3px 3px solid hwb(214 96% 1%);
 }
 
+/* =============================================================== RUWWWWEEETTT =========================================== */
+
+
+
 .definisi {
-  font-family: "roboto";
-  /* color: hsl(0, 71%, 86%); */
+  font-family:  "Poppins";
   font-weight: 400;
   text-align: justify;
-  /* text-indent: 40px; */
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 10px;
 }
+
+.keterangan {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: block;
+}
+
+/* =============================================================== RUWWWWEEETTT =========================================== */
+
 
 .definisi img {
   width: 200px;
@@ -1619,6 +1628,9 @@ SOAL STYLE
   margin: 15px auto;
   margin-bottom: 15px;
 }
+.animasi_hooke img {
+  width: 380px;
+}
 .gambar_pengertian {
   padding: 10px;
   display: flex;
@@ -1627,7 +1639,7 @@ SOAL STYLE
 }
 
 .gambar_pengertian img {
-  width: 230px;
+  width: 250px;
 }
 
 .accordion-body {
@@ -1647,6 +1659,8 @@ SOAL STYLE
 /*==========
  TYPOGRAPY 
 ============*/
+
+
 .nav-link {
   text-align: start;
 }
@@ -1674,13 +1688,7 @@ SOAL STYLE
   text-indent: 25px;
 }
 
-.definisi {
-  font-family: "roboto";
-  font-weight: 400;
-  text-align: justify;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
+
 
 .keterangan {
   font-family: "Roboto mono", monospace;
@@ -1688,6 +1696,15 @@ SOAL STYLE
   margin-bottom: 1em;
   font-size: 16px;
 }
+
+.keterangan_gambar {
+  color: var(--main-color);
+  font-weight: 900;
+  margin-bottom: -1px;
+  font-family: "roboto";
+}
+
+/* ==============================PERSAMAAN============= */
 
 .persamaan {
   font-family: "Roboto mono", monospace;
@@ -1705,6 +1722,39 @@ SOAL STYLE
   position: relative;
 }
 
+.omega {
+  font-size: 18.5px;
+  font-weight: 700;
+}
+
+.frekuensi,
+.periode {
+  font-size: 21px;
+}
+
+
+.keterangan_revisi{
+  text-align: center;
+  }
+  
+  .revisi1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  .revisi1 span{
+    margin-bottom: 0;
+    font-weight: 700;
+    color: var(--main-color);
+  }
+  .keterangan_persamaan{
+    text-align: center;
+    margin-top: -12px;
+  }
+
+
+.gambar_amplitudo{
+  width: 300px;
+}
 .persamaan_panjang {
   display: flex;
   width: auto;
@@ -1754,9 +1804,17 @@ SOAL STYLE
 .bandul_grid {
   background-color: var(--white);
   display: grid;
-  width: 100%;
+  /* width: 100%; */
   /* grid-template-columns: 1fr 2fr; */
   grid-template-columns: 1.5fr 3fr;
+}
+
+.bungkus_bandul p {
+  text-align: center;
+}
+.keterangan_bandul {
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .bandul_grid p {
@@ -1767,7 +1825,7 @@ SOAL STYLE
 .bandul_grid img {
   justify-content: center;
   align-items: center;
-  width: 55%;
+  width: 270px;
 }
 
 .definisi .gambarPegas {
@@ -1799,6 +1857,9 @@ SOAL STYLE
   display:flex;
   justify-content: center;
   align-items: center;
+}
+.sumbu_x img{
+  width: 300px;
 }
 /* KI dan KD */
 
@@ -2019,7 +2080,7 @@ SOAL STYLE
 }
 
 .contoh_2 img {
-  width: 85%;
+  width: 87%;
 }
 
 .contoh_3 {
@@ -2032,8 +2093,42 @@ SOAL STYLE
 }
 
 .contoh_3 img {
-  width: 85%;
+  width: 520px;
 }
+
+.gambar_hooke {
+  text-align: center;
+}
+
+.gambar_hooke img {
+  width: 210px;
+}
+.gambar_hooke .keterangan_gambar{
+  margin-top: -9px;
+}
+
+.penjelasan_gambar {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.nomor_persamaan {
+  text-align: center;
+}
+
+.nomor_persamaan span {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+/*==================
+ PENGERTIAN
+ ==================*/
+
+
+
 
 /* PER FASE AN DUNIAWI */
 .fase {
@@ -2044,10 +2139,8 @@ SOAL STYLE
   width: 450px;
   margin: 3px auto;
 }
-
 .contoh_fase {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .contoh_fase img{
@@ -2090,3 +2183,17 @@ SOAL STYLE
   transition: 0.2s ease;
 }
 
+
+
+/* PER FONT AN */
+
+
+#changeText {
+  /* font-size: 14px; */
+  /* margin-bottom: 20px; */
+}
+
+/* .baru {
+  text-indent: 30px;
+  text-align: justify;
+} */

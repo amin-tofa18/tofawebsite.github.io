@@ -284,3 +284,13 @@ prev.onclick = function () {
 };
 
 // ------------------notes app----------------
+
+function changeFontFamily() {
+  var select = document.getElementById("fontFamily");
+  var selectedFont = select.options[select.selectedIndex].value;
+  document.body.style.fontFamily = selectedFont;
+}
+
+// iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+

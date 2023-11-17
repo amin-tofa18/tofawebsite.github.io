@@ -309,6 +309,26 @@
   .bandul_grid {
     display: block;
   }
+  .circular-img {
+    max-width: 230px;
+  }
+
+  .circular-img img {
+    max-width: 200px;
+    
+  }
+  .circular-img img {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    height: 200px;
+  }
+  .circular-img-circle {
+    width: 230px;
+    height: 230px;
+  }
+  
 }
 
 /* dibawah 575 */
@@ -319,8 +339,15 @@
 
   .circular-img img {
     max-width: 200px;
+    
   }
-
+  .circular-img img {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    height: 200px;
+  }
   .circular-img-circle {
     width: 230px;
     height: 230px;
@@ -371,6 +398,16 @@
 /* samsung a20 pakai yang ini */
 @media (max-width: 767px) {
   
+  #fontContainer {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #changeText {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
   .pegas_x img{
     width: 200px;
   }
@@ -519,13 +556,13 @@
 
   /* KI dan Kd */
 
-  .kompetensi_3,
+  /* .kompetensi_3,
   .kompetensi_nomor,
   .kompetensi_inti,
   .kompetensiDasar_3,
   .kompetensi {
     font-size: 12px;
-  }
+  } */
   .kompetensiDasar_3 {
     grid-template-columns: 1.5fr 6fr;
   }
