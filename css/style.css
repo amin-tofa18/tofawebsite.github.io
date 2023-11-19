@@ -1729,7 +1729,7 @@ SOAL STYLE
 
 .frekuensi,
 .periode {
-  font-size: 21px;
+  font-size: 19px;
 }
 
 
@@ -2136,7 +2136,7 @@ SOAL STYLE
   justify-content: center;
 }
 .fase img {
-  width: 450px;
+  width: 500px;
   margin: 3px auto;
 }
 .contoh_fase {
@@ -2144,7 +2144,7 @@ SOAL STYLE
   justify-content: center;
 }
 .contoh_fase img{
-  width: 550px;
+  width: 600px;
   margin-bottom: 10px;
 }
 
