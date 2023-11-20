@@ -2186,14 +2186,15 @@ SOAL STYLE
 
 
 /* PER FONT AN */
+/* PENGATURAN FONT */
 
 
 #changeText {
-  /* font-size: 14px; */
-  /* margin-bottom: 20px; */
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
-/* .baru {
+.baru {
   text-indent: 30px;
   text-align: justify;
-} */
+}

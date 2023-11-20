@@ -382,6 +382,15 @@
   .bandul_grid {
     display: block;
   }
+
+  .keterangan_persamaan {
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  .revisi1 {
+    font-family: sans-serif;
+      font-size: 12px;
+  }
 }
 /* @media (max-width:476px) {
     .fun-facts-item img {
@@ -485,6 +494,16 @@
     font-size: 16px;
   }
 
+  .keterangan_persamaan {
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+.revisi1 {
+  font-family: sans-serif;
+    font-size: 12px;
+}
+
   .penjelasan_proses {
     font-size: 14px;
     font-family: sans-serif;
@@ -564,13 +583,13 @@
 
   /* KI dan Kd */
 
-  /* .kompetensi_3,
+  .kompetensi_3,
   .kompetensi_nomor,
   .kompetensi_inti,
   .kompetensiDasar_3,
   .kompetensi {
     font-size: 12px;
-  } */
+  } 
   .kompetensiDasar_3 {
     grid-template-columns: 1.5fr 6fr;
   }
@@ -647,6 +666,11 @@
 /* BUTTON SOAL */
 .periksa_jawaban {
   margin-top: 9px;
+}
+
+.keterangan_persamaan {
+  font-family: sans-serif;
+  font-size: 12px;
 }
 
   /* coba-coba */
