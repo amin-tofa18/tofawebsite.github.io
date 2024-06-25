@@ -280,12 +280,53 @@ h3 {
   margin: auto;
   position: relative;
   z-index: 1;
+
+}
+
+.popover-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  border: var(--main-color);
+  padding: 5px;
+  border-radius: 60%;
+  /* Tambahkan penyesuaian posisi popover */
+  bottom: 100%; /* Letakkan popover di bawah tombol */
+  left: 0; /* Sesuaikan posisi popover dengan kiri tombol */
+}
+
+.popover-content.show {
+  display: inline-block;
+  z-index: 99;
+  position: relative;
+  bottom: 0%;
+}
+
+.tombol-info {
+  position: relative;
+  bottom: 100%;
+  border-width: 3px;
+  border-radius: 50%;
+  border-color: var(--main-color);
+  background-color: transparent;
+  color: var(--black-70);
+}
+
+.tanda-seru {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  z-index: 99;
 }
 
 .circular-img-inner {
   text-align: center;
   border-radius: 0 0 180px 180px;
   overflow: hidden;
+}
+
+.popover-content p {
+  margin-bottom: 0;
 }
 
 .circular-img-circle {
@@ -1921,7 +1962,7 @@ SOAL STYLE
   margin-bottom: 2px;
 }
 
-/* REFERENSI */
+/* ===========================REFERENSI============================= */
 
 .referensi {
   display: grid;
@@ -1946,6 +1987,37 @@ SOAL STYLE
   /* background-color: aqua; */
   width: 150px;
   margin: auto;
+}
+
+.reverensi-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reverensi-video p{
+  padding: 0 50px;
+  margin-bottom: 0px;
+}
+
+.bungkusVideo {
+display: flex;
+flex-wrap: wrap;
+margin: 5px auto;
+padding: 10px 5px;
+}
+
+.video {
+  margin: 0 auto;
+}
+.bungkusVideo iframe {
+  width: 360px;
+  height: 240px;
+}
+
+.keteranganVideo {
+  margin: 5px;
+
 }
 
 /* foto terbaru */

@@ -425,6 +425,9 @@
     width: 200px;
   }
 
+  .popover-content p {
+    font-size: 12px;
+  }
   .instruksi {
     font-size: 9px;
   }
@@ -621,6 +624,9 @@
     padding: 0px;
   }
 
+  .referensi-video {
+    font-size: 12px;
+  }
 /* PADA CONTOH DIHALAMAN HOOKE */
 .bungkus_contoh {
   font-size: 12px;
@@ -673,6 +679,12 @@
   font-size: 12px;
 }
 
+
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
   /* coba-coba */
   /* .login-section{
     margin-top: 20px;
